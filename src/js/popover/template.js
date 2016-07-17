@@ -85,7 +85,7 @@ export default (poke) => `
       <div class="pokemon-popover__encounter">
         <ul>
           <li class="pokemon-popover__basic-stat">
-            <span class="pokemon-popover__basic-stat-value">${poke.data.Encounter.BaseCaptureRate}</span>
+            <span class="pokemon-popover__basic-stat-value">${poke.data.Encounter.BaseCaptureRate || 0}</span>
             <span class="pokemon-popover__basic-stat-label">Base Capture rate</span>
           </li>
           <li class="pokemon-popover__basic-stat">
@@ -105,12 +105,10 @@ export default (poke) => `
 
 function energyUsage(energy) {
   let out = "";
-  // if (energy < 0) {
-    let num = Math.round(100 / Math.abs(energy));
-    while(num > 0) {
-      out = out + `<span class="energy-usage ${energy > 0 ? "energy-usage--replenish" : ""}"></span>`;
-      num--;
-    }
-  // }
+  let num = Math.round(100 / Math.abs(energy));
+  while(num > 0) {
+    out = out + `<span class="energy-usage ${energy > 0 ? "energy-usage--replenish" : ""}"></span>`;
+    num--;
+  }
   return out;
 }
