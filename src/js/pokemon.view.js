@@ -15,6 +15,7 @@ html.forEach(item => {
 });
 
 $pokemonList.on("click", ".pokemon", (e) => {
+  mixpanel.track("Opened Pokemon");
   const id = $(e.currentTarget).data("id");
   const poke = pokedex.find(p => p.id === id);
   $(popoverTemplate(poke)).appendTo("body");
@@ -22,6 +23,7 @@ $pokemonList.on("click", ".pokemon", (e) => {
 });
 
 $("body").on("click", ".js-close", () => {
+  mixpanel.track("Closed Pokemon");
   $(".pokemon-popover, .overlay").remove();
   $("body").css("overflow", "auto");
 })
