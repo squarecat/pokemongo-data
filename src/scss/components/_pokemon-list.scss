@@ -1,0 +1,34 @@
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  padding: 4rem 0
+}
+
+.pokemon-list li {
+  width: 130px;
+  height: 150px;
+  text-align: center;
+  list-style: none;
+  float: left;
+  cursor: pointer;
+}
+
+.pokemon {
+  li:hover & {
+    background-image: -webkit-radial-gradient(center center, circle cover, rgba(163, 230, 255, 0.7), #ffffff 50%);
+    background-image: radial-gradient(center center, circle cover, rgba(163, 230, 255, 0.7), #ffffff 50%);
+  }
+}
+
+.pokemon__name {
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.pokemon__sprite {
+  height: 80px;
+}

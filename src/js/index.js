@@ -1,0 +1,1 @@
+import "./pokemon.view";
