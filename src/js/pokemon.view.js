@@ -7,6 +7,7 @@ import popoverTemplate from "./popover/template";
 
 const $pokemonList = $(".pokemon-list");
 
+mixpanel.track("Viewed Pokemon list");
 const html = pokedex.map(poke => pokemonTemplate(poke));
 html.forEach(item => {
   const li = document.createElement("li");
@@ -15,9 +16,12 @@ html.forEach(item => {
 });
 
 $pokemonList.on("click", ".pokemon", (e) => {
-  mixpanel.track("Opened Pokemon");
   const id = $(e.currentTarget).data("id");
   const poke = pokedex.find(p => p.id === id);
+  mixpanel.track("Opened Pokemon", {
+    id: poke.id,
+    name: poke.name
+  });
   $(popoverTemplate(poke)).appendTo("body");
   $("body").css("overflow", "hidden");
 });
