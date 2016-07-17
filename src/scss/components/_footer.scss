@@ -54,11 +54,6 @@
     font-size: 14px;
   }
 }
-.footer__heart {
-  .footer:hover & {
-    // color: #FE7A6C;
-  }
-}
 
 .fa-stack {
   left: -3px;
@@ -67,4 +62,8 @@
 
 .company a {
   text-decoration: none;
+}
+
+.bugs {
+  margin: 10px 0;
 }
