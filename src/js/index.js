@@ -1,1 +1,1 @@
-import "./pokemon.view";
+import "./views/pokemon.view";

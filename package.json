@@ -24,6 +24,10 @@
     "debug": true,
     "transform": [
       "babelify"
+    ],
+    "paths": [
+      "./node_modules",
+      "./src/js"
     ]
   }
 }

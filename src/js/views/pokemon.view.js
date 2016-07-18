@@ -1,7 +1,7 @@
 import _ from "lodash";
 import $ from "jquery";
 
-import pokedex from "./dex/pokedex";
+import pokedex from "../dex/pokedex";
 import pokemonTemplate from "./pokemon.template";
 import popoverTemplate from "./popover/template";
 

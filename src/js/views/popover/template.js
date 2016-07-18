@@ -1,4 +1,6 @@
-import { transformType, getEvoChain, getMoveSet, getSpecialMoveSet } from "../variables";
+import { transformType } from "../../dex/typedex";
+import { getEvoChain } from "../../dex/pokedex";
+import { getMoveSet, getSpecialMoveSet } from "../../dex/movedex";
 
 export default (poke) => `
   <div class="pokemon-popover">
