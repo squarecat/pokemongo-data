@@ -4,21 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build:js & npm run build:scss",
-    "build:js": "watchify src/js/index.js -o build/main.js -d",
+    "build": "NODE_ENV=production webpack -p --progress --profile --colors",
+    "dev": " webpack -p --progress --profile --colors",
     "build:scss": "node-sass src/scss/style.scss build/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "6.10.1",
+    "babel-core": "6.10.4",
+    "babel-loader": "6.2.4",
     "babel-preset-es2015": "6.9.0",
-    "babelify": "7.3.0",
-    "browserify": "13.0.1",
+    "babel-preset-react": "6.11.1",
+    "css-loader": "^0.18.0",
     "jquery": "3.1.0",
     "lodash": "4.13.1",
     "node-sass": "3.8.0",
-    "watchify": "3.7.0"
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-hot-loader": "1.3.0",
+    "react-router": "2.5.2",
+    "sass-loader": "4.0.0",
+    "style-loader": "0.13.1",
+    "watchify": "3.7.0",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
   },
   "browserify": {
     "debug": true,

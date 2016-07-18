@@ -1,4 +1,4 @@
-import PokemonAssets from "../../../assets/master.json";
+import PokemonAssets from "./store";
 
 const groupedAssets = _.chain(PokemonAssets.Items)
   .map(item => {

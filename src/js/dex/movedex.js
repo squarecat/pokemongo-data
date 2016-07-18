@@ -19,7 +19,7 @@ export function getMoveSet(poke) {
   const movesOctArr = movesOct.substring(1, movesOct.length - 1).split("\\001");
   const movesIntArr = movesOctArr.map(oct => parseInt(oct.substring(1), 8)).filter(i => !isNaN(i));
   return _.chain(movesIntArr)
-    .map(int => movedex.find(m => m.numericId === int))
+    .map(int => moves.find(m => m.numericId === int))
     .sortBy("data.Power")
     .value();
 }
@@ -32,12 +32,12 @@ export function getSpecialMoveSet(poke) {
   if (specialMovesFromOct) {
     specialMovesFromOct.forEach(moveOct => {
       specialMovesStr = specialMovesStr.replace(moveOct, "");
-      const move = movedex.find(m => m.numericId === parseInt(moveOct.substring(1), 8));
+      const move = moves.find(m => m.numericId === parseInt(moveOct.substring(1), 8));
       specialMoves.push(move);
     })
   }
   specialMovesStr.split("").forEach(s => {
-    specialMoves.push(movedex.find(m => m.numericId === s.charCodeAt(0)));
+    specialMoves.push(moves.find(m => m.numericId === s.charCodeAt(0)));
   });
   return _.chain(specialMoves)
     .filter(specialMoves => specialMoves)
