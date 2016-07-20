@@ -16,7 +16,7 @@ export default () => (
       </Link>
     </li>
     <li className="header__nav-item" data-nav="items">
-      <Link to="/items">
+      <Link to="#/items">
         <img className="header__nav-icon" src="./assets/icons/items.png" />
         <span className="header__nav-text">Items</span>
       </Link>

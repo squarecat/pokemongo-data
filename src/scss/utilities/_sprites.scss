@@ -1,3 +1,19 @@
 .u-sprite {
   height: 100%;
+
+  &--mini {
+
+  }
+}
+
+.u-pokemon-icon-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.u-pokemon-icon-list li {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
 }

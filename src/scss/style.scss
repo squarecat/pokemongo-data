@@ -6,8 +6,11 @@ $secondary-color: #167c7c;
 @import "./components/pokemon-popover";
 @import "./components/header";
 @import "./components/footer";
+@import "./components/movedex";
 
 @import "./utilities/sprites";
 @import "./utilities/overlay";
 @import "./utilities/lists";
 @import "./utilities/move";
+@import "./utilities/seperator";
+@import "./utilities/stats-row";

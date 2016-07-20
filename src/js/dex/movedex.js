@@ -1,18 +1,57 @@
 import data from "./grouped";
+import { transformType } from "dex/typedex";
+
 const { Move } = data;
+
+const STAB = 1.25;
+
+const sortableProps = [{
+  value: "name",
+  label: "Name"
+}, {
+  value: "type",
+  label: "Type"
+}, {
+  value: "CriticalChance",
+  label: "Critical Chance"
+}, {
+  value: "DurationMs",
+  label: "Duration"
+}, {
+  value: "pps",
+  label: "Applied Power/s (DPS)"
+}, {
+  value: "eus",
+  label: "Energy Usage/s"
+}, {
+  value: "EnergyDelta",
+  label: "Energy Change"
+}];
 
 const moves = Move.map(move => {
   let numericId = move.id.substring(1, move.id.length - 1);
   numericId = numericId.split("_");
   numericId = parseInt(numericId[0].substring(1))
 
+  const movesPerSec = 1000 / move.data.DurationMs;
   return Object.assign(move, {
-    numericId
+    numericId,
+    name: move.data.VfxName.replace("_", " "),
+    type: transformType(move.data.Type),
+    eus: movesPerSec * move.data.EnergyDelta,
+    dps: movesPerSec * move.data.Power
   })
 });
 
 console.log(moves);
 export default moves;
+
+export function doesLearn(poke, move) {
+  return [
+    ...getMoveSet(poke),
+    ...getSpecialMoveSet(poke)
+  ].some(pokeMove => pokeMove.id === move.id);
+}
 
 export function getMoveSet(poke) {
   const movesOct = poke.data.QuickMoves;
@@ -28,7 +67,7 @@ export function getSpecialMoveSet(poke) {
   const specialMoves = [];
   let specialMovesStr = poke.data.CinematicMoves;
   specialMovesStr = specialMovesStr.substring(1, specialMovesStr.length - 1);
-  const specialMovesFromOct = specialMovesStr.match(/(\\.{3})/g);
+  const specialMovesFromOct = specialMovesStr.match(/(\\\d{3})/g);
   if (specialMovesFromOct) {
     specialMovesFromOct.forEach(moveOct => {
       specialMovesStr = specialMovesStr.replace(moveOct, "");

@@ -1,4 +1,57 @@
-.u-move {
-  text-align: left;
+.move-list--expanded {
+  width: 90%;
+  margin: 1rem auto;
 }
 
+.u-move {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.move__name,
+.move__type {
+  text-transform: capitalize;
+}
+
+.move__charge {
+  width: 65%;
+}
+
+.move__power {
+  width: 10%;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.move__type {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.move__charge {
+  display: flex;
+  padding: 0 10px;
+  justify-content: flex-end;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.move__details {
+  width: 30%;
+}
+
+.move__special-effects {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.move__special-effects, .move__learned-by {
+  padding: 10px;
+}
+
+.move__special-effects__text,
+.move__learned-by__text {
+  font-size: 14px;
+}

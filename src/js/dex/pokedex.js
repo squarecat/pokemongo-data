@@ -52,6 +52,9 @@ const pokemon = _.chain(Pokemon)
   .sortBy(poke => sortDirection === "desc" ? _.get(poke, selectedSort) : -_.get(poke, selectedSort))
   .value();
 
+export function getSpriteUrl(poke) {
+  return `/assets/sprites/${poke.dexNumber}.png`;
+}
 
 export function getEvoChain(poke) {
   let family = pokemon.filter(p => p.data.FamilyId === poke.data.FamilyId);

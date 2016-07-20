@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router';
 
 import Move from "../movedex/move";
-import pokemon, { getEvoChain } from "dex/pokedex";
+import pokemon, { getEvoChain, getSpriteUrl } from "dex/pokedex";
 import { getMoveSet, getSpecialMoveSet } from "dex/movedex";
 import { transformType } from "dex/typedex";
 
@@ -13,13 +13,13 @@ export default React.createClass({
       <div className="pokemon-popover__sprite">
         <img
           className="u-sprite"
-          src={ spriteUrl(poke) }
+          src={ getSpriteUrl(poke) }
         />
       </div>
 
       <div className="pokemon-popover__body">
         <div className="js-close pokemon-popover__close">
-          <Link to="/">X</Link>
+          <Link to="/pokedex">X</Link>
         </div>
         <div className="pokemon-popover__name">
           <span className="u-title">{ poke.name }</span>
@@ -81,7 +81,7 @@ export default React.createClass({
                     <img
                       className="u-sprite"
                       data-scale={ evo.data.ModelScale }
-                      src={ spriteUrl(evo) }
+                      src={ getSpriteUrl(evo) }
                     />
                   </Link>
                 </li>
@@ -128,10 +128,6 @@ export default React.createClass({
 
 function type(poke) {
   return poke.data.Type2 ? `${transformType(poke.data.Type1)}/${transformType(poke.data.Type2)}` : transformType(poke.data.Type1);
-}
-
-function spriteUrl(poke) {
-  return `/assets/sprites/${poke.dexNumber}.png`;
 }
 
 function energyUsage(energy) {
