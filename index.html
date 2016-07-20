@@ -6,53 +6,26 @@
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./build/style.css">
+
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://squarecat.io/src/assets/sq-font/styles.css">
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80979900-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
 </head>
 <body id="body">
-
-  <ul class="header">
-    <li class="header__nav-item" data-nav="pokemon">
-      <a href="#">
-        <img class="header__nav-icon" src="./assets/icons/pokemon.png" />
-        <span class="header__nav-text">Pokemon</span>
-      </a>
-    </li>
-    <li class="header__nav-item" data-nav="items">
-      <img class="header__nav-icon" src="./assets/icons/items.png" />
-      <span class="header__nav-text">Items</span>
-    </li>
-  </ul>
-
-  <ul class="pokemon-list">
-  </ul>
-
-  <footer class="footer">
-    <div class="credit">
-      Credit to <a href="https://www.reddit.com/user/__isitin__">/u/__isitin__</a> and the <a href="https://www.reddit.com/r/pokemongodev/">/r/pokemongodev</a> community
-    </div>
-    <div class="bugs">
-      <a href="https://github.com/squarecat/pokemongo-data/issues">Report issues </a> or <a href="https://github.com/squarecat/pokemongo-data">contribute!</a>
-    </div>
-    <div class="company">
-      <span>
-        Made with
-        <span class="fa-stack">
-          <i class="footer__heart fa fa-heart fa-stack-1x"></i>
-          <i class="footer__heart footer__heart--red fa fa-heart fa-stack-1x"></i>
-        </span>
-        by
-        <a href="http://squarecat.io"><span class="footer__cat icon icon-whole-cat"></span></a>
-      </span>
-    </div>
-    <div class="referral">
-      <a href="https://mixpanel.com/f/partner" rel="nofollow">
-        <img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" />
-      </a>
-    </div>
-  </footer>
-  <script src="./build/main.js"></script>
+  <main id="react-body">
+  </main>
+  <script src="assets/bundle.js"></script>
 </body>
 </html>

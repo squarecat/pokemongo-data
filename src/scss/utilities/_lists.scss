@@ -1,3 +1,12 @@
 .u-horizonal-list {
   display: flex;
 }
+
+.u-lowercase {
+  text-transform: lowercase;
+}
+
+.u-muted {
+  font-size: 75%;
+  opacity: 0.75;
+}
