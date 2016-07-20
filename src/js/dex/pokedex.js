@@ -53,7 +53,7 @@ const pokemon = _.chain(Pokemon)
   .value();
 
 export function getSpriteUrl(poke) {
-  return `/assets/sprites/${poke.dexNumber}.png`;
+  return `./assets/sprites/${poke.dexNumber}.png`;
 }
 
 export function getEvoChain(poke) {
