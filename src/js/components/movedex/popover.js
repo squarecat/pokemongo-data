@@ -14,7 +14,7 @@ export default React.createClass({
       hitType: 'event',
       eventCategory: 'movedex',
       eventAction: 'open-move',
-      eventValue: poke.name
+      eventValue: move.name
     });
     return (
       <div className="pokemon-popover">
