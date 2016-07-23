@@ -69,7 +69,7 @@ export default React.createClass({
                 </span>
               </div>
               <div className="filters__label__icon">
-                <img src={ `/assets/${current.icon}` } />
+                <img src={ `assets/${current.icon}` } />
               </div>
             </a>
           </li>
