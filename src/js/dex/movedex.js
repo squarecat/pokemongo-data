@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 import data from "./grouped";
 import { transformType } from "dex/typedex";
 
@@ -5,27 +7,36 @@ const { Move } = data;
 
 const STAB = 1.25;
 
-const sortableProps = [{
+export const sortableProps = [{
+  value: "data.Power",
+  label: "Power",
+  icon: "power.png",
+  sort: (val) => -val
+}, {
   value: "name",
-  label: "Name"
+  label: "Name",
+  icon: "az.png"
 }, {
-  value: "type",
-  label: "Type"
+  value: "data.CriticalChance",
+  label: "Critical Chance",
+  transform: (val) => `${val * 100}%`,
+  sort: (val) => -val,
+  icon: "critical.png"
 }, {
-  value: "CriticalChance",
-  label: "Critical Chance"
+  value: "data.DurationMs",
+  label: "Duration",
+  transform: (val) => `${val / 1000}s`,
+  icon: "duration.png"
 }, {
-  value: "DurationMs",
-  label: "Duration"
+  value: "dps",
+  label: "Damage per second (DPS)",
+  sort: (val) => -val,
+  transform: (val) => Math.round(val * 10 ) / 10,
+  icon: "dps.png"
 }, {
-  value: "pps",
-  label: "Applied Power/s (DPS)"
-}, {
-  value: "eus",
-  label: "Energy Usage/s"
-}, {
-  value: "EnergyDelta",
-  label: "Energy Change"
+  value: "data.EnergyDelta",
+  label: "Energy Usage",
+  icon: "usage.png"
 }];
 
 const moves = Move.map(move => {
@@ -45,6 +56,14 @@ const moves = Move.map(move => {
 
 console.log(moves);
 export default moves;
+
+export function sortMovesOnValue(value) {
+  const prop = sortableProps.find(sp => sp.value === value);
+  return _.sortBy(moves, (m) => {
+    const val = _.get(m, value);
+    return prop && prop.sort ? prop.sort(val) : val;
+  });
+}
 
 export function doesLearn(poke, move) {
   return [

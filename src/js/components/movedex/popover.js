@@ -10,7 +10,12 @@ import Move from "./move";
 export default React.createClass({
   render() {
     const move = moves.find(m => m.numericId === parseInt(this.props.params.id, 10));
-    console.log(move);
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'movedex',
+      eventAction: 'open-move',
+      eventValue: poke.name
+    });
     return (
       <div className="pokemon-popover">
         <div className="pokemon-popover__body pokemon-popover__body--move">
@@ -142,8 +147,8 @@ function specialEffects(move) {
 
 function energyUsage(energy) {
   let num = Math.round(100 / Math.abs(energy));
-  return _.times(num).map(() => (
-    <span className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
+  return _.times(num).map((n, i) => (
+    <span key={i} className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
   ));
 }
 
