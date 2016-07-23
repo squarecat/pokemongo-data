@@ -87,9 +87,11 @@ li:hover .pokemon {
 .pokemon-popover__basic-stats ul, .pokemon-popover__stats ul, .pokemon-popover__encounter ul {
   display: flex; }
 
-.pokemon-popover__basic-stats, .pokemon-popover__stats, .pokemon-popover__encounter {
-  padding: 15px 0;
+.pokemon-popover__basic-stats, .pokemon-popover__stats {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.pokemon-popover__basic-stats, .pokemon-popover__stats, .pokemon-popover__encounter {
+  padding: 15px 0; }
 
 .pokemon-popover__basic-stat-value, .pokemon-popover__basic-stat-label {
   text-transform: capitalize;
@@ -108,7 +110,8 @@ li:hover .pokemon {
 
 .pokemon-popover__evolutions {
   padding: 15px 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px; }
 
 .pokemon-popover__evolutions li {
   position: relative;
@@ -120,14 +123,21 @@ li:hover .pokemon {
     top: 50%;
     right: 0;
     transform: translateY(-50%); }
-  .pokemon-popover__evolutions li::before {
-    content: attr(data-candy);
+  .pokemon-popover__evolutions li:not(:last-child)::before {
+    content: "x " attr(data-candy);
     position: absolute;
     font-size: 12px;
     right: 8px;
     top: 60%;
-    width: 25px;
-    transform: translateX(50%); }
+    width: 32px;
+    transform: translateX(50%);
+    background: url(pokemongo-data/assets/candy.png);
+    background-position: left top;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    padding-top: 5px;
+    top: 100%; }
 
 .pokemon-popover__moveset {
   padding: 15px 10px;
@@ -244,10 +254,90 @@ li:hover .pokemon {
   margin: 10px 0; }
 
 .referral {
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  text-align: center; }
 
 .movedex {
-  padding: 2rem 0; }
+  padding: 2rem 1rem;
+  display: flex; }
+  @media (max-width: 768px) {
+    .movedex {
+      flex-direction: column; } }
+  .movedex p {
+    height: 30px; }
+
+.movedex__basic, .movedex__special {
+  width: 50%;
+  padding: 0 10px; }
+  @media (max-width: 768px) {
+    .movedex__basic, .movedex__special {
+      width: 100%; } }
+
+.filters {
+  position: fixed;
+  bottom: 25px;
+  right: 35px;
+  z-index: 9; }
+  .filters--expanded .filters__filter:not(.filters__filter--selected) {
+    display: block;
+    opacity: 1;
+    pointer-events: all; }
+
+.filters__filter {
+  width: 60px;
+  height: 60px;
+  border: 3px solid rgba(22, 124, 124, 0.5);
+  border-radius: 50%;
+  margin: 5px 0;
+  position: relative;
+  background: white;
+  box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.58); }
+  @media (max-height: 650px) {
+    .filters__filter {
+      width: 40px;
+      height: 40px; } }
+  .filters__filter:not(.filters__filter--selected) {
+    display: none;
+    opacity: 0;
+    pointer-events: none; }
+
+.filters__label {
+  display: block;
+  height: 60px; }
+  @media (max-height: 650px) {
+    .filters__label {
+      height: 40px; } }
+
+.filters__label__text {
+  display: none;
+  color: white;
+  position: absolute;
+  right: 100%;
+  width: 100vw;
+  text-align: right;
+  top: 50%;
+  transform: translate(-10px, -50%); }
+  .filters--expanded .filters__label__text {
+    display: block; }
+  .filters__label__text span {
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px; }
+
+.pokemon-popover + .movedex > .filters, .pokemon-popover + .pokedex > .filters {
+  display: none; }
+
+.filters__label__icon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .filters__label__icon img {
+    width: 65%;
+    height: 65%;
+    transform: translateX(-1px); }
 
 .u-sprite {
   height: 100%; }
