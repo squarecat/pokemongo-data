@@ -1,4304 +1,4304 @@
 {
   "badge": {
     "BADGE_BATTLE_ATTACK_WON": {
-      "en": {
-        "label": "battle attack won"
+      "label": {
+        "en": "battle attack won"
       }
     },
     "BADGE_BATTLE_TRAINING_WON": {
-      "en": {
-        "label": "battle training won"
+      "label": {
+        "en": "battle training won"
       }
     },
     "BADGE_BIG_MAGIKARP": {
-      "en": {
-        "label": "big magikarp"
+      "label": {
+        "en": "big magikarp"
       }
     },
     "BADGE_CAPTURE_TOTAL": {
-      "en": {
-        "label": "capture total"
+      "label": {
+        "en": "capture total"
       }
     },
     "BADGE_EVOLVED_TOTAL": {
-      "en": {
-        "label": "evolved total"
+      "label": {
+        "en": "evolved total"
       }
     },
     "BADGE_HATCHED_TOTAL": {
-      "en": {
-        "label": "hatched total"
+      "label": {
+        "en": "hatched total"
       }
     },
     "BADGE_PIKACHU": {
-      "en": {
-        "label": "pikachu"
+      "label": {
+        "en": "pikachu"
       }
     },
     "BADGE_POKEDEX_ENTRIES": {
-      "en": {
-        "label": "pokedex entries"
+      "label": {
+        "en": "pokedex entries"
       }
     },
     "BADGE_POKESTOPS_VISITED": {
-      "en": {
-        "label": "pokestops visited"
+      "label": {
+        "en": "pokestops visited"
       }
     },
     "BADGE_SMALL_RATTATA": {
-      "en": {
-        "label": "small rattata"
+      "label": {
+        "en": "small rattata"
       }
     },
     "BADGE_TRAVEL_KM": {
-      "en": {
-        "label": "travel km"
+      "label": {
+        "en": "travel km"
       }
     },
     "BADGE_TYPE_BUG": {
-      "en": {
-        "label": "type bug"
+      "label": {
+        "en": "type bug"
       }
     },
     "BADGE_TYPE_DARK": {
-      "en": {
-        "label": "type dark"
+      "label": {
+        "en": "type dark"
       }
     },
     "BADGE_TYPE_DRAGON": {
-      "en": {
-        "label": "type dragon"
+      "label": {
+        "en": "type dragon"
       }
     },
     "BADGE_TYPE_ELECTRIC": {
-      "en": {
-        "label": "type electric"
+      "label": {
+        "en": "type electric"
       }
     },
     "BADGE_TYPE_FAIRY": {
-      "en": {
-        "label": "type fairy"
+      "label": {
+        "en": "type fairy"
       }
     },
     "BADGE_TYPE_FIGHTING": {
-      "en": {
-        "label": "type fighting"
+      "label": {
+        "en": "type fighting"
       }
     },
     "BADGE_TYPE_FIRE": {
-      "en": {
-        "label": "type fire"
+      "label": {
+        "en": "type fire"
       }
     },
     "BADGE_TYPE_FLYING": {
-      "en": {
-        "label": "type flying"
+      "label": {
+        "en": "type flying"
       }
     },
     "BADGE_TYPE_GHOST": {
-      "en": {
-        "label": "type ghost"
+      "label": {
+        "en": "type ghost"
       }
     },
     "BADGE_TYPE_GRASS": {
-      "en": {
-        "label": "type grass"
+      "label": {
+        "en": "type grass"
       }
     },
     "BADGE_TYPE_GROUND": {
-      "en": {
-        "label": "type ground"
+      "label": {
+        "en": "type ground"
       }
     },
     "BADGE_TYPE_ICE": {
-      "en": {
-        "label": "type ice"
+      "label": {
+        "en": "type ice"
       }
     },
     "BADGE_TYPE_NORMAL": {
-      "en": {
-        "label": "type normal"
+      "label": {
+        "en": "type normal"
       }
     },
     "BADGE_TYPE_POISON": {
-      "en": {
-        "label": "type poison"
+      "label": {
+        "en": "type poison"
       }
     },
     "BADGE_TYPE_PSYCHIC": {
-      "en": {
-        "label": "type psychic"
+      "label": {
+        "en": "type psychic"
       }
     },
     "BADGE_TYPE_ROCK": {
-      "en": {
-        "label": "type rock"
+      "label": {
+        "en": "type rock"
       }
     },
     "BADGE_TYPE_STEEL": {
-      "en": {
-        "label": "type steel"
+      "label": {
+        "en": "type steel"
       }
     },
     "BADGE_TYPE_WATER": {
-      "en": {
-        "label": "type water"
+      "label": {
+        "en": "type water"
       }
     }
   },
   "battlesettings": {
     "BATTLE_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "encountersettings": {
     "ENCOUNTER_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "gymlevel": {
     "GYM_LEVEL_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "iapsettings": {
     "IAP_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "item": {
     "ITEM_BLUK_BERRY": {
-      "en": {
-        "label": "bluk berry"
+      "label": {
+        "en": "bluk berry"
       }
     },
     "ITEM_GREAT_BALL": {
-      "en": {
-        "label": "great ball"
+      "label": {
+        "en": "great ball"
       }
     },
     "ITEM_HYPER_POTION": {
-      "en": {
-        "label": "hyper potion"
+      "label": {
+        "en": "hyper potion"
       }
     },
     "ITEM_INCENSE_ORDINARY": {
-      "en": {
-        "label": "incense ordinary"
+      "label": {
+        "en": "incense ordinary"
       }
     },
     "ITEM_INCUBATOR_BASIC": {
-      "en": {
-        "label": "incubator basic"
+      "label": {
+        "en": "incubator basic"
       }
     },
     "ITEM_INCUBATOR_BASIC_UNLIMITED": {
-      "en": {
-        "label": "incubator basic unlimited"
+      "label": {
+        "en": "incubator basic unlimited"
       }
     },
     "ITEM_ITEM_STORAGE_UPGRADE": {
-      "en": {
-        "label": "item storage upgrade"
+      "label": {
+        "en": "item storage upgrade"
       }
     },
     "ITEM_LUCKY_EGG": {
-      "en": {
-        "label": "lucky egg"
+      "label": {
+        "en": "lucky egg"
       }
     },
     "ITEM_MASTER_BALL": {
-      "en": {
-        "label": "master ball"
+      "label": {
+        "en": "master ball"
       }
     },
     "ITEM_MAX_POTION": {
-      "en": {
-        "label": "max potion"
+      "label": {
+        "en": "max potion"
       }
     },
     "ITEM_MAX_REVIVE": {
-      "en": {
-        "label": "max revive"
+      "label": {
+        "en": "max revive"
       }
     },
     "ITEM_NANAB_BERRY": {
-      "en": {
-        "label": "nanab berry"
+      "label": {
+        "en": "nanab berry"
       }
     },
     "ITEM_PINAP_BERRY": {
-      "en": {
-        "label": "pinap berry"
+      "label": {
+        "en": "pinap berry"
       }
     },
     "ITEM_POKEMON_STORAGE_UPGRADE": {
-      "en": {
-        "label": "pokemon storage upgrade"
+      "label": {
+        "en": "pokemon storage upgrade"
       }
     },
     "ITEM_POKE_BALL": {
-      "en": {
-        "label": "poke ball"
+      "label": {
+        "en": "poke ball"
       }
     },
     "ITEM_POTION": {
-      "en": {
-        "label": "potion"
+      "label": {
+        "en": "potion"
       }
     },
     "ITEM_RAZZ_BERRY": {
-      "en": {
-        "label": "razz berry"
+      "label": {
+        "en": "razz berry"
       }
     },
     "ITEM_REVIVE": {
-      "en": {
-        "label": "revive"
+      "label": {
+        "en": "revive"
       }
     },
     "ITEM_SPECIAL_CAMERA": {
-      "en": {
-        "label": "special camera"
+      "label": {
+        "en": "special camera"
       }
     },
     "ITEM_SUPER_POTION": {
-      "en": {
-        "label": "super potion"
+      "label": {
+        "en": "super potion"
       }
     },
     "ITEM_TROY_DISK": {
-      "en": {
-        "label": "troy disk"
+      "label": {
+        "en": "troy disk"
       }
     },
     "ITEM_ULTRA_BALL": {
-      "en": {
-        "label": "ultra ball"
+      "label": {
+        "en": "ultra ball"
       }
     },
     "ITEM_WEPAR_BERRY": {
-      "en": {
-        "label": "wepar berry"
+      "label": {
+        "en": "wepar berry"
       }
     },
     "ITEM_X_ATTACK": {
-      "en": {
-        "label": "x attack"
+      "label": {
+        "en": "x attack"
       }
     },
     "ITEM_X_DEFENSE": {
-      "en": {
-        "label": "x defense"
+      "label": {
+        "en": "x defense"
       }
     },
     "ITEM_X_MIRACLE": {
-      "en": {
-        "label": "x miracle"
+      "label": {
+        "en": "x miracle"
       }
     }
   },
   "playerlevel": {
     "PLAYER_LEVEL_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "typeeffective": {
     "POKEMON_TYPE_BUG": {
-      "en": {
-        "label": "bug"
+      "label": {
+        "en": "bug"
       }
     },
     "POKEMON_TYPE_DARK": {
-      "en": {
-        "label": "dark"
+      "label": {
+        "en": "dark"
       }
     },
     "POKEMON_TYPE_DRAGON": {
-      "en": {
-        "label": "dragon"
+      "label": {
+        "en": "dragon"
       }
     },
     "POKEMON_TYPE_ELECTRIC": {
-      "en": {
-        "label": "electric"
+      "label": {
+        "en": "electric"
       }
     },
     "POKEMON_TYPE_FAIRY": {
-      "en": {
-        "label": "fairy"
+      "label": {
+        "en": "fairy"
       }
     },
     "POKEMON_TYPE_FIGHTING": {
-      "en": {
-        "label": "fighting"
+      "label": {
+        "en": "fighting"
       }
     },
     "POKEMON_TYPE_FIRE": {
-      "en": {
-        "label": "fire"
+      "label": {
+        "en": "fire"
       }
     },
     "POKEMON_TYPE_FLYING": {
-      "en": {
-        "label": "flying"
+      "label": {
+        "en": "flying"
       }
     },
     "POKEMON_TYPE_GHOST": {
-      "en": {
-        "label": "ghost"
+      "label": {
+        "en": "ghost"
       }
     },
     "POKEMON_TYPE_GRASS": {
-      "en": {
-        "label": "grass"
+      "label": {
+        "en": "grass"
       }
     },
     "POKEMON_TYPE_GROUND": {
-      "en": {
-        "label": "ground"
+      "label": {
+        "en": "ground"
       }
     },
     "POKEMON_TYPE_ICE": {
-      "en": {
-        "label": "ice"
+      "label": {
+        "en": "ice"
       }
     },
     "POKEMON_TYPE_NORMAL": {
-      "en": {
-        "label": "normal"
+      "label": {
+        "en": "normal"
       }
     },
     "POKEMON_TYPE_POISON": {
-      "en": {
-        "label": "poison"
+      "label": {
+        "en": "poison"
       }
     },
     "POKEMON_TYPE_PSYCHIC": {
-      "en": {
-        "label": "psychic"
+      "label": {
+        "en": "psychic"
       }
     },
     "POKEMON_TYPE_ROCK": {
-      "en": {
-        "label": "rock"
+      "label": {
+        "en": "rock"
       }
     },
     "POKEMON_TYPE_STEEL": {
-      "en": {
-        "label": "steel"
+      "label": {
+        "en": "steel"
       }
     },
     "POKEMON_TYPE_WATER": {
-      "en": {
-        "label": "water"
+      "label": {
+        "en": "water"
       }
     }
   },
   "pokemonupgrades": {
     "POKEMON_UPGRADE_SETTINGS": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "pokemon": {
     "V0001_POKEMON_BULBASAUR": {
-      "en": {
-        "label": "bulbasaur"
+      "label": {
+        "en": "bulbasaur"
       }
     },
     "V0002_POKEMON_IVYSAUR": {
-      "en": {
-        "label": "ivysaur"
+      "label": {
+        "en": "ivysaur"
       }
     },
     "V0003_POKEMON_VENUSAUR": {
-      "en": {
-        "label": "venusaur"
+      "label": {
+        "en": "venusaur"
       }
     },
     "V0004_POKEMON_CHARMANDER": {
-      "en": {
-        "label": "charmander"
+      "label": {
+        "en": "charmander"
       }
     },
     "V0005_POKEMON_CHARMELEON": {
-      "en": {
-        "label": "charmeleon"
+      "label": {
+        "en": "charmeleon"
       }
     },
     "V0006_POKEMON_CHARIZARD": {
-      "en": {
-        "label": "charizard"
+      "label": {
+        "en": "charizard"
       }
     },
     "V0007_POKEMON_SQUIRTLE": {
-      "en": {
-        "label": "squirtle"
+      "label": {
+        "en": "squirtle"
       }
     },
     "V0008_POKEMON_WARTORTLE": {
-      "en": {
-        "label": "wartortle"
+      "label": {
+        "en": "wartortle"
       }
     },
     "V0009_POKEMON_BLASTOISE": {
-      "en": {
-        "label": "blastoise"
+      "label": {
+        "en": "blastoise"
       }
     },
     "V0010_POKEMON_CATERPIE": {
-      "en": {
-        "label": "caterpie"
+      "label": {
+        "en": "caterpie"
       }
     },
     "V0011_POKEMON_METAPOD": {
-      "en": {
-        "label": "metapod"
+      "label": {
+        "en": "metapod"
       }
     },
     "V0012_POKEMON_BUTTERFREE": {
-      "en": {
-        "label": "butterfree"
+      "label": {
+        "en": "butterfree"
       }
     },
     "V0013_POKEMON_WEEDLE": {
-      "en": {
-        "label": "weedle"
+      "label": {
+        "en": "weedle"
       }
     },
     "V0014_POKEMON_KAKUNA": {
-      "en": {
-        "label": "kakuna"
+      "label": {
+        "en": "kakuna"
       }
     },
     "V0015_POKEMON_BEEDRILL": {
-      "en": {
-        "label": "beedrill"
+      "label": {
+        "en": "beedrill"
       }
     },
     "V0016_POKEMON_PIDGEY": {
-      "en": {
-        "label": "pidgey"
+      "label": {
+        "en": "pidgey"
       }
     },
     "V0017_POKEMON_PIDGEOTTO": {
-      "en": {
-        "label": "pidgeotto"
+      "label": {
+        "en": "pidgeotto"
       }
     },
     "V0018_POKEMON_PIDGEOT": {
-      "en": {
-        "label": "pidgeot"
+      "label": {
+        "en": "pidgeot"
       }
     },
     "V0019_POKEMON_RATTATA": {
-      "en": {
-        "label": "rattata"
+      "label": {
+        "en": "rattata"
       }
     },
     "V0020_POKEMON_RATICATE": {
-      "en": {
-        "label": "raticate"
+      "label": {
+        "en": "raticate"
       }
     },
     "V0021_POKEMON_SPEAROW": {
-      "en": {
-        "label": "spearow"
+      "label": {
+        "en": "spearow"
       }
     },
     "V0022_POKEMON_FEAROW": {
-      "en": {
-        "label": "fearow"
+      "label": {
+        "en": "fearow"
       }
     },
     "V0023_POKEMON_EKANS": {
-      "en": {
-        "label": "ekans"
+      "label": {
+        "en": "ekans"
       }
     },
     "V0024_POKEMON_ARBOK": {
-      "en": {
-        "label": "arbok"
+      "label": {
+        "en": "arbok"
       }
     },
     "V0025_POKEMON_PIKACHU": {
-      "en": {
-        "label": "pikachu"
+      "label": {
+        "en": "pikachu"
       }
     },
     "V0026_POKEMON_RAICHU": {
-      "en": {
-        "label": "raichu"
+      "label": {
+        "en": "raichu"
       }
     },
     "V0027_POKEMON_SANDSHREW": {
-      "en": {
-        "label": "sandshrew"
+      "label": {
+        "en": "sandshrew"
       }
     },
     "V0028_POKEMON_SANDSLASH": {
-      "en": {
-        "label": "sandslash"
+      "label": {
+        "en": "sandslash"
       }
     },
     "V0029_POKEMON_NIDORAN": {
-      "en": {
-        "label": "nidoran"
+      "label": {
+        "en": "nidoran"
       }
     },
     "V0030_POKEMON_NIDORINA": {
-      "en": {
-        "label": "nidorina"
+      "label": {
+        "en": "nidorina"
       }
     },
     "V0031_POKEMON_NIDOQUEEN": {
-      "en": {
-        "label": "nidoqueen"
+      "label": {
+        "en": "nidoqueen"
       }
     },
     "V0032_POKEMON_NIDORAN": {
-      "en": {
-        "label": "nidoran"
+      "label": {
+        "en": "nidoran"
       }
     },
     "V0033_POKEMON_NIDORINO": {
-      "en": {
-        "label": "nidorino"
+      "label": {
+        "en": "nidorino"
       }
     },
     "V0034_POKEMON_NIDOKING": {
-      "en": {
-        "label": "nidoking"
+      "label": {
+        "en": "nidoking"
       }
     },
     "V0035_POKEMON_CLEFAIRY": {
-      "en": {
-        "label": "clefairy"
+      "label": {
+        "en": "clefairy"
       }
     },
     "V0036_POKEMON_CLEFABLE": {
-      "en": {
-        "label": "clefable"
+      "label": {
+        "en": "clefable"
       }
     },
     "V0037_POKEMON_VULPIX": {
-      "en": {
-        "label": "vulpix"
+      "label": {
+        "en": "vulpix"
       }
     },
     "V0038_POKEMON_NINETALES": {
-      "en": {
-        "label": "ninetales"
+      "label": {
+        "en": "ninetales"
       }
     },
     "V0039_POKEMON_JIGGLYPUFF": {
-      "en": {
-        "label": "jigglypuff"
+      "label": {
+        "en": "jigglypuff"
       }
     },
     "V0040_POKEMON_WIGGLYTUFF": {
-      "en": {
-        "label": "wigglytuff"
+      "label": {
+        "en": "wigglytuff"
       }
     },
     "V0041_POKEMON_ZUBAT": {
-      "en": {
-        "label": "zubat"
+      "label": {
+        "en": "zubat"
       }
     },
     "V0042_POKEMON_GOLBAT": {
-      "en": {
-        "label": "golbat"
+      "label": {
+        "en": "golbat"
       }
     },
     "V0043_POKEMON_ODDISH": {
-      "en": {
-        "label": "oddish"
+      "label": {
+        "en": "oddish"
       }
     },
     "V0044_POKEMON_GLOOM": {
-      "en": {
-        "label": "gloom"
+      "label": {
+        "en": "gloom"
       }
     },
     "V0045_POKEMON_VILEPLUME": {
-      "en": {
-        "label": "vileplume"
+      "label": {
+        "en": "vileplume"
       }
     },
     "V0046_POKEMON_PARAS": {
-      "en": {
-        "label": "paras"
+      "label": {
+        "en": "paras"
       }
     },
     "V0047_POKEMON_PARASECT": {
-      "en": {
-        "label": "parasect"
+      "label": {
+        "en": "parasect"
       }
     },
     "V0048_POKEMON_VENONAT": {
-      "en": {
-        "label": "venonat"
+      "label": {
+        "en": "venonat"
       }
     },
     "V0049_POKEMON_VENOMOTH": {
-      "en": {
-        "label": "venomoth"
+      "label": {
+        "en": "venomoth"
       }
     },
     "V0050_POKEMON_DIGLETT": {
-      "en": {
-        "label": "diglett"
+      "label": {
+        "en": "diglett"
       }
     },
     "V0051_POKEMON_DUGTRIO": {
-      "en": {
-        "label": "dugtrio"
+      "label": {
+        "en": "dugtrio"
       }
     },
     "V0052_POKEMON_MEOWTH": {
-      "en": {
-        "label": "meowth"
+      "label": {
+        "en": "meowth"
       }
     },
     "V0053_POKEMON_PERSIAN": {
-      "en": {
-        "label": "persian"
+      "label": {
+        "en": "persian"
       }
     },
     "V0054_POKEMON_PSYDUCK": {
-      "en": {
-        "label": "psyduck"
+      "label": {
+        "en": "psyduck"
       }
     },
     "V0055_POKEMON_GOLDUCK": {
-      "en": {
-        "label": "golduck"
+      "label": {
+        "en": "golduck"
       }
     },
     "V0056_POKEMON_MANKEY": {
-      "en": {
-        "label": "mankey"
+      "label": {
+        "en": "mankey"
       }
     },
     "V0057_POKEMON_PRIMEAPE": {
-      "en": {
-        "label": "primeape"
+      "label": {
+        "en": "primeape"
       }
     },
     "V0058_POKEMON_GROWLITHE": {
-      "en": {
-        "label": "growlithe"
+      "label": {
+        "en": "growlithe"
       }
     },
     "V0059_POKEMON_ARCANINE": {
-      "en": {
-        "label": "arcanine"
+      "label": {
+        "en": "arcanine"
       }
     },
     "V0060_POKEMON_POLIWAG": {
-      "en": {
-        "label": "poliwag"
+      "label": {
+        "en": "poliwag"
       }
     },
     "V0061_POKEMON_POLIWHIRL": {
-      "en": {
-        "label": "poliwhirl"
+      "label": {
+        "en": "poliwhirl"
       }
     },
     "V0062_POKEMON_POLIWRATH": {
-      "en": {
-        "label": "poliwrath"
+      "label": {
+        "en": "poliwrath"
       }
     },
     "V0063_POKEMON_ABRA": {
-      "en": {
-        "label": "abra"
+      "label": {
+        "en": "abra"
       }
     },
     "V0064_POKEMON_KADABRA": {
-      "en": {
-        "label": "kadabra"
+      "label": {
+        "en": "kadabra"
       }
     },
     "V0065_POKEMON_ALAKAZAM": {
-      "en": {
-        "label": "alakazam"
+      "label": {
+        "en": "alakazam"
       }
     },
     "V0066_POKEMON_MACHOP": {
-      "en": {
-        "label": "machop"
+      "label": {
+        "en": "machop"
       }
     },
     "V0067_POKEMON_MACHOKE": {
-      "en": {
-        "label": "machoke"
+      "label": {
+        "en": "machoke"
       }
     },
     "V0068_POKEMON_MACHAMP": {
-      "en": {
-        "label": "machamp"
+      "label": {
+        "en": "machamp"
       }
     },
     "V0069_POKEMON_BELLSPROUT": {
-      "en": {
-        "label": "bellsprout"
+      "label": {
+        "en": "bellsprout"
       }
     },
     "V0070_POKEMON_WEEPINBELL": {
-      "en": {
-        "label": "weepinbell"
+      "label": {
+        "en": "weepinbell"
       }
     },
     "V0071_POKEMON_VICTREEBEL": {
-      "en": {
-        "label": "victreebel"
+      "label": {
+        "en": "victreebel"
       }
     },
     "V0072_POKEMON_TENTACOOL": {
-      "en": {
-        "label": "tentacool"
+      "label": {
+        "en": "tentacool"
       }
     },
     "V0073_POKEMON_TENTACRUEL": {
-      "en": {
-        "label": "tentacruel"
+      "label": {
+        "en": "tentacruel"
       }
     },
     "V0074_POKEMON_GEODUDE": {
-      "en": {
-        "label": "geodude"
+      "label": {
+        "en": "geodude"
       }
     },
     "V0075_POKEMON_GRAVELER": {
-      "en": {
-        "label": "graveler"
+      "label": {
+        "en": "graveler"
       }
     },
     "V0076_POKEMON_GOLEM": {
-      "en": {
-        "label": "golem"
+      "label": {
+        "en": "golem"
       }
     },
     "V0077_POKEMON_PONYTA": {
-      "en": {
-        "label": "ponyta"
+      "label": {
+        "en": "ponyta"
       }
     },
     "V0078_POKEMON_RAPIDASH": {
-      "en": {
-        "label": "rapidash"
+      "label": {
+        "en": "rapidash"
       }
     },
     "V0079_POKEMON_SLOWPOKE": {
-      "en": {
-        "label": "slowpoke"
+      "label": {
+        "en": "slowpoke"
       }
     },
     "V0080_POKEMON_SLOWBRO": {
-      "en": {
-        "label": "slowbro"
+      "label": {
+        "en": "slowbro"
       }
     },
     "V0081_POKEMON_MAGNEMITE": {
-      "en": {
-        "label": "magnemite"
+      "label": {
+        "en": "magnemite"
       }
     },
     "V0082_POKEMON_MAGNETON": {
-      "en": {
-        "label": "magneton"
+      "label": {
+        "en": "magneton"
       }
     },
     "V0083_POKEMON_FARFETCHD": {
-      "en": {
-        "label": "farfetchd"
+      "label": {
+        "en": "farfetchd"
       }
     },
     "V0084_POKEMON_DODUO": {
-      "en": {
-        "label": "doduo"
+      "label": {
+        "en": "doduo"
       }
     },
     "V0085_POKEMON_DODRIO": {
-      "en": {
-        "label": "dodrio"
+      "label": {
+        "en": "dodrio"
       }
     },
     "V0086_POKEMON_SEEL": {
-      "en": {
-        "label": "seel"
+      "label": {
+        "en": "seel"
       }
     },
     "V0087_POKEMON_DEWGONG": {
-      "en": {
-        "label": "dewgong"
+      "label": {
+        "en": "dewgong"
       }
     },
     "V0088_POKEMON_GRIMER": {
-      "en": {
-        "label": "grimer"
+      "label": {
+        "en": "grimer"
       }
     },
     "V0089_POKEMON_MUK": {
-      "en": {
-        "label": "muk"
+      "label": {
+        "en": "muk"
       }
     },
     "V0090_POKEMON_SHELLDER": {
-      "en": {
-        "label": "shellder"
+      "label": {
+        "en": "shellder"
       }
     },
     "V0091_POKEMON_CLOYSTER": {
-      "en": {
-        "label": "cloyster"
+      "label": {
+        "en": "cloyster"
       }
     },
     "V0092_POKEMON_GASTLY": {
-      "en": {
-        "label": "gastly"
+      "label": {
+        "en": "gastly"
       }
     },
     "V0093_POKEMON_HAUNTER": {
-      "en": {
-        "label": "haunter"
+      "label": {
+        "en": "haunter"
       }
     },
     "V0094_POKEMON_GENGAR": {
-      "en": {
-        "label": "gengar"
+      "label": {
+        "en": "gengar"
       }
     },
     "V0095_POKEMON_ONIX": {
-      "en": {
-        "label": "onix"
+      "label": {
+        "en": "onix"
       }
     },
     "V0096_POKEMON_DROWZEE": {
-      "en": {
-        "label": "drowzee"
+      "label": {
+        "en": "drowzee"
       }
     },
     "V0097_POKEMON_HYPNO": {
-      "en": {
-        "label": "hypno"
+      "label": {
+        "en": "hypno"
       }
     },
     "V0098_POKEMON_KRABBY": {
-      "en": {
-        "label": "krabby"
+      "label": {
+        "en": "krabby"
       }
     },
     "V0099_POKEMON_KINGLER": {
-      "en": {
-        "label": "kingler"
+      "label": {
+        "en": "kingler"
       }
     },
     "V0100_POKEMON_VOLTORB": {
-      "en": {
-        "label": "voltorb"
+      "label": {
+        "en": "voltorb"
       }
     },
     "V0101_POKEMON_ELECTRODE": {
-      "en": {
-        "label": "electrode"
+      "label": {
+        "en": "electrode"
       }
     },
     "V0102_POKEMON_EXEGGCUTE": {
-      "en": {
-        "label": "exeggcute"
+      "label": {
+        "en": "exeggcute"
       }
     },
     "V0103_POKEMON_EXEGGUTOR": {
-      "en": {
-        "label": "exeggutor"
+      "label": {
+        "en": "exeggutor"
       }
     },
     "V0104_POKEMON_CUBONE": {
-      "en": {
-        "label": "cubone"
+      "label": {
+        "en": "cubone"
       }
     },
     "V0105_POKEMON_MAROWAK": {
-      "en": {
-        "label": "marowak"
+      "label": {
+        "en": "marowak"
       }
     },
     "V0106_POKEMON_HITMONLEE": {
-      "en": {
-        "label": "hitmonlee"
+      "label": {
+        "en": "hitmonlee"
       }
     },
     "V0107_POKEMON_HITMONCHAN": {
-      "en": {
-        "label": "hitmonchan"
+      "label": {
+        "en": "hitmonchan"
       }
     },
     "V0108_POKEMON_LICKITUNG": {
-      "en": {
-        "label": "lickitung"
+      "label": {
+        "en": "lickitung"
       }
     },
     "V0109_POKEMON_KOFFING": {
-      "en": {
-        "label": "koffing"
+      "label": {
+        "en": "koffing"
       }
     },
     "V0110_POKEMON_WEEZING": {
-      "en": {
-        "label": "weezing"
+      "label": {
+        "en": "weezing"
       }
     },
     "V0111_POKEMON_RHYHORN": {
-      "en": {
-        "label": "rhyhorn"
+      "label": {
+        "en": "rhyhorn"
       }
     },
     "V0112_POKEMON_RHYDON": {
-      "en": {
-        "label": "rhydon"
+      "label": {
+        "en": "rhydon"
       }
     },
     "V0113_POKEMON_CHANSEY": {
-      "en": {
-        "label": "chansey"
+      "label": {
+        "en": "chansey"
       }
     },
     "V0114_POKEMON_TANGELA": {
-      "en": {
-        "label": "tangela"
+      "label": {
+        "en": "tangela"
       }
     },
     "V0115_POKEMON_KANGASKHAN": {
-      "en": {
-        "label": "kangaskhan"
+      "label": {
+        "en": "kangaskhan"
       }
     },
     "V0116_POKEMON_HORSEA": {
-      "en": {
-        "label": "horsea"
+      "label": {
+        "en": "horsea"
       }
     },
     "V0117_POKEMON_SEADRA": {
-      "en": {
-        "label": "seadra"
+      "label": {
+        "en": "seadra"
       }
     },
     "V0118_POKEMON_GOLDEEN": {
-      "en": {
-        "label": "goldeen"
+      "label": {
+        "en": "goldeen"
       }
     },
     "V0119_POKEMON_SEAKING": {
-      "en": {
-        "label": "seaking"
+      "label": {
+        "en": "seaking"
       }
     },
     "V0120_POKEMON_STARYU": {
-      "en": {
-        "label": "staryu"
+      "label": {
+        "en": "staryu"
       }
     },
     "V0121_POKEMON_STARMIE": {
-      "en": {
-        "label": "starmie"
+      "label": {
+        "en": "starmie"
       }
     },
     "V0122_POKEMON_MR_MIME": {
-      "en": {
-        "label": "mr mime"
+      "label": {
+        "en": "mr mime"
       }
     },
     "V0123_POKEMON_SCYTHER": {
-      "en": {
-        "label": "scyther"
+      "label": {
+        "en": "scyther"
       }
     },
     "V0124_POKEMON_JYNX": {
-      "en": {
-        "label": "jynx"
+      "label": {
+        "en": "jynx"
       }
     },
     "V0125_POKEMON_ELECTABUZZ": {
-      "en": {
-        "label": "electabuzz"
+      "label": {
+        "en": "electabuzz"
       }
     },
     "V0126_POKEMON_MAGMAR": {
-      "en": {
-        "label": "magmar"
+      "label": {
+        "en": "magmar"
       }
     },
     "V0127_POKEMON_PINSIR": {
-      "en": {
-        "label": "pinsir"
+      "label": {
+        "en": "pinsir"
       }
     },
     "V0128_POKEMON_TAUROS": {
-      "en": {
-        "label": "tauros"
+      "label": {
+        "en": "tauros"
       }
     },
     "V0129_POKEMON_MAGIKARP": {
-      "en": {
-        "label": "magikarp"
+      "label": {
+        "en": "magikarp"
       }
     },
     "V0130_POKEMON_GYARADOS": {
-      "en": {
-        "label": "gyarados"
+      "label": {
+        "en": "gyarados"
       }
     },
     "V0131_POKEMON_LAPRAS": {
-      "en": {
-        "label": "lapras"
+      "label": {
+        "en": "lapras"
       }
     },
     "V0132_POKEMON_DITTO": {
-      "en": {
-        "label": "ditto"
+      "label": {
+        "en": "ditto"
       }
     },
     "V0133_POKEMON_EEVEE": {
-      "en": {
-        "label": "eevee"
+      "label": {
+        "en": "eevee"
       }
     },
     "V0134_POKEMON_VAPOREON": {
-      "en": {
-        "label": "vaporeon"
+      "label": {
+        "en": "vaporeon"
       }
     },
     "V0135_POKEMON_JOLTEON": {
-      "en": {
-        "label": "jolteon"
+      "label": {
+        "en": "jolteon"
       }
     },
     "V0136_POKEMON_FLAREON": {
-      "en": {
-        "label": "flareon"
+      "label": {
+        "en": "flareon"
       }
     },
     "V0137_POKEMON_PORYGON": {
-      "en": {
-        "label": "porygon"
+      "label": {
+        "en": "porygon"
       }
     },
     "V0138_POKEMON_OMANYTE": {
-      "en": {
-        "label": "omanyte"
+      "label": {
+        "en": "omanyte"
       }
     },
     "V0139_POKEMON_OMASTAR": {
-      "en": {
-        "label": "omastar"
+      "label": {
+        "en": "omastar"
       }
     },
     "V0140_POKEMON_KABUTO": {
-      "en": {
-        "label": "kabuto"
+      "label": {
+        "en": "kabuto"
       }
     },
     "V0141_POKEMON_KABUTOPS": {
-      "en": {
-        "label": "kabutops"
+      "label": {
+        "en": "kabutops"
       }
     },
     "V0142_POKEMON_AERODACTYL": {
-      "en": {
-        "label": "aerodactyl"
+      "label": {
+        "en": "aerodactyl"
       }
     },
     "V0143_POKEMON_SNORLAX": {
-      "en": {
-        "label": "snorlax"
+      "label": {
+        "en": "snorlax"
       }
     },
     "V0144_POKEMON_ARTICUNO": {
-      "en": {
-        "label": "articuno"
+      "label": {
+        "en": "articuno"
       }
     },
     "V0145_POKEMON_ZAPDOS": {
-      "en": {
-        "label": "zapdos"
+      "label": {
+        "en": "zapdos"
       }
     },
     "V0146_POKEMON_MOLTRES": {
-      "en": {
-        "label": "moltres"
+      "label": {
+        "en": "moltres"
       }
     },
     "V0147_POKEMON_DRATINI": {
-      "en": {
-        "label": "dratini"
+      "label": {
+        "en": "dratini"
       }
     },
     "V0148_POKEMON_DRAGONAIR": {
-      "en": {
-        "label": "dragonair"
+      "label": {
+        "en": "dragonair"
       }
     },
     "V0149_POKEMON_DRAGONITE": {
-      "en": {
-        "label": "dragonite"
+      "label": {
+        "en": "dragonite"
       }
     },
     "V0150_POKEMON_MEWTWO": {
-      "en": {
-        "label": "mewtwo"
+      "label": {
+        "en": "mewtwo"
       }
     },
     "V0151_POKEMON_MEW": {
-      "en": {
-        "label": "mew"
+      "label": {
+        "en": "mew"
       }
     }
   },
   "move": {
     "V0013_MOVE_WRAP": {
-      "en": {
-        "label": "wrap"
+      "label": {
+        "en": "wrap"
       }
     },
     "V0014_MOVE_HYPER_BEAM": {
-      "en": {
-        "label": "hyper beam"
+      "label": {
+        "en": "hyper beam"
       }
     },
     "V0016_MOVE_DARK_PULSE": {
-      "en": {
-        "label": "dark pulse"
+      "label": {
+        "en": "dark pulse"
       }
     },
     "V0018_MOVE_SLUDGE": {
-      "en": {
-        "label": "sludge"
+      "label": {
+        "en": "sludge"
       }
     },
     "V0020_MOVE_VICE_GRIP": {
-      "en": {
-        "label": "vice grip"
+      "label": {
+        "en": "vice grip"
       }
     },
     "V0021_MOVE_FLAME_WHEEL": {
-      "en": {
-        "label": "flame wheel"
+      "label": {
+        "en": "flame wheel"
       }
     },
     "V0022_MOVE_MEGAHORN": {
-      "en": {
-        "label": "megahorn"
+      "label": {
+        "en": "megahorn"
       }
     },
     "V0024_MOVE_FLAMETHROWER": {
-      "en": {
-        "label": "flamethrower"
+      "label": {
+        "en": "flamethrower"
       }
     },
     "V0026_MOVE_DIG": {
-      "en": {
-        "label": "dig"
+      "label": {
+        "en": "dig"
       }
     },
     "V0028_MOVE_CROSS_CHOP": {
-      "en": {
-        "label": "cross chop"
+      "label": {
+        "en": "cross chop"
       }
     },
     "V0030_MOVE_PSYBEAM": {
-      "en": {
-        "label": "psybeam"
+      "label": {
+        "en": "psybeam"
       }
     },
     "V0031_MOVE_EARTHQUAKE": {
-      "en": {
-        "label": "earthquake"
+      "label": {
+        "en": "earthquake"
       }
     },
     "V0032_MOVE_STONE_EDGE": {
-      "en": {
-        "label": "stone edge"
+      "label": {
+        "en": "stone edge"
       }
     },
     "V0033_MOVE_ICE_PUNCH": {
-      "en": {
-        "label": "ice punch"
+      "label": {
+        "en": "ice punch"
       }
     },
     "V0034_MOVE_HEART_STAMP": {
-      "en": {
-        "label": "heart stamp"
+      "label": {
+        "en": "heart stamp"
       }
     },
     "V0035_MOVE_DISCHARGE": {
-      "en": {
-        "label": "discharge"
+      "label": {
+        "en": "discharge"
       }
     },
     "V0036_MOVE_FLASH_CANNON": {
-      "en": {
-        "label": "flash cannon"
+      "label": {
+        "en": "flash cannon"
       }
     },
     "V0038_MOVE_DRILL_PECK": {
-      "en": {
-        "label": "drill peck"
+      "label": {
+        "en": "drill peck"
       }
     },
     "V0039_MOVE_ICE_BEAM": {
-      "en": {
-        "label": "ice beam"
+      "label": {
+        "en": "ice beam"
       }
     },
     "V0040_MOVE_BLIZZARD": {
-      "en": {
-        "label": "blizzard"
+      "label": {
+        "en": "blizzard"
       }
     },
     "V0042_MOVE_HEAT_WAVE": {
-      "en": {
-        "label": "heat wave"
+      "label": {
+        "en": "heat wave"
       }
     },
     "V0045_MOVE_AERIAL_ACE": {
-      "en": {
-        "label": "aerial ace"
+      "label": {
+        "en": "aerial ace"
       }
     },
     "V0046_MOVE_DRILL_RUN": {
-      "en": {
-        "label": "drill run"
+      "label": {
+        "en": "drill run"
       }
     },
     "V0047_MOVE_PETAL_BLIZZARD": {
-      "en": {
-        "label": "petal blizzard"
+      "label": {
+        "en": "petal blizzard"
       }
     },
     "V0048_MOVE_MEGA_DRAIN": {
-      "en": {
-        "label": "mega drain"
+      "label": {
+        "en": "mega drain"
       }
     },
     "V0049_MOVE_BUG_BUZZ": {
-      "en": {
-        "label": "bug buzz"
+      "label": {
+        "en": "bug buzz"
       }
     },
     "V0050_MOVE_POISON_FANG": {
-      "en": {
-        "label": "poison fang"
+      "label": {
+        "en": "poison fang"
       }
     },
     "V0051_MOVE_NIGHT_SLASH": {
-      "en": {
-        "label": "night slash"
+      "label": {
+        "en": "night slash"
       }
     },
     "V0053_MOVE_BUBBLE_BEAM": {
-      "en": {
-        "label": "bubble beam"
+      "label": {
+        "en": "bubble beam"
       }
     },
     "V0054_MOVE_SUBMISSION": {
-      "en": {
-        "label": "submission"
+      "label": {
+        "en": "submission"
       }
     },
     "V0056_MOVE_LOW_SWEEP": {
-      "en": {
-        "label": "low sweep"
+      "label": {
+        "en": "low sweep"
       }
     },
     "V0057_MOVE_AQUA_JET": {
-      "en": {
-        "label": "aqua jet"
+      "label": {
+        "en": "aqua jet"
       }
     },
     "V0058_MOVE_AQUA_TAIL": {
-      "en": {
-        "label": "aqua tail"
+      "label": {
+        "en": "aqua tail"
       }
     },
     "V0059_MOVE_SEED_BOMB": {
-      "en": {
-        "label": "seed bomb"
+      "label": {
+        "en": "seed bomb"
       }
     },
     "V0060_MOVE_PSYSHOCK": {
-      "en": {
-        "label": "psyshock"
+      "label": {
+        "en": "psyshock"
       }
     },
     "V0062_MOVE_ANCIENT_POWER": {
-      "en": {
-        "label": "ancient power"
+      "label": {
+        "en": "ancient power"
       }
     },
     "V0063_MOVE_ROCK_TOMB": {
-      "en": {
-        "label": "rock tomb"
+      "label": {
+        "en": "rock tomb"
       }
     },
     "V0064_MOVE_ROCK_SLIDE": {
-      "en": {
-        "label": "rock slide"
+      "label": {
+        "en": "rock slide"
       }
     },
     "V0065_MOVE_POWER_GEM": {
-      "en": {
-        "label": "power gem"
+      "label": {
+        "en": "power gem"
       }
     },
     "V0066_MOVE_SHADOW_SNEAK": {
-      "en": {
-        "label": "shadow sneak"
+      "label": {
+        "en": "shadow sneak"
       }
     },
     "V0067_MOVE_SHADOW_PUNCH": {
-      "en": {
-        "label": "shadow punch"
+      "label": {
+        "en": "shadow punch"
       }
     },
     "V0069_MOVE_OMINOUS_WIND": {
-      "en": {
-        "label": "ominous wind"
+      "label": {
+        "en": "ominous wind"
       }
     },
     "V0070_MOVE_SHADOW_BALL": {
-      "en": {
-        "label": "shadow ball"
+      "label": {
+        "en": "shadow ball"
       }
     },
     "V0072_MOVE_MAGNET_BOMB": {
-      "en": {
-        "label": "magnet bomb"
+      "label": {
+        "en": "magnet bomb"
       }
     },
     "V0074_MOVE_IRON_HEAD": {
-      "en": {
-        "label": "iron head"
+      "label": {
+        "en": "iron head"
       }
     },
     "V0075_MOVE_PARABOLIC_CHARGE": {
-      "en": {
-        "label": "parabolic charge"
+      "label": {
+        "en": "parabolic charge"
       }
     },
     "V0077_MOVE_THUNDER_PUNCH": {
-      "en": {
-        "label": "thunder punch"
+      "label": {
+        "en": "thunder punch"
       }
     },
     "V0078_MOVE_THUNDER": {
-      "en": {
-        "label": "thunder"
+      "label": {
+        "en": "thunder"
       }
     },
     "V0079_MOVE_THUNDERBOLT": {
-      "en": {
-        "label": "thunderbolt"
+      "label": {
+        "en": "thunderbolt"
       }
     },
     "V0080_MOVE_TWISTER": {
-      "en": {
-        "label": "twister"
+      "label": {
+        "en": "twister"
       }
     },
     "V0082_MOVE_DRAGON_PULSE": {
-      "en": {
-        "label": "dragon pulse"
+      "label": {
+        "en": "dragon pulse"
       }
     },
     "V0083_MOVE_DRAGON_CLAW": {
-      "en": {
-        "label": "dragon claw"
+      "label": {
+        "en": "dragon claw"
       }
     },
     "V0084_MOVE_DISARMING_VOICE": {
-      "en": {
-        "label": "disarming voice"
+      "label": {
+        "en": "disarming voice"
       }
     },
     "V0085_MOVE_DRAINING_KISS": {
-      "en": {
-        "label": "draining kiss"
+      "label": {
+        "en": "draining kiss"
       }
     },
     "V0086_MOVE_DAZZLING_GLEAM": {
-      "en": {
-        "label": "dazzling gleam"
+      "label": {
+        "en": "dazzling gleam"
       }
     },
     "V0087_MOVE_MOONBLAST": {
-      "en": {
-        "label": "moonblast"
+      "label": {
+        "en": "moonblast"
       }
     },
     "V0088_MOVE_PLAY_ROUGH": {
-      "en": {
-        "label": "play rough"
+      "label": {
+        "en": "play rough"
       }
     },
     "V0089_MOVE_CROSS_POISON": {
-      "en": {
-        "label": "cross poison"
+      "label": {
+        "en": "cross poison"
       }
     },
     "V0090_MOVE_SLUDGE_BOMB": {
-      "en": {
-        "label": "sludge bomb"
+      "label": {
+        "en": "sludge bomb"
       }
     },
     "V0091_MOVE_SLUDGE_WAVE": {
-      "en": {
-        "label": "sludge wave"
+      "label": {
+        "en": "sludge wave"
       }
     },
     "V0092_MOVE_GUNK_SHOT": {
-      "en": {
-        "label": "gunk shot"
+      "label": {
+        "en": "gunk shot"
       }
     },
     "V0094_MOVE_BONE_CLUB": {
-      "en": {
-        "label": "bone club"
+      "label": {
+        "en": "bone club"
       }
     },
     "V0095_MOVE_BULLDOZE": {
-      "en": {
-        "label": "bulldoze"
+      "label": {
+        "en": "bulldoze"
       }
     },
     "V0096_MOVE_MUD_BOMB": {
-      "en": {
-        "label": "mud bomb"
+      "label": {
+        "en": "mud bomb"
       }
     },
     "V0099_MOVE_SIGNAL_BEAM": {
-      "en": {
-        "label": "signal beam"
+      "label": {
+        "en": "signal beam"
       }
     },
     "V0100_MOVE_X_SCISSOR": {
-      "en": {
-        "label": "x scissor"
+      "label": {
+        "en": "x scissor"
       }
     },
     "V0101_MOVE_FLAME_CHARGE": {
-      "en": {
-        "label": "flame charge"
+      "label": {
+        "en": "flame charge"
       }
     },
     "V0102_MOVE_FLAME_BURST": {
-      "en": {
-        "label": "flame burst"
+      "label": {
+        "en": "flame burst"
       }
     },
     "V0103_MOVE_FIRE_BLAST": {
-      "en": {
-        "label": "fire blast"
+      "label": {
+        "en": "fire blast"
       }
     },
     "V0104_MOVE_BRINE": {
-      "en": {
-        "label": "brine"
+      "label": {
+        "en": "brine"
       }
     },
     "V0105_MOVE_WATER_PULSE": {
-      "en": {
-        "label": "water pulse"
+      "label": {
+        "en": "water pulse"
       }
     },
     "V0106_MOVE_SCALD": {
-      "en": {
-        "label": "scald"
+      "label": {
+        "en": "scald"
       }
     },
     "V0107_MOVE_HYDRO_PUMP": {
-      "en": {
-        "label": "hydro pump"
+      "label": {
+        "en": "hydro pump"
       }
     },
     "V0108_MOVE_PSYCHIC": {
-      "en": {
-        "label": "psychic"
+      "label": {
+        "en": "psychic"
       }
     },
     "V0109_MOVE_PSYSTRIKE": {
-      "en": {
-        "label": "psystrike"
+      "label": {
+        "en": "psystrike"
       }
     },
     "V0111_MOVE_ICY_WIND": {
-      "en": {
-        "label": "icy wind"
+      "label": {
+        "en": "icy wind"
       }
     },
     "V0114_MOVE_GIGA_DRAIN": {
-      "en": {
-        "label": "giga drain"
+      "label": {
+        "en": "giga drain"
       }
     },
     "V0115_MOVE_FIRE_PUNCH": {
-      "en": {
-        "label": "fire punch"
+      "label": {
+        "en": "fire punch"
       }
     },
     "V0116_MOVE_SOLAR_BEAM": {
-      "en": {
-        "label": "solar beam"
+      "label": {
+        "en": "solar beam"
       }
     },
     "V0117_MOVE_LEAF_BLADE": {
-      "en": {
-        "label": "leaf blade"
+      "label": {
+        "en": "leaf blade"
       }
     },
     "V0118_MOVE_POWER_WHIP": {
-      "en": {
-        "label": "power whip"
+      "label": {
+        "en": "power whip"
       }
     },
     "V0121_MOVE_AIR_CUTTER": {
-      "en": {
-        "label": "air cutter"
+      "label": {
+        "en": "air cutter"
       }
     },
     "V0122_MOVE_HURRICANE": {
-      "en": {
-        "label": "hurricane"
+      "label": {
+        "en": "hurricane"
       }
     },
     "V0123_MOVE_BRICK_BREAK": {
-      "en": {
-        "label": "brick break"
+      "label": {
+        "en": "brick break"
       }
     },
     "V0125_MOVE_SWIFT": {
-      "en": {
-        "label": "swift"
+      "label": {
+        "en": "swift"
       }
     },
     "V0126_MOVE_HORN_ATTACK": {
-      "en": {
-        "label": "horn attack"
+      "label": {
+        "en": "horn attack"
       }
     },
     "V0127_MOVE_STOMP": {
-      "en": {
-        "label": "stomp"
+      "label": {
+        "en": "stomp"
       }
     },
     "V0129_MOVE_HYPER_FANG": {
-      "en": {
-        "label": "hyper fang"
+      "label": {
+        "en": "hyper fang"
       }
     },
     "V0131_MOVE_BODY_SLAM": {
-      "en": {
-        "label": "body slam"
+      "label": {
+        "en": "body slam"
       }
     },
     "V0132_MOVE_REST": {
-      "en": {
-        "label": "rest"
+      "label": {
+        "en": "rest"
       }
     },
     "V0133_MOVE_STRUGGLE": {
-      "en": {
-        "label": "struggle"
+      "label": {
+        "en": "struggle"
       }
     },
     "V0134_MOVE_SCALD_BLASTOISE": {
-      "en": {
-        "label": "scald blastoise"
+      "label": {
+        "en": "scald blastoise"
       }
     },
     "V0135_MOVE_HYDRO_PUMP_BLASTOISE": {
-      "en": {
-        "label": "hydro pump blastoise"
+      "label": {
+        "en": "hydro pump blastoise"
       }
     },
     "V0136_MOVE_WRAP_GREEN": {
-      "en": {
-        "label": "wrap green"
+      "label": {
+        "en": "wrap green"
       }
     },
     "V0137_MOVE_WRAP_PINK": {
-      "en": {
-        "label": "wrap pink"
+      "label": {
+        "en": "wrap pink"
       }
     },
     "V0200_MOVE_FURY_CUTTER_FAST": {
-      "en": {
-        "label": "fury cutter fast"
+      "label": {
+        "en": "fury cutter fast"
       }
     },
     "V0201_MOVE_BUG_BITE_FAST": {
-      "en": {
-        "label": "bug bite fast"
+      "label": {
+        "en": "bug bite fast"
       }
     },
     "V0202_MOVE_BITE_FAST": {
-      "en": {
-        "label": "bite fast"
+      "label": {
+        "en": "bite fast"
       }
     },
     "V0203_MOVE_SUCKER_PUNCH_FAST": {
-      "en": {
-        "label": "sucker punch fast"
+      "label": {
+        "en": "sucker punch fast"
       }
     },
     "V0204_MOVE_DRAGON_BREATH_FAST": {
-      "en": {
-        "label": "dragon breath fast"
+      "label": {
+        "en": "dragon breath fast"
       }
     },
     "V0205_MOVE_THUNDER_SHOCK_FAST": {
-      "en": {
-        "label": "thunder shock fast"
+      "label": {
+        "en": "thunder shock fast"
       }
     },
     "V0206_MOVE_SPARK_FAST": {
-      "en": {
-        "label": "spark fast"
+      "label": {
+        "en": "spark fast"
       }
     },
     "V0207_MOVE_LOW_KICK_FAST": {
-      "en": {
-        "label": "low kick fast"
+      "label": {
+        "en": "low kick fast"
       }
     },
     "V0208_MOVE_KARATE_CHOP_FAST": {
-      "en": {
-        "label": "karate chop fast"
+      "label": {
+        "en": "karate chop fast"
       }
     },
     "V0209_MOVE_EMBER_FAST": {
-      "en": {
-        "label": "ember fast"
+      "label": {
+        "en": "ember fast"
       }
     },
     "V0210_MOVE_WING_ATTACK_FAST": {
-      "en": {
-        "label": "wing attack fast"
+      "label": {
+        "en": "wing attack fast"
       }
     },
     "V0211_MOVE_PECK_FAST": {
-      "en": {
-        "label": "peck fast"
+      "label": {
+        "en": "peck fast"
       }
     },
     "V0212_MOVE_LICK_FAST": {
-      "en": {
-        "label": "lick fast"
+      "label": {
+        "en": "lick fast"
       }
     },
     "V0213_MOVE_SHADOW_CLAW_FAST": {
-      "en": {
-        "label": "shadow claw fast"
+      "label": {
+        "en": "shadow claw fast"
       }
     },
     "V0214_MOVE_VINE_WHIP_FAST": {
-      "en": {
-        "label": "vine whip fast"
+      "label": {
+        "en": "vine whip fast"
       }
     },
     "V0215_MOVE_RAZOR_LEAF_FAST": {
-      "en": {
-        "label": "razor leaf fast"
+      "label": {
+        "en": "razor leaf fast"
       }
     },
     "V0216_MOVE_MUD_SHOT_FAST": {
-      "en": {
-        "label": "mud shot fast"
+      "label": {
+        "en": "mud shot fast"
       }
     },
     "V0217_MOVE_ICE_SHARD_FAST": {
-      "en": {
-        "label": "ice shard fast"
+      "label": {
+        "en": "ice shard fast"
       }
     },
     "V0218_MOVE_FROST_BREATH_FAST": {
-      "en": {
-        "label": "frost breath fast"
+      "label": {
+        "en": "frost breath fast"
       }
     },
     "V0219_MOVE_QUICK_ATTACK_FAST": {
-      "en": {
-        "label": "quick attack fast"
+      "label": {
+        "en": "quick attack fast"
       }
     },
     "V0220_MOVE_SCRATCH_FAST": {
-      "en": {
-        "label": "scratch fast"
+      "label": {
+        "en": "scratch fast"
       }
     },
     "V0221_MOVE_TACKLE_FAST": {
-      "en": {
-        "label": "tackle fast"
+      "label": {
+        "en": "tackle fast"
       }
     },
     "V0222_MOVE_POUND_FAST": {
-      "en": {
-        "label": "pound fast"
+      "label": {
+        "en": "pound fast"
       }
     },
     "V0223_MOVE_CUT_FAST": {
-      "en": {
-        "label": "cut fast"
+      "label": {
+        "en": "cut fast"
       }
     },
     "V0224_MOVE_POISON_JAB_FAST": {
-      "en": {
-        "label": "poison jab fast"
+      "label": {
+        "en": "poison jab fast"
       }
     },
     "V0225_MOVE_ACID_FAST": {
-      "en": {
-        "label": "acid fast"
+      "label": {
+        "en": "acid fast"
       }
     },
     "V0226_MOVE_PSYCHO_CUT_FAST": {
-      "en": {
-        "label": "psycho cut fast"
+      "label": {
+        "en": "psycho cut fast"
       }
     },
     "V0227_MOVE_ROCK_THROW_FAST": {
-      "en": {
-        "label": "rock throw fast"
+      "label": {
+        "en": "rock throw fast"
       }
     },
     "V0228_MOVE_METAL_CLAW_FAST": {
-      "en": {
-        "label": "metal claw fast"
+      "label": {
+        "en": "metal claw fast"
       }
     },
     "V0229_MOVE_BULLET_PUNCH_FAST": {
-      "en": {
-        "label": "bullet punch fast"
+      "label": {
+        "en": "bullet punch fast"
       }
     },
     "V0230_MOVE_WATER_GUN_FAST": {
-      "en": {
-        "label": "water gun fast"
+      "label": {
+        "en": "water gun fast"
       }
     },
     "V0231_MOVE_SPLASH_FAST": {
-      "en": {
-        "label": "splash fast"
+      "label": {
+        "en": "splash fast"
       }
     },
     "V0232_MOVE_WATER_GUN_FAST_BLASTOISE": {
-      "en": {
-        "label": "water gun fast blastoise"
+      "label": {
+        "en": "water gun fast blastoise"
       }
     },
     "V0233_MOVE_MUD_SLAP_FAST": {
-      "en": {
-        "label": "mud slap fast"
+      "label": {
+        "en": "mud slap fast"
       }
     },
     "V0234_MOVE_ZEN_HEADBUTT_FAST": {
-      "en": {
-        "label": "zen headbutt fast"
+      "label": {
+        "en": "zen headbutt fast"
       }
     },
     "V0235_MOVE_CONFUSION_FAST": {
-      "en": {
-        "label": "confusion fast"
+      "label": {
+        "en": "confusion fast"
       }
     },
     "V0236_MOVE_POISON_STING_FAST": {
-      "en": {
-        "label": "poison sting fast"
+      "label": {
+        "en": "poison sting fast"
       }
     },
     "V0237_MOVE_BUBBLE_FAST": {
-      "en": {
-        "label": "bubble fast"
+      "label": {
+        "en": "bubble fast"
       }
     },
     "V0238_MOVE_FEINT_ATTACK_FAST": {
-      "en": {
-        "label": "feint attack fast"
+      "label": {
+        "en": "feint attack fast"
       }
     },
     "V0239_MOVE_STEEL_WING_FAST": {
-      "en": {
-        "label": "steel wing fast"
+      "label": {
+        "en": "steel wing fast"
       }
     },
     "V0240_MOVE_FIRE_FANG_FAST": {
-      "en": {
-        "label": "fire fang fast"
+      "label": {
+        "en": "fire fang fast"
       }
     },
     "V0241_MOVE_ROCK_SMASH_FAST": {
-      "en": {
-        "label": "rock smash fast"
+      "label": {
+        "en": "rock smash fast"
       }
     }
   },
   "iapitemdisplay": {
     "android.test.canceled": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "android.test.item_unavailable": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "android.test.purchased": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "incenseordinary.1": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "incenseordinary.4": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "incenseordinary.8": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "incubatorbasic.1": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "incubatorbasic.100": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "itemstorageupgrade.1": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "luckyegg.1": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "luckyegg.20": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "luckyegg.5": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokeball.100": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokeball.20": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.100": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.1000": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.1200": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.14500": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.2500": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.5200": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokecoin.550": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "pokemonstorageupgrade.1": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "camera": {
     "camera_aerialace": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aerialace_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aerialace_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aerialace_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aerialace_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aircutterenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_airslash": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_airslash_swp": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ancientpower": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ancientpower_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ancientpower_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ancientpower_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ancientpower_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajet": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajet_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajet_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajet_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajet_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajetenter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajetenter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajetenter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquajetenter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquatail": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_aquatailenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_battlefainted": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_battlewait": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_bodyslam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_boneclub": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_boneclubenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_bothsidecut": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brickbreak": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brickbreak_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brickbreak_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brickbreak_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brickbreak_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_brine": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_bubblebeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_bugbuzz": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_crosschop": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_crosspoison": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cutfromattacker_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cutfromattacker_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cutfromdefender_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cutfromdefender_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cutreturn": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cuttofacedefender_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cuttofacedefender_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cuttofacedefender_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_cuttofacedefender_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_darkpulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dazzlinggleam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_defaultattack": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_defaultattack_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_defaultattack_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_defaultattack_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_defaultattack_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dig": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_disarmingvoice": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_disarmingvoiceenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_discharge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dischargeenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dragonbreath": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dragonclaw": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_dragonpulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillpeck": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillrun": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillrun_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillrun_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillrun_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_drillrun_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_earthquake": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_encounterintro": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattacker_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattacker_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattacker_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattacker_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattackerfaraway_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattackerfaraway_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattackerfaraway_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterbehindattackerfaraway_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfaceattacker_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfaceattacker_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfaceattacker_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfaceattacker_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefender_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefender_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefender_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefender_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefenderfromfaraway_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefenderfromfaraway_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefenderfromfaraway_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_enterfacedefenderfromfaraway_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_face": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faceattacker": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faceattackertilt_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faceattackertilt_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faceattackertilt_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faceattackertilt_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facecut": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facecutdefender": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facedefenderzoomout_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facedefenderzoomout_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facedefenderzoomout_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_facedefenderzoomout_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_faint": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblast_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblast_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblast_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblast_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fireblastenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_firepunch_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flameburst": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flameburstenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamecharge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamecharge_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamecharge_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamecharge_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamecharge_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamethrower": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flamewheel": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flashcannon": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_flashcannon_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_followarcingprojectile_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_followarcingprojectile_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_followarcingprojectile_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_followarcingprojectile_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fortbidle": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fortdeployintro": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fortfaint": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_fortplayerfainted": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gigadrain": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gunkshot": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gunkshot_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gunkshot_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gunkshot_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gunkshot_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gymhi": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gymlow": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gymlowest": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_gymmed": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_heartstamp": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_heatwave": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_heatwave_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hornattack": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hornattackenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hurricane": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hydropump": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hydropumpenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperbeam_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperfang": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperfang_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperfang_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperfang_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_hyperfang_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icebeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icebeam_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icebeam_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icebeam_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icebeam_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icepunch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_icepunch_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_idle": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironhead": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironhead_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironhead_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironhead_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironhead_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ironheadenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_karatechop": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_leafblade": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_leafbladeenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_left": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_lowsweep": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_magnetbomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_megadrain": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_megahorn": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_moonblast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_moonblast_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_moonblast_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_moonblast_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_moonblast_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_mudbomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_mudbombenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_mudshot": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_nightslash": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_ominouswind": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_overhead_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_overhead_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_overhead_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_overhead_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantoattacker_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantoattacker_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantoattacker_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantoattacker_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantodefender_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantodefender_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantodefender_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantodefender_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantofacedefender_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantofacedefender_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantofacedefender_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_pantofacedefender_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_paraboliccharge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_paraboliccharge_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_paraboliccharge_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_paraboliccharge_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_paraboliccharge_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_petalblizzard": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playrough": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playrough_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playrough_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playrough_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playrough_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_playroughenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_poisonfang": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_poisonjab": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_poisonjab_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_powerwhip": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_powerwhip_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_powerwhip_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_powerwhip_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_powerwhip_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeamenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeamenter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeamenter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeamenter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psybeamenter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psychic": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psychicenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psychocut": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psyshock_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psystrike": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psystrike_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psystrike_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psystrike_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_psystrike_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_punchhit_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_punchhit_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_punchhit_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_punchhit_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_quickattacker": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_quickdefender": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_quickreturn": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_rear": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_rearcut": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_rearcutdefender": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_rockslide": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_rockthrow": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_scald": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_scaldenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedbomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedbombenter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedbombenter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedbombenter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedbombenter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_seedefender": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowball": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowpunch_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneak": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneak_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneak_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneak_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneak_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shadowsneakenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_shoot": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_signalbeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_signalbeamenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_sludgebomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_sludgewave": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeam_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeam_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeam_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeam_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeamenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeamenter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeamenter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeamenter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_solarbeamenter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_spark": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_stoneedge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_submission": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_suckerpunch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_swift": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_tackle": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_takedown": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunder": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunder_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunder_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunder_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunder_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunderbolt": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunderboltenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_thunderpunch_hit": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_twister": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_vicegrip": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_watergun": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulseenter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulseenter_leader_player_left_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulseenter_leader_player_right_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulseenter_player_left_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_waterpulseenter_player_right_leader_": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "camera_xscissor": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   },
   "movesequence": {
     "sequence_acid_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_aerial_ace": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_air_cutter": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ancient_power": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_aqua_jet": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_aqua_tail": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bite_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_blizzard": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_body_slam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bone_club": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_brick_break": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_brine": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bubble_beam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bubble_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bug_bite_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bug_buzz": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bulldoze": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_bullet_punch_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_confusion_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_cross_chop": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_cross_poison": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_cut_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dark_pulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dazzling_gleam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_default": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dig": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_disarming_voice": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_discharge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dragon_breath_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dragon_claw": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_dragon_pulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_draining_kiss": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_drill_peck": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_drill_run": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_earthquake": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ember_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_feint_attack_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_fire_blast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_fire_fang_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_fire_punch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_flame_burst": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_flame_charge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_flame_wheel": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_flamethrower": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_flash_cannon": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_frost_breath_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_fury_cutter_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_giga_drain": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_gunk_shot": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_heart_stamp": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_heat_wave": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_horn_attack": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_hurricane": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_hydro_pump": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_hydro_pump_blastoise": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_hyper_beam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_hyper_fang": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ice_beam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ice_punch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ice_shard_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_icy_wind": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_iron_head": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_karate_chop_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_leaf_blade": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_lick_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_low_kick_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_low_sweep": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_magnet_bomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_mega_drain": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_megahorn": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_metal_claw_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_moonblast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_mud_bomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_mud_shot_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_mud_slap_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_night_slash": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_ominous_wind": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_parabolic_charge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_peck_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_petal_blizzard": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_play_rough": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_poison_fang": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_poison_jab_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_poison_sting_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_pound_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_power_gem": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_power_whip": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_psybeam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_psychic": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_psycho_cut_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_psyshock": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_psystrike": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_quick_attack_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_razor_leaf_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_rest": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_rock_slide": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_rock_smash_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_rock_throw_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_rock_tomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_scald": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_scald_blastoise": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_scratch_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seed_bomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_ding": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_faint": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_fort_faint": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_intro": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_outro": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_seq_return": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_shadow_ball": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_shadow_claw_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_shadow_punch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_shadow_sneak": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_signal_beam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_sludge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_sludge_bomb": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_sludge_wave": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_solar_beam": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_spark_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_splash_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_steel_wing_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_stomp": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_stone_edge": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_struggle": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_submission": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_sucker_punch_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_swift": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_tackle_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_thunder": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_thunder_punch": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_thunder_shock_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_thunderbolt": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_twister": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_vice_grip": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_vine_whip_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_water_gun_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_water_gun_fast_blastoise": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_water_pulse": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_wing_attack_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_wrap": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_wrap_green": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_wrap_pink": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_x_scissor": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     },
     "sequence_zen_headbutt_fast": {
-      "en": {
-        "label": null
+      "label": {
+        "en": null
       }
     }
   }

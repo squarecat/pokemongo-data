@@ -27,8 +27,8 @@ const lang = GameAssets.Items.reduce((lang, item) => {
   try {
     lang[assetTypeKey] = Object.assign(lang[assetTypeKey], {
       [item.TemplateId.substring(1, item.TemplateId.length - 1)]: {
-        en: {
-          label: getEnName(assetType, item.TemplateId)
+        label: {
+          en: getEnName(assetType, item.TemplateId)
         }
       }
     });

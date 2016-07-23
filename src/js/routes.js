@@ -16,8 +16,10 @@ export default (
   <Route path="/" name="app" component={ App } >
     <IndexRedirect to="/pokedex" />
     <Route path="pokedex" component={ Pokedex }>
-      <Route path="/pokedex/:id" component={ PokemonPopover } />
+      <Route path="/pokedex/:id" component={ PokemonPopover }>
+      </Route>
     </Route>
+
     <Route path="movedex" component={ Movedex } expanded={ true }>
       <Route path="/movedex/:id" component={ MovePopover } />
     </Route>

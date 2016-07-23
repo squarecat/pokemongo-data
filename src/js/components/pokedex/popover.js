@@ -9,6 +9,12 @@ import { transformType } from "dex/typedex";
 export default React.createClass({
   render() {
     const poke = pokemon.find(poke => poke.dexNumber === this.props.params.id);
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'pokedex',
+      eventAction: 'open-pokemon',
+      eventValue: poke.name
+    });
     return <div className="pokemon-popover">
       <div className="pokemon-popover__sprite">
         <img
@@ -94,12 +100,12 @@ export default React.createClass({
           <ul>
             {
               getMoveSet(poke).map(move => (
-                <Move move={ move } />
+                <Move move={ move } stat={ "data.Power" } />
               ))
             }
             {
               getSpecialMoveSet(poke).map(move => (
-                <Move move={ move } />
+                <Move move={ move } stat={ "data.Power" } />
               ))
             }
           </ul>

@@ -49,10 +49,13 @@
   display: flex;
 }
 
-.pokemon-popover__basic-stats, .pokemon-popover__stats, .pokemon-popover__encounter {
-  padding: 15px 0;
+.pokemon-popover__basic-stats, .pokemon-popover__stats {
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
+.pokemon-popover__basic-stats, .pokemon-popover__stats, .pokemon-popover__encounter {
+  padding: 15px 0;
+}
+
 
 .pokemon-popover__basic-stat-value, .pokemon-popover__basic-stat-label {
   text-transform: capitalize;
@@ -76,6 +79,7 @@
 .pokemon-popover__evolutions {
   padding: 15px 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
 }
 
 .pokemon-popover__evolutions li {
@@ -91,14 +95,21 @@
     transform: translateY(-50%);
   }
 
-  &::before {
-    content: attr(data-candy);
+  &:not(:last-child)::before {
+    content: "x " attr(data-candy);
     position: absolute;
     font-size: 12px;
     right: 8px;
     top: 60%;
-    width: 25px;
+    width: 32px;
     transform: translateX(50%);
+    background: url(/assets/candy.png);
+    background-position: left top;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    padding-top: 5px;
+    top: 100%;
   }
 }
 

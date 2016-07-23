@@ -2,6 +2,7 @@ import React from "react";
 import _ from "lodash";
 import { Link } from 'react-router';
 
+import { sortableProps } from "dex/movedex";
 import { transformType } from "dex/typedex";
 
 export default (props) => (
@@ -20,12 +21,28 @@ export default (props) => (
           { energyUsage(props.move.data.EnergyDelta) }
         </div>
           <div className="move__power">
-            { props.move.data.Power || 0 }
+            { getStat(props.stat, props.move) }
           </div>
       </div>
     </Link>
   </li>
 );
+
+function getStat(stat, move) {
+  const value = _.get(move, stat)
+  if (!value) return 0;
+  if (_.isString(value)) {
+    return "";
+  }
+  if (_.isNumber(value)) {
+    const prop = sortableProps.find(sp => sp.value === stat);
+    return prop && prop.transform ? prop.transform(value) : value;
+  }
+}
+
+function round(num) {
+  return Math.round(num * 10 ) / 10;
+}
 
 function moveLink(move) {
   return `/movedex/${move.numericId}`;
@@ -37,7 +54,7 @@ function parseName(move) {
 
 function energyUsage(energy) {
   let num = Math.round(100 / Math.abs(energy));
-  return _.times(num).map(() => (
-    <span className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
+  return _.times(num).map((n, i) => (
+    <span key={i} className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
   ));
 }
