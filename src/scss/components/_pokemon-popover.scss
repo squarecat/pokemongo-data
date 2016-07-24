@@ -141,6 +141,7 @@ $border-color: #248795;
   padding: 5px;
   margin: 0 auto;
   border: 3px solid $border-color;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.58);
 
   @media (max-height: 650px) {
     width: 30px;
