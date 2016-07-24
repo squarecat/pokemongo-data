@@ -35,7 +35,6 @@ $border-color: #248795;
 }
 
 .pokemon-popover__name {
-  text-transform: capitalize;
   font-size: 24px;
 }
 
@@ -46,35 +45,8 @@ $border-color: #248795;
   margin-bottom: -40px;
 }
 
-.pokemon-popover__basic-stats ul, .pokemon-popover__stats ul, .pokemon-popover__encounter ul {
-  display: flex;
-}
-
-.pokemon-popover__basic-stats, .pokemon-popover__stats {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.pokemon-popover__basic-stats, .pokemon-popover__stats, .pokemon-popover__encounter {
-  padding: 15px 0;
-}
-
-
-.pokemon-popover__basic-stat-value, .pokemon-popover__basic-stat-label {
-  text-transform: capitalize;
-  display: block;
-}
-
-.pokemon-popover__basic-stat-label {
-  font-size: 12px;
-  margin-top: 5px;
-  color: rgba(0,0,0,0.5);
-}
-
-.pokemon-popover__basic-stat {
-  width: calc(100% / 3);
-  border-right: 1px solid rgba(0,0,0,0.1);
-  &:last-child {
-    border-right: 0;
-  }
+.u-stats-row.pokemon-popover__encounter {
+  border-bottom: none;
 }
 
 .pokemon-popover__evolutions {

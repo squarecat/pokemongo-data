@@ -10,6 +10,7 @@ import Movedex from './components/movedex';
 import MovePopover from './components/movedex/popover';
 
 import Items from './components/items';
+
 import Faq from './components/faq';
 
 export default (
@@ -22,5 +23,7 @@ export default (
     <Route path="movedex" component={ Movedex } expanded={ true }>
       <Route path="/movedex/:id" component={ MovePopover } />
     </Route>
+
+    <Route path="items" component={ Items } />
   </Route>
 );

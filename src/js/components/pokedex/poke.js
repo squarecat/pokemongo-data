@@ -13,7 +13,7 @@ export default (poke) => (
         <div className="pokemon__sprite">
           <img className="u-sprite" src= { poke.spriteUrl } />
         </div>
-        <div className="pokemon__name">
+        <div className="pokemon__name u-capitalize">
           <span className="u-title">
             { poke.name }
           </span>
