@@ -34,7 +34,8 @@ export const sortableProps = [{
   value: "data.Encounter.BaseFleeRate",
   label: "Flee Chance",
   transform: (val) => `${val * 100}%`,
-  icon: "flee.png"
+  icon: "flee.png",
+  sort: (val) => -val
 }, {
   value: "data.CandyToEvolve",
   label: "Candy To Evolve",

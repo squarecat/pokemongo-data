@@ -7,7 +7,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'build'),
-    publicPath: "/assets/",
+    publicPath: "/build/",
     filename: "bundle.js"
   },
   resolve: {
@@ -15,7 +15,12 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   module: {
-    loaders: [{
+    loaders: [
+    {
+      test: /\.png$/,
+      loader: "url-loader?limit=100000"
+    },
+    {
       test: /\.scss$/,
       loaders: ["style", "css", "sass"]
     }, {
@@ -32,5 +37,6 @@ module.exports = {
   ],
   presets: [
     'es2015', 'stage-0', 'react'
-  ]
+  ],
+  devtool: 'source-map'
 };

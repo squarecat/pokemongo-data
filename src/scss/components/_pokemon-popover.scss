@@ -1,3 +1,5 @@
+$border-color: #248795;
+
 .pokemon-popover {
   overflow: auto;
   height: 100%;
@@ -103,7 +105,7 @@
     top: 60%;
     width: 32px;
     transform: translateX(50%);
-    background: url(pokemongo-data/assets/candy.png);
+    background: url("../../assets/candy.png");
     background-position: left top;
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -123,13 +125,32 @@
 }
 
 .pokemon-popover__close {
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  bottom: 25px;
   right: 0px;
-  font-size: 25px;
-  padding: 20px 30px;
+  left: 0px;
   z-index: 99;
   cursor: pointer;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 auto;
+  border: 3px solid $border-color;
+
+  a {
+    height: 30px;
+    display: block;
+  }
+  img {
+    height: 30px;
+    transform: translateX(-1px);
+  }
 }
 
 .energy-usage {

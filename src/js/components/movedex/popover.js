@@ -14,14 +14,12 @@ export default React.createClass({
       hitType: 'event',
       eventCategory: 'movedex',
       eventAction: 'open-move',
-      eventValue: move.name
+      eventLabel: parseName(move),
+      eventValue: move.numericId
     });
     return (
       <div className="pokemon-popover">
         <div className="pokemon-popover__body pokemon-popover__body--move">
-          <div className="js-close pokemon-popover__close">
-            <Link to="/movedex">X</Link>
-          </div>
           <div className="pokemon-popover__name">
             <span className="u-title">
               { parseName(move) }
@@ -101,6 +99,12 @@ export default React.createClass({
             </span>
             { learnedBy(move) }
           </div>
+        </div>
+
+        <div className="js-close pokemon-popover__close">
+          <Link to="/movedex">
+            <img src="assets/close.png" />
+          </Link>
         </div>
       </div>
     )

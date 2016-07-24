@@ -13,7 +13,8 @@ export default React.createClass({
       hitType: 'event',
       eventCategory: 'pokedex',
       eventAction: 'open-pokemon',
-      eventValue: poke.name
+      eventLabel: poke.name,
+      eventValue: poke.dexNumber
     });
     return <div className="pokemon-popover">
       <div className="pokemon-popover__sprite">
@@ -24,9 +25,6 @@ export default React.createClass({
       </div>
 
       <div className="pokemon-popover__body">
-        <div className="js-close pokemon-popover__close">
-          <Link to="/pokedex">X</Link>
-        </div>
         <div className="pokemon-popover__name">
           <span className="u-title">{ poke.name }</span>
         </div>
@@ -118,7 +116,7 @@ export default React.createClass({
               <span className="pokemon-popover__basic-stat-label">Base Capture rate</span>
             </li>
             <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">{ Math.round(poke.data.Encounter.BaseFleeRate * 100) }</span>
+              <span className="pokemon-popover__basic-stat-value">{ Math.round(poke.data.Encounter.BaseFleeRate * 100) }%</span>
               <span className="pokemon-popover__basic-stat-label">Flee chance</span>
             </li>
             <li className="pokemon-popover__basic-stat">
@@ -127,6 +125,11 @@ export default React.createClass({
             </li>
           </ul>
         </div>
+      </div>
+      <div className="js-close pokemon-popover__close">
+        <Link to="/pokedex">
+          <img src="assets/close.png" />
+        </Link>
       </div>
     </div>
   }
