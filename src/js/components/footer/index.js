@@ -21,8 +21,5 @@ export default () => (
         </a>
       </span>
     </div>
-    <div className="referral">
-      <a href="https://mixpanel.com/f/partner" rel="nofollow"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" /></a>
-    </div>
   </div>
 );

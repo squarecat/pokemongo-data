@@ -22,3 +22,7 @@ p {
   text-align: center;
   padding: 0 2rem;
 }
+
+.app[data-has-child-overlay=true] {
+  overflow: hidden;
+}

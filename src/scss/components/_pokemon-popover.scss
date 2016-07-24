@@ -1,3 +1,5 @@
+$border-color: #248795;
+
 .pokemon-popover {
   overflow: auto;
   height: 100%;
@@ -16,10 +18,9 @@
   padding-top: 40px;
   background: white;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin: 0 auto 115px auto;
   width: 85%;
   max-width: 500px;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -103,7 +104,7 @@
     top: 60%;
     width: 32px;
     transform: translateX(50%);
-    background: url(/assets/candy.png);
+    background: url("../../assets/candy.png");
     background-position: left top;
     background-size: 25px 25px;
     background-repeat: no-repeat;
@@ -123,13 +124,39 @@
 }
 
 .pokemon-popover__close {
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  bottom: 25px;
   right: 0px;
-  font-size: 25px;
-  padding: 20px 30px;
+  left: 0px;
   z-index: 99;
   cursor: pointer;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 auto;
+  border: 3px solid $border-color;
+
+  @media (max-height: 650px) {
+    width: 30px;
+    height: 30px;
+  }
+
+  a {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  img {
+    height: 60%;
+    margin-top: 50%;
+    transform: translate(-1px, -50%);
+  }
 }
 
 .energy-usage {

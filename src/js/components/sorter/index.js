@@ -9,6 +9,7 @@ export default React.createClass({
   },
 
   expand() {
+    document.getElementById("body").style.overflow = "hidden";
     if (this.state.isExpanded) {
       return this.close()
     }
@@ -19,6 +20,7 @@ export default React.createClass({
   },
 
   close() {
+    document.getElementById("body").style.overflow = "auto";
     this.props.onCloseSort();
     this.setState({
       isExpanded: false
@@ -31,7 +33,7 @@ export default React.createClass({
       hitType: 'event',
       eventCategory: 'sorter',
       eventAction: 'change-sort',
-      eventValue: filter.value
+      eventLabel: 'filter.value'
     });
     this.close();
   },
@@ -55,7 +57,7 @@ export default React.createClass({
                       </span>
                     </div>
                     <div className="filters__label__icon">
-                      <img src={ `/assets/${filter.icon}` } />
+                      <img src={ `assets/${filter.icon}` } />
                     </div>
                   </a>
                 </li>
@@ -69,7 +71,7 @@ export default React.createClass({
                 </span>
               </div>
               <div className="filters__label__icon">
-                <img src={ `/assets/${current.icon}` } />
+                <img src={ `assets/${current.icon}` } />
               </div>
             </a>
           </li>

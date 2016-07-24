@@ -3,13 +3,11 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    // 'webpack-dev-server/client?http://127.0.0.1:8080/',
-    // 'webpack/hot/only-dev-server',
     './src/js/index.js'
   ],
   output: {
     path: path.join(__dirname, 'build'),
-    publicPath: "/assets/",
+    publicPath: "/build/",
     filename: "bundle.js"
   },
   resolve: {
@@ -18,6 +16,9 @@ module.exports = {
   },
   module: {
     loaders: [{
+      test: /\.png$/,
+      loader: "url-loader?limit=100000"
+    },{
       test: /\.scss$/,
       loaders: ["style", "css", "sass"]
     }, {
@@ -30,7 +31,15 @@ module.exports = {
     }]
   },
   plugins: [
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env':{
+        'NODE_ENV': JSON.stringify('production')
+      }
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: { warnings: true }
+    })
   ],
   presets: [
     'es2015', 'stage-0', 'react'
