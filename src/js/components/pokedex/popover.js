@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router';
 
-import Move from "../movedex/move";
-import pokemon, { getEvoChain, getSpriteUrl } from "dex/pokedex";
-import { getMoveSet, getSpecialMoveSet } from "dex/movedex";
-import { transformType } from "dex/typedex";
+import Move from '../movedex/move';
+import pokemon, { getEvoChain, getSpriteUrl } from 'dex/pokedex';
+import { getMoveSet, getSpecialMoveSet } from 'dex/movedex';
+import { transformType } from 'dex/typedex';
 
 export default React.createClass({
   render() {
@@ -131,7 +131,7 @@ export default React.createClass({
           <img src="assets/close.png" />
         </Link>
       </div>
-    </div>
+    </div>;
   }
 });
 
@@ -140,10 +140,10 @@ function type(poke) {
 }
 
 function energyUsage(energy) {
-  let out = "";
+  let out = '';
   let num = Math.round(100 / Math.abs(energy));
-  while(num > 0) {
-    out = out + `<span class="energy-usage ${energy > 0 ? "energy-usage--replenish" : ""}"></span>`;
+  while (num > 0) {
+    out = out + `<span class="energy-usage ${energy > 0 ? 'energy-usage--replenish' : ''}"></span>`;
     num--;
   }
   return out;

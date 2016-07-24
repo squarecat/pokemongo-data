@@ -1,9 +1,9 @@
-import React from "react";
-import _ from "lodash";
+import React from 'react';
+import _ from 'lodash';
 import { Link } from 'react-router';
 
-import { sortableProps } from "dex/movedex";
-import { transformType } from "dex/typedex";
+import { sortableProps } from 'dex/movedex';
+import { transformType } from 'dex/typedex';
 
 export default (props) => (
   <li key={ props.move.id }>
@@ -29,10 +29,10 @@ export default (props) => (
 );
 
 function getStat(stat, move) {
-  const value = _.get(move, stat)
+  const value = _.get(move, stat);
   if (!value) return 0;
   if (_.isString(value)) {
-    return "";
+    return '';
   }
   if (_.isNumber(value)) {
     const prop = sortableProps.find(sp => sp.value === stat);
@@ -41,7 +41,7 @@ function getStat(stat, move) {
 }
 
 function round(num) {
-  return Math.round(num * 10 ) / 10;
+  return Math.round(num * 10) / 10;
 }
 
 function moveLink(move) {
@@ -49,12 +49,12 @@ function moveLink(move) {
 }
 
 function parseName(move) {
-  return move.data.VfxName.split("_").join(" ").substring(1, move.data.VfxName.length - 1).replace("fast", "")
+  return move.data.VfxName.split('_').join(' ').substring(1, move.data.VfxName.length - 1).replace('fast', '');
 }
 
 function energyUsage(energy) {
-  let num = Math.round(100 / Math.abs(energy));
+  const num = Math.round(100 / Math.abs(energy));
   return _.times(num).map((n, i) => (
-    <span key={i} className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
+    <span key={i} className={ 'energy-usage ' + (energy > 0 ? 'energy-usage--replenish' : '') }></span>
   ));
 }

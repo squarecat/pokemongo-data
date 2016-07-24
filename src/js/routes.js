@@ -9,9 +9,6 @@ import PokemonPopover from './components/pokedex/popover';
 import Movedex from './components/movedex';
 import MovePopover from './components/movedex/popover';
 
-import Items from './components/items';
-import Faq from './components/faq';
-
 export default (
   <Route path="/" name="app" component={ App } >
     <IndexRedirect to="/pokedex" />

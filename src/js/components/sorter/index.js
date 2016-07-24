@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 export default React.createClass({
   componentWillMount() {
@@ -9,9 +8,9 @@ export default React.createClass({
   },
 
   expand() {
-    document.getElementById("body").style.overflow = "hidden";
+    document.getElementById('body').style.overflow = 'hidden';
     if (this.state.isExpanded) {
-      return this.close()
+      return this.close();
     }
     this.props.onOpenSort();
     this.setState({
@@ -20,7 +19,7 @@ export default React.createClass({
   },
 
   close() {
-    document.getElementById("body").style.overflow = "auto";
+    document.getElementById('body').style.overflow = 'auto';
     this.props.onCloseSort();
     this.setState({
       isExpanded: false
@@ -29,7 +28,7 @@ export default React.createClass({
 
   onClick(filter) {
     this.props.onSortChange(filter.value);
-    ga('send', {
+    window.ga('send', {
       hitType: 'event',
       eventCategory: 'sorter',
       eventAction: 'change-sort',
@@ -39,12 +38,12 @@ export default React.createClass({
   },
 
   render() {
-    const { filterList, onSortChange, currentSort } = this.props;
+    const { filterList, currentSort } = this.props;
     const { isExpanded } = this.state;
     const current = filterList.find(f => currentSort === f.value);
 
     return (
-      <div className={ `filters ${isExpanded ? "filters--expanded" : ""}` }>
+      <div className={ `filters ${isExpanded ? 'filters--expanded' : ''}` }>
         <ul className="filters__list">
           {
             filterList.filter(f => currentSort !== f.value)
@@ -77,6 +76,6 @@ export default React.createClass({
           </li>
         </ul>
       </div>
-    )
+    );
   }
 });

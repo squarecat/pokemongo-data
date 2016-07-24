@@ -1,5 +1,5 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: [
@@ -7,8 +7,8 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'build'),
-    publicPath: "/build/",
-    filename: "bundle.js"
+    publicPath: '/build/',
+    filename: 'bundle.js'
   },
   resolve: {
     modulesDirectories: ['node_modules', 'src/js'],
@@ -17,10 +17,10 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.png$/,
-      loader: "url-loader?limit=100000"
+      loader: 'url-loader?limit=100000'
     }, {
       test: /\.scss$/,
-      loaders: ["style", "css", "sass"]
+      loaders: ['style', 'css', 'sass']
     }, {
       test: /\.js$/,
       exclude: /(node_modules|bower_components)/,
@@ -28,6 +28,10 @@ module.exports = {
       query: {
         presets: ['es2015', 'react']
       }
+    }, {
+      test: /\.js$/,
+      loader: 'eslint-loader',
+      exclude: /(node_modules|bower_components)/
     }]
   },
   plugins: [

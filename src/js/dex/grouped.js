@@ -1,16 +1,16 @@
-import PokemonAssets from "./store";
+import PokemonAssets from './store';
 
 const groupedAssets = _.chain(PokemonAssets.Items)
   .map(item => {
     const keys = Object.keys(item);
-    const itemType = keys.find(k => k !== "TemplateId");
+    const itemType = keys.find(k => k !== 'TemplateId');
     return {
       type: itemType,
       id: item.TemplateId,
       data: item[itemType]
     };
   })
-  .groupBy("type")
+  .groupBy('type')
   .value();
 
 console.log(groupedAssets);

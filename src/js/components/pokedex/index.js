@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import Sorter from "components/sorter";
-import PokeList from "./poke-list";
-import pokemonList, { sortableProps, sortPokemonOnValue } from "dex/pokedex";
+import Sorter from 'components/sorter';
+import PokeList from './poke-list';
+import pokemonList, { sortableProps, sortPokemonOnValue } from 'dex/pokedex';
 
 
 export default React.createClass({
@@ -30,7 +30,7 @@ export default React.createClass({
           />
         </div>
       </div>
-    )
+    );
   },
   onSortChange(sortValue) {
     window.app.defaultPokedexSort = sortValue;

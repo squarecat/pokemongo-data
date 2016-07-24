@@ -1,11 +1,11 @@
-import React from "react";
-import _ from "lodash";
+import React from 'react';
+import _ from 'lodash';
 
-import MoveList from "./move-list";
-import unsortedMoves, { sortableProps, sortMovesOnValue } from "dex/movedex";
-import Sorter from "components/sorter";
+import MoveList from './move-list';
+import { sortableProps, sortMovesOnValue } from 'dex/movedex';
+import Sorter from 'components/sorter';
 
-import lang from "json!../../../../assets/lang.json";
+import lang from 'json!../../../../assets/lang.json';
 
 export default React.createClass({
   componentWillMount() {
@@ -42,7 +42,7 @@ export default React.createClass({
             onCloseSort={ () => this.onCloseSort() }
             onOpenSort={ () => this.onOpenSort() }
             filterList={ sortableProps }
-            onSortChange={ (sortValue) => this.onSortChange(sortValue) }
+            onSortChange={ (newSortValue) => this.onSortChange(newSortValue) }
             currentSort={ sortValue }
           />
         </div>
@@ -70,8 +70,8 @@ export default React.createClass({
       stat: sortValue
     });
   }
-})
+});
 
 function groupMoves(moves) {
-  return _.groupBy(moves, m => m.id.match("FAST") ? "fast" : "special");
+  return _.groupBy(moves, m => (m.id.match('FAST') ? 'fast' : 'special'));
 }

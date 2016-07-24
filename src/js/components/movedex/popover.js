@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router';
 
-import pokemon, { getSpriteUrl } from "dex/pokedex";
-import moves, { doesLearn } from "dex/movedex";
-import { transformType } from "dex/typedex";
+import pokemon, { getSpriteUrl } from 'dex/pokedex';
+import moves, { doesLearn } from 'dex/movedex';
+import { transformType } from 'dex/typedex';
 
-import Move from "./move";
+import Move from './move';
 
 export default React.createClass({
   render() {
-    document.getElementById("body").style.overflow = "hidden";
+    document.getElementById('body').style.overflow = 'hidden';
     const move = moves.find(m => m.numericId === parseInt(this.props.params.id, 10));
     ga('send', {
       hitType: 'event',
@@ -78,7 +78,7 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { `${round(move.dps)} (${ round(move.dps * 1.25)})` }
+                { `${round(move.dps)} (${round(move.dps * 1.25)})` }
               </span>
               <span className="u-stat-label">
                 DPS (STAB)
@@ -90,7 +90,7 @@ export default React.createClass({
               Special Effects
             </span>
             <p className="move__special-effects__text">
-              { specialEffects(move) || "None" }
+              { specialEffects(move) || 'None' }
             </p>
           </div>
 
@@ -108,12 +108,12 @@ export default React.createClass({
           </Link>
         </div>
       </div>
-    )
+    );
   }
 });
 
 function learnedBy(move) {
-  const learnedList = pokemon.filter(poke => doesLearn(poke, move))
+  const learnedList = pokemon.filter(poke => doesLearn(poke, move));
   if (learnedList.length) {
     return (
       <ul className="u-pokemon-icon-list u-horizonal-list">
@@ -140,23 +140,23 @@ function learnedBy(move) {
 }
 
 function round(num) {
-  return Math.round(num * 10 ) / 10;
+  return Math.round(num * 10) / 10;
 }
 function specialEffects(move) {
   if (move.data.HealScalar) {
     return (
       `Replenishes HP by ${move.data.HealScalar * 100}%`
-    )
+    );
   }
 }
 
 function energyUsage(energy) {
-  let num = Math.round(100 / Math.abs(energy));
+  const num = Math.round(100 / Math.abs(energy));
   return _.times(num).map((n, i) => (
-    <span key={i} className={ "energy-usage " + (energy > 0 ? "energy-usage--replenish" : "") }></span>
+    <span key={i} className={ 'energy-usage ' + (energy > 0 ? 'energy-usage--replenish' : '') }></span>
   ));
 }
 
 function parseName(move) {
-  return move.data.VfxName.split("_").join(" ").substring(1, move.data.VfxName.length - 1).replace("fast", "")
+  return move.data.VfxName.split('_').join(' ').substring(1, move.data.VfxName.length - 1).replace('fast', '');
 }
