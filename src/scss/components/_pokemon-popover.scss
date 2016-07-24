@@ -18,10 +18,9 @@ $border-color: #248795;
   padding-top: 40px;
   background: white;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin: 0 auto 115px auto;
   width: 85%;
   max-width: 500px;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -143,13 +142,20 @@ $border-color: #248795;
   margin: 0 auto;
   border: 3px solid $border-color;
 
-  a {
+  @media (max-height: 650px) {
+    width: 30px;
     height: 30px;
+  }
+
+  a {
+    height: 100%;
+    width: 100%;
     display: block;
   }
   img {
-    height: 30px;
-    transform: translateX(-1px);
+    height: 60%;
+    margin-top: 50%;
+    transform: translate(-1px, -50%);
   }
 }
 

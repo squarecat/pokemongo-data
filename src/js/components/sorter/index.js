@@ -9,6 +9,7 @@ export default React.createClass({
   },
 
   expand() {
+    document.getElementById("body").style.overflow = "hidden";
     if (this.state.isExpanded) {
       return this.close()
     }
@@ -19,6 +20,7 @@ export default React.createClass({
   },
 
   close() {
+    document.getElementById("body").style.overflow = "auto";
     this.props.onCloseSort();
     this.setState({
       isExpanded: false

@@ -9,6 +9,7 @@ import Move from "./move";
 
 export default React.createClass({
   render() {
+    document.getElementById("body").style.overflow = "hidden";
     const move = moves.find(m => m.numericId === parseInt(this.props.params.id, 10));
     ga('send', {
       hitType: 'event',

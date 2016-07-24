@@ -14,6 +14,11 @@
   list-style: none;
   float: left;
   cursor: pointer;
+
+  @media (max-width: 650px) {
+    width: 100px;
+    height: 120px;
+  }
 }
 
 .pokemon {
