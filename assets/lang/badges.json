@@ -1,0 +1,150 @@
+{
+  "PAGE_DESCRIPTION": {
+    "en": ""
+  },
+  "BADGE_BATTLE_ATTACK_WON": {
+    "name": {
+      "en": "battle attack won"
+    }
+  },
+  "BADGE_BATTLE_TRAINING_WON": {
+    "name": {
+      "en": "battle training won"
+    }
+  },
+  "BADGE_BIG_MAGIKARP": {
+    "name": {
+      "en": "big magikarp"
+    }
+  },
+  "BADGE_CAPTURE_TOTAL": {
+    "name": {
+      "en": "capture total"
+    }
+  },
+  "BADGE_EVOLVED_TOTAL": {
+    "name": {
+      "en": "evolved total"
+    }
+  },
+  "BADGE_HATCHED_TOTAL": {
+    "name": {
+      "en": "hatched total"
+    }
+  },
+  "BADGE_PIKACHU": {
+    "name": {
+      "en": "pikachu"
+    }
+  },
+  "BADGE_POKEDEX_ENTRIES": {
+    "name": {
+      "en": "pokedex entries"
+    }
+  },
+  "BADGE_POKESTOPS_VISITED": {
+    "name": {
+      "en": "pokestops visited"
+    }
+  },
+  "BADGE_SMALL_RATTATA": {
+    "name": {
+      "en": "small rattata"
+    }
+  },
+  "BADGE_TRAVEL_KM": {
+    "name": {
+      "en": "travel km"
+    }
+  },
+  "BADGE_TYPE_BUG": {
+    "name": {
+      "en": "type bug"
+    }
+  },
+  "BADGE_TYPE_DARK": {
+    "name": {
+      "en": "type dark"
+    }
+  },
+  "BADGE_TYPE_DRAGON": {
+    "name": {
+      "en": "type dragon"
+    }
+  },
+  "BADGE_TYPE_ELECTRIC": {
+    "name": {
+      "en": "type electric"
+    }
+  },
+  "BADGE_TYPE_FAIRY": {
+    "name": {
+      "en": "type fairy"
+    }
+  },
+  "BADGE_TYPE_FIGHTING": {
+    "name": {
+      "en": "type fighting"
+    }
+  },
+  "BADGE_TYPE_FIRE": {
+    "name": {
+      "en": "type fire"
+    }
+  },
+  "BADGE_TYPE_FLYING": {
+    "name": {
+      "en": "type flying"
+    }
+  },
+  "BADGE_TYPE_GHOST": {
+    "name": {
+      "en": "type ghost"
+    }
+  },
+  "BADGE_TYPE_GRASS": {
+    "name": {
+      "en": "type grass"
+    }
+  },
+  "BADGE_TYPE_GROUND": {
+    "name": {
+      "en": "type ground"
+    }
+  },
+  "BADGE_TYPE_ICE": {
+    "name": {
+      "en": "type ice"
+    }
+  },
+  "BADGE_TYPE_NORMAL": {
+    "name": {
+      "en": "type normal"
+    }
+  },
+  "BADGE_TYPE_POISON": {
+    "name": {
+      "en": "type poison"
+    }
+  },
+  "BADGE_TYPE_PSYCHIC": {
+    "name": {
+      "en": "type psychic"
+    }
+  },
+  "BADGE_TYPE_ROCK": {
+    "name": {
+      "en": "type rock"
+    }
+  },
+  "BADGE_TYPE_STEEL": {
+    "name": {
+      "en": "type steel"
+    }
+  },
+  "BADGE_TYPE_WATER": {
+    "name": {
+      "en": "type water"
+    }
+  }
+}

@@ -1,0 +1,757 @@
+{
+  "V0001_POKEMON_BULBASAUR": {
+    "name": {
+      "en": "bulbasaur"
+    }
+  },
+  "V0002_POKEMON_IVYSAUR": {
+    "name": {
+      "en": "ivysaur"
+    }
+  },
+  "V0003_POKEMON_VENUSAUR": {
+    "name": {
+      "en": "venusaur"
+    }
+  },
+  "V0004_POKEMON_CHARMANDER": {
+    "name": {
+      "en": "charmander"
+    }
+  },
+  "V0005_POKEMON_CHARMELEON": {
+    "name": {
+      "en": "charmeleon"
+    }
+  },
+  "V0006_POKEMON_CHARIZARD": {
+    "name": {
+      "en": "charizard"
+    }
+  },
+  "V0007_POKEMON_SQUIRTLE": {
+    "name": {
+      "en": "squirtle"
+    }
+  },
+  "V0008_POKEMON_WARTORTLE": {
+    "name": {
+      "en": "wartortle"
+    }
+  },
+  "V0009_POKEMON_BLASTOISE": {
+    "name": {
+      "en": "blastoise"
+    }
+  },
+  "V0010_POKEMON_CATERPIE": {
+    "name": {
+      "en": "caterpie"
+    }
+  },
+  "V0011_POKEMON_METAPOD": {
+    "name": {
+      "en": "metapod"
+    }
+  },
+  "V0012_POKEMON_BUTTERFREE": {
+    "name": {
+      "en": "butterfree"
+    }
+  },
+  "V0013_POKEMON_WEEDLE": {
+    "name": {
+      "en": "weedle"
+    }
+  },
+  "V0014_POKEMON_KAKUNA": {
+    "name": {
+      "en": "kakuna"
+    }
+  },
+  "V0015_POKEMON_BEEDRILL": {
+    "name": {
+      "en": "beedrill"
+    }
+  },
+  "V0016_POKEMON_PIDGEY": {
+    "name": {
+      "en": "pidgey"
+    }
+  },
+  "V0017_POKEMON_PIDGEOTTO": {
+    "name": {
+      "en": "pidgeotto"
+    }
+  },
+  "V0018_POKEMON_PIDGEOT": {
+    "name": {
+      "en": "pidgeot"
+    }
+  },
+  "V0019_POKEMON_RATTATA": {
+    "name": {
+      "en": "rattata"
+    }
+  },
+  "V0020_POKEMON_RATICATE": {
+    "name": {
+      "en": "raticate"
+    }
+  },
+  "V0021_POKEMON_SPEAROW": {
+    "name": {
+      "en": "spearow"
+    }
+  },
+  "V0022_POKEMON_FEAROW": {
+    "name": {
+      "en": "fearow"
+    }
+  },
+  "V0023_POKEMON_EKANS": {
+    "name": {
+      "en": "ekans"
+    }
+  },
+  "V0024_POKEMON_ARBOK": {
+    "name": {
+      "en": "arbok"
+    }
+  },
+  "V0025_POKEMON_PIKACHU": {
+    "name": {
+      "en": "pikachu"
+    }
+  },
+  "V0026_POKEMON_RAICHU": {
+    "name": {
+      "en": "raichu"
+    }
+  },
+  "V0027_POKEMON_SANDSHREW": {
+    "name": {
+      "en": "sandshrew"
+    }
+  },
+  "V0028_POKEMON_SANDSLASH": {
+    "name": {
+      "en": "sandslash"
+    }
+  },
+  "V0029_POKEMON_NIDORAN": {
+    "name": {
+      "en": "nidoran"
+    }
+  },
+  "V0030_POKEMON_NIDORINA": {
+    "name": {
+      "en": "nidorina"
+    }
+  },
+  "V0031_POKEMON_NIDOQUEEN": {
+    "name": {
+      "en": "nidoqueen"
+    }
+  },
+  "V0032_POKEMON_NIDORAN": {
+    "name": {
+      "en": "nidoran"
+    }
+  },
+  "V0033_POKEMON_NIDORINO": {
+    "name": {
+      "en": "nidorino"
+    }
+  },
+  "V0034_POKEMON_NIDOKING": {
+    "name": {
+      "en": "nidoking"
+    }
+  },
+  "V0035_POKEMON_CLEFAIRY": {
+    "name": {
+      "en": "clefairy"
+    }
+  },
+  "V0036_POKEMON_CLEFABLE": {
+    "name": {
+      "en": "clefable"
+    }
+  },
+  "V0037_POKEMON_VULPIX": {
+    "name": {
+      "en": "vulpix"
+    }
+  },
+  "V0038_POKEMON_NINETALES": {
+    "name": {
+      "en": "ninetales"
+    }
+  },
+  "V0039_POKEMON_JIGGLYPUFF": {
+    "name": {
+      "en": "jigglypuff"
+    }
+  },
+  "V0040_POKEMON_WIGGLYTUFF": {
+    "name": {
+      "en": "wigglytuff"
+    }
+  },
+  "V0041_POKEMON_ZUBAT": {
+    "name": {
+      "en": "zubat"
+    }
+  },
+  "V0042_POKEMON_GOLBAT": {
+    "name": {
+      "en": "golbat"
+    }
+  },
+  "V0043_POKEMON_ODDISH": {
+    "name": {
+      "en": "oddish"
+    }
+  },
+  "V0044_POKEMON_GLOOM": {
+    "name": {
+      "en": "gloom"
+    }
+  },
+  "V0045_POKEMON_VILEPLUME": {
+    "name": {
+      "en": "vileplume"
+    }
+  },
+  "V0046_POKEMON_PARAS": {
+    "name": {
+      "en": "paras"
+    }
+  },
+  "V0047_POKEMON_PARASECT": {
+    "name": {
+      "en": "parasect"
+    }
+  },
+  "V0048_POKEMON_VENONAT": {
+    "name": {
+      "en": "venonat"
+    }
+  },
+  "V0049_POKEMON_VENOMOTH": {
+    "name": {
+      "en": "venomoth"
+    }
+  },
+  "V0050_POKEMON_DIGLETT": {
+    "name": {
+      "en": "diglett"
+    }
+  },
+  "V0051_POKEMON_DUGTRIO": {
+    "name": {
+      "en": "dugtrio"
+    }
+  },
+  "V0052_POKEMON_MEOWTH": {
+    "name": {
+      "en": "meowth"
+    }
+  },
+  "V0053_POKEMON_PERSIAN": {
+    "name": {
+      "en": "persian"
+    }
+  },
+  "V0054_POKEMON_PSYDUCK": {
+    "name": {
+      "en": "psyduck"
+    }
+  },
+  "V0055_POKEMON_GOLDUCK": {
+    "name": {
+      "en": "golduck"
+    }
+  },
+  "V0056_POKEMON_MANKEY": {
+    "name": {
+      "en": "mankey"
+    }
+  },
+  "V0057_POKEMON_PRIMEAPE": {
+    "name": {
+      "en": "primeape"
+    }
+  },
+  "V0058_POKEMON_GROWLITHE": {
+    "name": {
+      "en": "growlithe"
+    }
+  },
+  "V0059_POKEMON_ARCANINE": {
+    "name": {
+      "en": "arcanine"
+    }
+  },
+  "V0060_POKEMON_POLIWAG": {
+    "name": {
+      "en": "poliwag"
+    }
+  },
+  "V0061_POKEMON_POLIWHIRL": {
+    "name": {
+      "en": "poliwhirl"
+    }
+  },
+  "V0062_POKEMON_POLIWRATH": {
+    "name": {
+      "en": "poliwrath"
+    }
+  },
+  "V0063_POKEMON_ABRA": {
+    "name": {
+      "en": "abra"
+    }
+  },
+  "V0064_POKEMON_KADABRA": {
+    "name": {
+      "en": "kadabra"
+    }
+  },
+  "V0065_POKEMON_ALAKAZAM": {
+    "name": {
+      "en": "alakazam"
+    }
+  },
+  "V0066_POKEMON_MACHOP": {
+    "name": {
+      "en": "machop"
+    }
+  },
+  "V0067_POKEMON_MACHOKE": {
+    "name": {
+      "en": "machoke"
+    }
+  },
+  "V0068_POKEMON_MACHAMP": {
+    "name": {
+      "en": "machamp"
+    }
+  },
+  "V0069_POKEMON_BELLSPROUT": {
+    "name": {
+      "en": "bellsprout"
+    }
+  },
+  "V0070_POKEMON_WEEPINBELL": {
+    "name": {
+      "en": "weepinbell"
+    }
+  },
+  "V0071_POKEMON_VICTREEBEL": {
+    "name": {
+      "en": "victreebel"
+    }
+  },
+  "V0072_POKEMON_TENTACOOL": {
+    "name": {
+      "en": "tentacool"
+    }
+  },
+  "V0073_POKEMON_TENTACRUEL": {
+    "name": {
+      "en": "tentacruel"
+    }
+  },
+  "V0074_POKEMON_GEODUDE": {
+    "name": {
+      "en": "geodude"
+    }
+  },
+  "V0075_POKEMON_GRAVELER": {
+    "name": {
+      "en": "graveler"
+    }
+  },
+  "V0076_POKEMON_GOLEM": {
+    "name": {
+      "en": "golem"
+    }
+  },
+  "V0077_POKEMON_PONYTA": {
+    "name": {
+      "en": "ponyta"
+    }
+  },
+  "V0078_POKEMON_RAPIDASH": {
+    "name": {
+      "en": "rapidash"
+    }
+  },
+  "V0079_POKEMON_SLOWPOKE": {
+    "name": {
+      "en": "slowpoke"
+    }
+  },
+  "V0080_POKEMON_SLOWBRO": {
+    "name": {
+      "en": "slowbro"
+    }
+  },
+  "V0081_POKEMON_MAGNEMITE": {
+    "name": {
+      "en": "magnemite"
+    }
+  },
+  "V0082_POKEMON_MAGNETON": {
+    "name": {
+      "en": "magneton"
+    }
+  },
+  "V0083_POKEMON_FARFETCHD": {
+    "name": {
+      "en": "farfetchd"
+    }
+  },
+  "V0084_POKEMON_DODUO": {
+    "name": {
+      "en": "doduo"
+    }
+  },
+  "V0085_POKEMON_DODRIO": {
+    "name": {
+      "en": "dodrio"
+    }
+  },
+  "V0086_POKEMON_SEEL": {
+    "name": {
+      "en": "seel"
+    }
+  },
+  "V0087_POKEMON_DEWGONG": {
+    "name": {
+      "en": "dewgong"
+    }
+  },
+  "V0088_POKEMON_GRIMER": {
+    "name": {
+      "en": "grimer"
+    }
+  },
+  "V0089_POKEMON_MUK": {
+    "name": {
+      "en": "muk"
+    }
+  },
+  "V0090_POKEMON_SHELLDER": {
+    "name": {
+      "en": "shellder"
+    }
+  },
+  "V0091_POKEMON_CLOYSTER": {
+    "name": {
+      "en": "cloyster"
+    }
+  },
+  "V0092_POKEMON_GASTLY": {
+    "name": {
+      "en": "gastly"
+    }
+  },
+  "V0093_POKEMON_HAUNTER": {
+    "name": {
+      "en": "haunter"
+    }
+  },
+  "V0094_POKEMON_GENGAR": {
+    "name": {
+      "en": "gengar"
+    }
+  },
+  "V0095_POKEMON_ONIX": {
+    "name": {
+      "en": "onix"
+    }
+  },
+  "V0096_POKEMON_DROWZEE": {
+    "name": {
+      "en": "drowzee"
+    }
+  },
+  "V0097_POKEMON_HYPNO": {
+    "name": {
+      "en": "hypno"
+    }
+  },
+  "V0098_POKEMON_KRABBY": {
+    "name": {
+      "en": "krabby"
+    }
+  },
+  "V0099_POKEMON_KINGLER": {
+    "name": {
+      "en": "kingler"
+    }
+  },
+  "V0100_POKEMON_VOLTORB": {
+    "name": {
+      "en": "voltorb"
+    }
+  },
+  "V0101_POKEMON_ELECTRODE": {
+    "name": {
+      "en": "electrode"
+    }
+  },
+  "V0102_POKEMON_EXEGGCUTE": {
+    "name": {
+      "en": "exeggcute"
+    }
+  },
+  "V0103_POKEMON_EXEGGUTOR": {
+    "name": {
+      "en": "exeggutor"
+    }
+  },
+  "V0104_POKEMON_CUBONE": {
+    "name": {
+      "en": "cubone"
+    }
+  },
+  "V0105_POKEMON_MAROWAK": {
+    "name": {
+      "en": "marowak"
+    }
+  },
+  "V0106_POKEMON_HITMONLEE": {
+    "name": {
+      "en": "hitmonlee"
+    }
+  },
+  "V0107_POKEMON_HITMONCHAN": {
+    "name": {
+      "en": "hitmonchan"
+    }
+  },
+  "V0108_POKEMON_LICKITUNG": {
+    "name": {
+      "en": "lickitung"
+    }
+  },
+  "V0109_POKEMON_KOFFING": {
+    "name": {
+      "en": "koffing"
+    }
+  },
+  "V0110_POKEMON_WEEZING": {
+    "name": {
+      "en": "weezing"
+    }
+  },
+  "V0111_POKEMON_RHYHORN": {
+    "name": {
+      "en": "rhyhorn"
+    }
+  },
+  "V0112_POKEMON_RHYDON": {
+    "name": {
+      "en": "rhydon"
+    }
+  },
+  "V0113_POKEMON_CHANSEY": {
+    "name": {
+      "en": "chansey"
+    }
+  },
+  "V0114_POKEMON_TANGELA": {
+    "name": {
+      "en": "tangela"
+    }
+  },
+  "V0115_POKEMON_KANGASKHAN": {
+    "name": {
+      "en": "kangaskhan"
+    }
+  },
+  "V0116_POKEMON_HORSEA": {
+    "name": {
+      "en": "horsea"
+    }
+  },
+  "V0117_POKEMON_SEADRA": {
+    "name": {
+      "en": "seadra"
+    }
+  },
+  "V0118_POKEMON_GOLDEEN": {
+    "name": {
+      "en": "goldeen"
+    }
+  },
+  "V0119_POKEMON_SEAKING": {
+    "name": {
+      "en": "seaking"
+    }
+  },
+  "V0120_POKEMON_STARYU": {
+    "name": {
+      "en": "staryu"
+    }
+  },
+  "V0121_POKEMON_STARMIE": {
+    "name": {
+      "en": "starmie"
+    }
+  },
+  "V0122_POKEMON_MR_MIME": {
+    "name": {
+      "en": "mr mime"
+    }
+  },
+  "V0123_POKEMON_SCYTHER": {
+    "name": {
+      "en": "scyther"
+    }
+  },
+  "V0124_POKEMON_JYNX": {
+    "name": {
+      "en": "jynx"
+    }
+  },
+  "V0125_POKEMON_ELECTABUZZ": {
+    "name": {
+      "en": "electabuzz"
+    }
+  },
+  "V0126_POKEMON_MAGMAR": {
+    "name": {
+      "en": "magmar"
+    }
+  },
+  "V0127_POKEMON_PINSIR": {
+    "name": {
+      "en": "pinsir"
+    }
+  },
+  "V0128_POKEMON_TAUROS": {
+    "name": {
+      "en": "tauros"
+    }
+  },
+  "V0129_POKEMON_MAGIKARP": {
+    "name": {
+      "en": "magikarp"
+    }
+  },
+  "V0130_POKEMON_GYARADOS": {
+    "name": {
+      "en": "gyarados"
+    }
+  },
+  "V0131_POKEMON_LAPRAS": {
+    "name": {
+      "en": "lapras"
+    }
+  },
+  "V0132_POKEMON_DITTO": {
+    "name": {
+      "en": "ditto"
+    }
+  },
+  "V0133_POKEMON_EEVEE": {
+    "name": {
+      "en": "eevee"
+    }
+  },
+  "V0134_POKEMON_VAPOREON": {
+    "name": {
+      "en": "vaporeon"
+    }
+  },
+  "V0135_POKEMON_JOLTEON": {
+    "name": {
+      "en": "jolteon"
+    }
+  },
+  "V0136_POKEMON_FLAREON": {
+    "name": {
+      "en": "flareon"
+    }
+  },
+  "V0137_POKEMON_PORYGON": {
+    "name": {
+      "en": "porygon"
+    }
+  },
+  "V0138_POKEMON_OMANYTE": {
+    "name": {
+      "en": "omanyte"
+    }
+  },
+  "V0139_POKEMON_OMASTAR": {
+    "name": {
+      "en": "omastar"
+    }
+  },
+  "V0140_POKEMON_KABUTO": {
+    "name": {
+      "en": "kabuto"
+    }
+  },
+  "V0141_POKEMON_KABUTOPS": {
+    "name": {
+      "en": "kabutops"
+    }
+  },
+  "V0142_POKEMON_AERODACTYL": {
+    "name": {
+      "en": "aerodactyl"
+    }
+  },
+  "V0143_POKEMON_SNORLAX": {
+    "name": {
+      "en": "snorlax"
+    }
+  },
+  "V0144_POKEMON_ARTICUNO": {
+    "name": {
+      "en": "articuno"
+    }
+  },
+  "V0145_POKEMON_ZAPDOS": {
+    "name": {
+      "en": "zapdos"
+    }
+  },
+  "V0146_POKEMON_MOLTRES": {
+    "name": {
+      "en": "moltres"
+    }
+  },
+  "V0147_POKEMON_DRATINI": {
+    "name": {
+      "en": "dratini"
+    }
+  },
+  "V0148_POKEMON_DRAGONAIR": {
+    "name": {
+      "en": "dragonair"
+    }
+  },
+  "V0149_POKEMON_DRAGONITE": {
+    "name": {
+      "en": "dragonite"
+    }
+  },
+  "V0150_POKEMON_MEWTWO": {
+    "name": {
+      "en": "mewtwo"
+    }
+  },
+  "V0151_POKEMON_MEW": {
+    "name": {
+      "en": "mew"
+    }
+  }
+}

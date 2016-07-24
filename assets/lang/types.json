@@ -1,0 +1,110 @@
+{
+  "POKEMON_TYPE_BUG": {
+    "name": {
+      "en": "bug",
+      "it": "coleottero"
+    }
+  },
+  "POKEMON_TYPE_DARK": {
+    "name": {
+      "en": "dark",
+      "it": "buio"
+    }
+  },
+  "POKEMON_TYPE_DRAGON": {
+    "name": {
+      "en": "dragon",
+      "it": "drago"
+    }
+  },
+  "POKEMON_TYPE_ELECTRIC": {
+    "name": {
+      "en": "electric",
+      "it": "elettro"
+    }
+  },
+  "POKEMON_TYPE_FAIRY": {
+    "name": {
+      "en": "fairy",
+      "it": "folletto"
+    }
+  },
+  "POKEMON_TYPE_FIGHTING": {
+    "name": {
+      "en": "fighting",
+      "it": "lotta"
+    }
+  },
+  "POKEMON_TYPE_FIRE": {
+    "name": {
+      "en": "fire",
+      "it": "fuoco"
+    }
+  },
+  "POKEMON_TYPE_FLYING": {
+    "name": {
+      "en": "flying",
+      "it": "volante"
+    }
+  },
+  "POKEMON_TYPE_GHOST": {
+    "name": {
+      "en": "ghost",
+      "it": "spettro"
+    }
+  },
+  "POKEMON_TYPE_GRASS": {
+    "name": {
+      "en": "grass",
+      "it": "erba"
+    }
+  },
+  "POKEMON_TYPE_GROUND": {
+    "name": {
+      "en": "ground",
+      "it": "terra"
+    }
+  },
+  "POKEMON_TYPE_ICE": {
+    "name": {
+      "en": "ice",
+      "it": "ghiaccio"
+    }
+  },
+  "POKEMON_TYPE_NORMAL": {
+    "name": {
+      "en": "normal",
+      "it": "normale"
+    }
+  },
+  "POKEMON_TYPE_POISON": {
+    "name": {
+      "en": "poison",
+      "it": "veleno"
+    }
+  },
+  "POKEMON_TYPE_PSYCHIC": {
+    "name": {
+      "en": "psychic",
+      "it": "psico"
+    }
+  },
+  "POKEMON_TYPE_ROCK": {
+    "name": {
+      "en": "rock",
+      "it": "roccia"
+    }
+  },
+  "POKEMON_TYPE_STEEL": {
+    "name": {
+      "en": "steel",
+      "it": "acciaio"
+    }
+  },
+  "POKEMON_TYPE_WATER": {
+    "name": {
+      "en": "water",
+      "it": "acqua"
+    }
+  }
+}
