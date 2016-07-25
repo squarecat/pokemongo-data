@@ -8,6 +8,7 @@ $secondary-color: #167c7c;
 @import "./components/footer";
 @import "./components/movedex";
 @import "./components/filters";
+@import "./components/items";
 
 @import "./utilities/sprites";
 @import "./utilities/overlay";
@@ -15,3 +16,4 @@ $secondary-color: #167c7c;
 @import "./utilities/move";
 @import "./utilities/seperator";
 @import "./utilities/stats-row";
+@import "./utilities/text";

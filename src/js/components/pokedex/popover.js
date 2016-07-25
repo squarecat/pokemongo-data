@@ -25,56 +25,52 @@ export default React.createClass({
       </div>
 
       <div className="pokemon-popover__body">
-        <div className="pokemon-popover__name">
+        <div className="pokemon-popover__name u-capitalize">
           <span className="u-title">{ poke.name }</span>
         </div>
 
 
-        <div className="pokemon-popover__basic-stats">
-          <ul className="u-horizonal-list">
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { type(poke) }
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Type</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { poke.data.PokedexWeightKg }kg
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Avg Weight</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { poke.data.PokedexHeightM }m
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Avg Height</span>
-            </li>
-          </ul>
-        </div>
+        <ul className="u-horizonal-list u-stats-row">
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { type(poke) }
+            </span>
+            <span className="u-stat-label">Type</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { poke.data.PokedexWeightKg }kg
+            </span>
+            <span className="u-stat-label">Avg Weight</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { poke.data.PokedexHeightM }m
+            </span>
+            <span className="u-stat-label">Avg Height</span>
+          </li>
+        </ul>
 
-        <div className="pokemon-popover__stats">
-          <ul className="u-horizonal-list">
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { poke.data.Stats.BaseAttack }
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Base Attack</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { poke.data.Stats.BaseDefense }
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Base Defence</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">
-                { poke.data.Stats.BaseStamina }
-              </span>
-              <span className="pokemon-popover__basic-stat-label">Base Stamina</span>
-            </li>
-          </ul>
-        </div>
+        <ul className="u-horizonal-list u-stats-row">
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { poke.data.Stats.BaseAttack }
+            </span>
+            <span className="u-stat-label">Base Attack</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { poke.data.Stats.BaseDefense }
+            </span>
+            <span className="u-stat-label">Base Defence</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">
+              { poke.data.Stats.BaseStamina }
+            </span>
+            <span className="u-stat-label">Base Stamina</span>
+          </li>
+        </ul>
 
         <div className="pokemon-popover__evolutions">
           <ul className="u-horizonal-list">
@@ -98,33 +94,31 @@ export default React.createClass({
           <ul>
             {
               getMoveSet(poke).map(move => (
-                <Move move={ move } stat={ "data.Power" } />
+                <Move key={ move.id } move={ move } stat={ "data.Power" } />
               ))
             }
             {
               getSpecialMoveSet(poke).map(move => (
-                <Move move={ move } stat={ "data.Power" } />
+                <Move key={ move.id } move={ move } stat={ "data.Power" } />
               ))
             }
           </ul>
         </div>
 
-        <div className="pokemon-popover__encounter">
-          <ul>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">{ poke.data.Encounter.BaseCaptureRate || 0 }</span>
-              <span className="pokemon-popover__basic-stat-label">Base Capture rate</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">{ Math.round(poke.data.Encounter.BaseFleeRate * 100) }%</span>
-              <span className="pokemon-popover__basic-stat-label">Flee chance</span>
-            </li>
-            <li className="pokemon-popover__basic-stat">
-              <span className="pokemon-popover__basic-stat-value">{ poke.data.Encounter.MovementTimerS } secs</span>
-              <span className="pokemon-popover__basic-stat-label">Dodge interval</span>
-            </li>
-          </ul>
-        </div>
+        <ul className="pokemon-popover__encounter u-stats-row">
+          <li className="u-stat">
+            <span className="u-stat-value">{ poke.data.Encounter.BaseCaptureRate || 0 }</span>
+            <span className="u-stat-label">Base Capture rate</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">{ Math.round(poke.data.Encounter.BaseFleeRate * 100) }%</span>
+            <span className="u-stat-label">Flee chance</span>
+          </li>
+          <li className="u-stat">
+            <span className="u-stat-value">{ poke.data.Encounter.MovementTimerS } secs</span>
+            <span className="u-stat-label">Dodge interval</span>
+          </li>
+        </ul>
       </div>
       <div className="js-close pokemon-popover__close">
         <Link to="/pokedex">

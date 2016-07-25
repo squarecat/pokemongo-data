@@ -10,11 +10,11 @@ export default (props) => (
     <Link to={ moveLink(props.move) }>
       <div className="u-move">
         <div className="move__details">
-          <div className="move__name">
+          <div className="u-title u-capitalize">
               { parseName(props.move) }
           </div>
-          <div className="move__type">
-            { transformType(props.move.data.Type) }
+          <div className="u-desc u-capitalize">
+            { props.move.type }
           </div>
         </div>
         <div className="move__charge">

@@ -21,7 +21,7 @@ export default React.createClass({
     return (
       <div className="pokemon-popover">
         <div className="pokemon-popover__body pokemon-popover__body--move">
-          <div className="pokemon-popover__name">
+          <div className="pokemon-popover__name u-capitalize">
             <span className="u-title">
               { parseName(move) }
             </span>

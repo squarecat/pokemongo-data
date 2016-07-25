@@ -11,11 +11,6 @@
   width: 100%;
 }
 
-.move__name,
-.move__type {
-  text-transform: capitalize;
-}
-
 .move__charge {
   width: 65%;
 }
@@ -24,11 +19,6 @@
   width: 10%;
   padding: 6px 0;
   text-align: center;
-}
-
-.move__type {
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 .move__charge {

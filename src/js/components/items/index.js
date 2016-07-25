@@ -1,5 +1,10 @@
 import React from 'react';
 
+import ItemList from "./item-list";
+import items from "dex/items";
+
 export default () => (
-  <div>Items</div>
+  <div className="items">
+    <ItemList items={items} />
+  </div>
 );

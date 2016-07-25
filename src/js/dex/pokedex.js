@@ -48,9 +48,9 @@ function getBasicPokeInfo(poke) {
   const [ id, type ] = poke.id.split("_");
   const name = poke.id.match(/V.{4}_POKEMON_(.*)$/)[1].replace("_", " ");
   return {
-    id: id.substring(1, id.length),
-    dexNumber: id.toLowerCase().substring(3, id.length),
-    name: name.substring(0, name.length - 1).toLowerCase()
+    id,
+    dexNumber: id.substring(2, id.length),
+    name: name.toLowerCase()
   };
 }
 
@@ -78,6 +78,6 @@ export function sortPokemonOnValue(value) {
   });
 }
 
-console.log(pokemon);
+console.log('Pokemon', pokemon);
 
 export default pokemon;
