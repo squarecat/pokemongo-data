@@ -1,4 +1,56 @@
 {
+  "CATEGORIES": {
+    "ITEM_CATEGORY_FOOD": {
+      "name": {
+        "en": "food"
+      }
+    },
+    "ITEM_CATEGORY_POKEBALL": {
+      "name": {
+        "en": "pokeball"
+      }
+    },
+    "ITEM_CATEGORY_MEDICINE": {
+      "name": {
+        "en": "medicine"
+      }
+    },
+    "ITEM_CATEGORY_INCENSE": {
+      "name": {
+        "en": "incense"
+      }
+    },
+    "ITEM_CATEGORY_INCUBATOR": {
+      "name": {
+        "en": "incubator"
+      }
+    },
+    "ITEM_CATEGORY_INVENTORY_UPGRADE": {
+      "name": {
+        "en": "inventory upgrade"
+      }
+    },
+    "ITEM_CATEGORY_XP_BOOST": {
+      "name": {
+        "en": "xp boost"
+      }
+    },
+    "ITEM_CATEGORY_CAMERA": {
+      "name": {
+        "en": "camera"
+      }
+    },
+    "ITEM_CATEGORY_DISK": {
+      "name": {
+        "en": "disk"
+      }
+    },
+    "ITEM_CATEGORY_BOOST": {
+      "name": {
+        "en": "disk"
+      }
+    }
+  },
   "PAGE_DESCRIPTION": {
     "en": ""
   },

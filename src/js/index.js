@@ -5,7 +5,8 @@ import { Router, hashHistory } from 'react-router';
 import "../scss/style.scss";
 window.app = {
   defaultMovedexSort: "data.Power",
-  defaultPokedexSort: "dexNumber"
+  defaultPokedexSort: "dexNumber",
+  locale: "en"
 };
 
 import routes from './routes';

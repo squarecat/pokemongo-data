@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import { getSpriteUrl } from 'dex/pokedex'
+import { getSpriteUrl } from 'dex/items'
 
 export default (props) => (
   <li key={ props.item.id }>
@@ -11,13 +11,13 @@ export default (props) => (
       data-id={ props.item.id }
       data-name={ props.item.name }
     >
-      <div className="item__sprite">
-        <img className="u-sprite" src= { getSpriteUrl(props.item) } />
+      <div className="item__sprite-wrapper">
+        <img className="item__sprite" src={ getSpriteUrl(props.item) } />
       </div>
       <div className="item__details">
         <div className="item__name">
           <span className="u-title u-capitalize">
-            { props.item.name }
+            { props.item.name } ({ props.item.category })
           </span>
         </div>
         <div className="u-desc u-capitalize">

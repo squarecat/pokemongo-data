@@ -54,7 +54,7 @@ const moves = Move.map(move => {
   })
 });
 
-console.log(moves);
+console.log('Moves', moves);
 export default moves;
 
 export function sortMovesOnValue(value) {

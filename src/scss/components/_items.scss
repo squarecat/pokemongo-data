@@ -2,6 +2,18 @@
   padding: 2rem 1rem;
 }
 
+.item__sprite-wrapper {
+  height: 50px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .item__sprite {
-  height: 80px;
+  height: 50%;
+}
+
+.item__details {
+  padding: 8px 0;
 }
