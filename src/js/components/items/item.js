@@ -17,7 +17,7 @@ export default (props) => (
       <div className="item__details">
         <div className="item__name">
           <span className="u-title u-capitalize">
-            { props.item.name } ({ props.item.category })
+            { props.item.name }
           </span>
         </div>
         <div className="u-desc u-capitalize">
