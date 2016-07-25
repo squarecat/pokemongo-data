@@ -11,7 +11,7 @@ export default (props) => (
       <div className="u-move">
         <div className="move__details">
           <div className="u-title u-capitalize">
-              { parseName(props.move) }
+              { props.move.name }
           </div>
           <div className="u-desc u-capitalize">
             { props.move.type }

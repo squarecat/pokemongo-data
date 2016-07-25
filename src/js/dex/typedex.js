@@ -1,3 +1,6 @@
-export function transformType(typeStr) {
-  return typeStr.match("POKEMON_TYPE_(.*)")[1].toLowerCase();
+import lang from "json!lang/types.json";
+
+export function transformType(typeId) {
+  const id = typeId.match(/^"?([a-zA-Z_]+)/)[1];
+  return lang[id].name.en;
 }
