@@ -4,8 +4,8 @@ import Item from './item';
 export default (props = { items: [] }) => (
   <ul className="item-list">
     {
-      props.items.map(item => (
-        <Item key={ item.id } item={ item } />
+      props.items.map(i => (
+        <Item key={ i.id } item={ i } />
       ))
     }
   </ul>

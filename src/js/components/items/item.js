@@ -20,7 +20,7 @@ export default (props) => (
             { props.item.name }
           </span>
         </div>
-        <div className="u-desc u-capitalize">
+        <div className="u-desc">
           <span>
             { props.item.desc }
           </span>

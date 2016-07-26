@@ -7,7 +7,7 @@ const { Item } = data;
 
 const itemsWithoutSprites = [
   "ITEM_BLUK_BERRY",
-  "ITEM_MASTER_BALL",
+  // "ITEM_MASTER_BALL",
   "ITEM_NANAB_BERRY",
   "ITEM_PINAP_BERRY",
   "ITEM_TROY_DISK",
@@ -30,6 +30,7 @@ const items = _.chain(Item)
   .map(item => {
     return Object.assign(item, getBasicItemInfo(item));
   })
+  .groupBy("category")
   .value();
 
 export function getSpriteUrl(item) {

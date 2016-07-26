@@ -174,7 +174,7 @@
       "it": "ampliamento spazio pokémon"
     },
     "description": {
-      "en": "Each upgrade increases the Pokémon storage capacity by 50 to a max of 1000"
+      "en": "Each upgrade increases the Pokémon storage capacity by 50 to a max of 1000."
     }
   },
   "ITEM_POKE_BALL": {
@@ -200,7 +200,7 @@
       "en": "razz berry"
     },
     "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation."
+      "en": "Makes it so the next Ball has a higher rate of capture."
     }
   },
   "ITEM_REVIVE": {

@@ -119,7 +119,7 @@ function learnedBy(move) {
       <ul className="u-pokemon-icon-list u-horizonal-list">
         {
           learnedList.map(poke => (
-            <li id={ poke.id }>
+            <li id={ poke.id } key={ poke.id }>
                <Link to={ `/pokedex/${poke.dexNumber}` }>
                   <img
                     className="u-sprite u-sprite--mini"
