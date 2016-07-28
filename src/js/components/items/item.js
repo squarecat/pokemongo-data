@@ -25,6 +25,15 @@ export default (props) => (
             { props.item.desc }
           </span>
         </div>
+        <ul className="item__info">
+          {
+            props.item.info.map(i => (
+              <li className="u-desc" key={ i }>
+                { i }
+              </li>
+            ))
+          }
+        </ul>
       </div>
     </div>
   </li>

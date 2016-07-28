@@ -1,4 +1,21 @@
 {
+  "ITEM_INFORMATION": {
+    "INCUBATOR_DISTANCE": {
+      "name": {
+        "en": "distance"
+      }
+    },
+    "INCREASE_ITEM_STORAGE": {
+      "name": {
+        "en": "increase item storage"
+      }
+    },
+    "INCREASE_POKEMON_STORAGE": {
+      "name": {
+        "en": "increase pokemon storage"
+      }
+    }
+  },
   "CATEGORIES": {
     "ITEM_CATEGORY_FOOD": {
       "name": {
@@ -13,26 +30,101 @@
     "ITEM_CATEGORY_MEDICINE": {
       "name": {
         "en": "medicine"
+      },
+      "info": {
+        "StaAmount": {
+          "name": {
+            "en": "hp amount"
+          }
+        },
+        "StaPercent": {
+          "name": {
+            "en": "hp percentage"
+          }
+        }
       }
     },
     "ITEM_CATEGORY_INCENSE": {
       "name": {
         "en": "incense"
+      },
+      "info": {
+        "IncenseLifetimeSeconds": {
+          "name": {
+            "en": "Lasts for <IncenseLifetimeSeconds> seconds"
+          }
+        },
+        "StandingTimeBetweenEncountersSec": {
+          "name": {
+            "en": "standing time between encounters (seconds)"
+          }
+        },
+        "MovingTimeBetweenEncounterSec": {
+          "name": {
+            "en": "moving time between encounters (seconds)"
+          }
+        },
+        "DistanceRequiredForShorterIntervalMeters": {
+          "name": {
+            "en": "distance required for shorter interval meters (meters)"
+          }
+        }
       }
     },
     "ITEM_CATEGORY_INCUBATOR": {
       "name": {
         "en": "incubator"
+      },
+      "info": {
+        "IncubatorType": {
+          "name": {
+            "en": "incubator type"
+          }
+        },
+        "Uses": {
+          "name": {
+            "en": "uses"
+          }
+        },
+        "DistanceMultiplier": {
+          "name": {
+            "en": "distance multiplier"
+          }
+        }
       }
     },
     "ITEM_CATEGORY_INVENTORY_UPGRADE": {
       "name": {
         "en": "inventory upgrade"
+      },
+      "info": {
+        "AdditionalStorage": {
+          "name": {
+            "en": "additional storage"
+          }
+        },
+        "UpgradeType": {
+          "name": {
+            "en": "upgrade type"
+          }
+        }
       }
     },
     "ITEM_CATEGORY_XP_BOOST": {
       "name": {
         "en": "xp boost"
+      },
+      "info": {
+        "XpMultiplier": {
+          "name": {
+            "en": "xp multiplier"
+          }
+        },
+        "BoostDurationMs": {
+          "name": {
+            "en": "boost duration (milliseconds)"
+          }
+        }
       }
     },
     "ITEM_CATEGORY_CAMERA": {
@@ -88,7 +180,7 @@
       "en": "incense ordinary"
     },
     "description": {
-      "en": "Attracts wild Pokémon to you for 30 minutes."
+      "en": "Attracts wild Pokémon to you."
     }
   },
   "ITEM_INCUBATOR_BASIC": {

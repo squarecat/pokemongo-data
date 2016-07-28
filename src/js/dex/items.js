@@ -17,12 +17,48 @@ const itemsWithoutSprites = [
   "ITEM_X_MIRACLE"
 ]
 
+const commonKeys = [
+  "Category",
+  "ItemType",
+  "UniqueId"
+]
+
 function getBasicItemInfo(item) {
   return {
     id: item.id,
     name: lang[item.id].name[locale],
     desc: lang[item.id].description[locale],
-    category: lang.CATEGORIES[item.data.Category].name[locale]
+    category: lang.CATEGORIES[item.data.Category].name[locale],
+    info: getAdditionalInfo(item, item.data.Category)
+  }
+}
+
+function getAdditionalInfo(item, category) {
+  if (!item.data) return
+  const extraDataObject = _.omit(item.data, commonKeys)
+  const extraDataArray = _.map(extraDataObject[Object.keys(extraDataObject)[0]], (value, key) => {
+    return getItemInfoString(key, value, category)
+  })
+  return extraDataArray
+}
+
+function getItemInfoString(name, value, category) {
+  const info = lang.CATEGORIES[category].info[name].name[locale]
+  return populateTemplate(info, { [name]: value })
+}
+
+function populateTemplate(template, templateValues) {
+  let templ
+  Object.keys(templateValues).forEach(key => {
+    templ = template.replace(`<${key}>`, templateValues[key])
+  })
+  return templ
+}
+
+function getItemInfo(name, value, category) {
+  return {
+    name: lang.CATEGORIES[category].info[name].name[locale],
+    value: typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value
   }
 }
 
