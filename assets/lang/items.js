@@ -81,7 +81,7 @@ export default {
       "en": "bluk berry"
     },
     "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation."
+      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
     }
   },
   "ITEM_GREAT_BALL": {
@@ -166,7 +166,7 @@ export default {
       "en": "max revive"
     },
     "description": {
-      "en": "Revives a Pokémon and restores to $StaPercent% HP."
+      "en": "Revives a fainted Pokémon and restores to $StaPercent% HP."
     }
   },
   "ITEM_NANAB_BERRY": {
@@ -174,7 +174,7 @@ export default {
       "en": "nanab berry"
     },
     "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation."
+      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
     }
   },
   "ITEM_PINAP_BERRY": {
@@ -182,7 +182,7 @@ export default {
       "en": "pinap berry"
     },
     "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation."
+      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
     }
   },
   "ITEM_POKEMON_STORAGE_UPGRADE": {
@@ -226,7 +226,7 @@ export default {
       "it": "revitalizzante"
     },
     "description": {
-      "en": "Revives a Pokémon to $StaPercent% HP."
+      "en": "Revives a fainted Pokémon to $StaPercent% HP."
     }
   },
   "ITEM_SPECIAL_CAMERA": {
@@ -252,7 +252,7 @@ export default {
       "en": "troy disk"
     },
     "description": {
-      "en": ""
+      "en": "Use unknown. This item has not been seen in any existing Pokémon game."
     }
   },
   "ITEM_ULTRA_BALL": {
@@ -269,7 +269,7 @@ export default {
       "en": "wepar berry"
     },
     "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation."
+      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
     }
   },
   "ITEM_X_ATTACK": {
@@ -296,7 +296,7 @@ export default {
       "it": "miracolo x"
     },
     "description": {
-      "en": "Use unknown."
+      "en": "Use unknown. We expect that this will be used in battle to increase the Stamina stat of a single Pokémon."
     }
   }
 }
