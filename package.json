@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack -p --progress --profile --colors",
+    "build": "NODE_ENV=production webpack -p --progress --profile --colors --config webpack.production.config.js",
     "dev": "webpack-dev-server --progress --colors --config webpack.config.js",
     "build:scss": "node-sass src/scss/style.scss build/style.css -w"
   },

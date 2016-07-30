@@ -19,6 +19,12 @@
   padding: 10px 20px;
 }
 
+.item__sprite-wrapper:empty::before {
+  content: "?";
+  font-size: 24px;
+  color: #ccc;
+}
+
 .item__sprite {
   height: 100%;
 }

@@ -23,7 +23,7 @@ module.exports = {
       loaders: ["style", "css", "sass"]
     }, {
       test: /\.js$/,
-      exclude: /(node_modules|bower_components)/,
+      exclude: /(node_modules(?!\/react-icons)|bower_components)/,
       loader: 'babel', // 'babel-loader' is also a legal name to reference
       query: {
         presets: ['es2015', 'react']

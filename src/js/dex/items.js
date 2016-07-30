@@ -1,7 +1,7 @@
 import _ from "lodash";
 
 import lang from 'lang/items'
-import ads from "affiliate_ads";
+import affilateData from "affiliate_ads";
 
 import locale from './locale'
 import data from "./grouped";
@@ -32,9 +32,10 @@ const commonKeys = [
 function getBasicItemInfo(item) {
   return {
     id: item.id,
-    name: lang[item.id].name[locale],
+    name: lang[item.id].name[locale] || item.name,
     desc: getDescription(item),
-    category: lang.CATEGORIES[item.data.Category].name[locale]
+    category: lang.CATEGORIES[item.data.Category].name[locale],
+    catOrder: lang.CATEGORIES[item.data.Category].order
   };
 }
 
@@ -58,13 +59,21 @@ function lookupDescription(value) {
   return (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value);
 }
 
+const ads = affilateData
+  .map(ad => {
+    return Object.assign(ad, {
+      category: lang.CATEGORIES[ad.category].name[locale],
+      catOrder: lang.CATEGORIES[ad.category].order,
+    });
+  });
+
 const items = _.chain(Item)
   .sortBy(item => lang[item.id].order)
   .map(item => {
     return Object.assign(item, getBasicItemInfo(item));
   })
   .concat(ads)
-  .sortBy("category")
+  .sortBy("catOrder")
   .groupBy("category")
   .value();
 

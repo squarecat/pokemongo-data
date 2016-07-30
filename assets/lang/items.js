@@ -17,55 +17,77 @@ export default {
     }
   },
   "CATEGORIES": {
+    "ITEM_CATEGORY_POWER_MANAGEMENT": {
+      "name": {
+        "en": "power management"
+      },
+      "order": 3
+    },
+    "ITEM_CATEGORY_UTILITIES": {
+      "name": {
+        "en": "utilities"
+      },
+      "order": 7
+    },
     "ITEM_CATEGORY_FOOD": {
       "name": {
         "en": "food"
-      }
+      },
+      "order": 2
     },
     "ITEM_CATEGORY_POKEBALL": {
       "name": {
         "en": "poké ball"
-      }
+      },
+      "order": 1
     },
     "ITEM_CATEGORY_MEDICINE": {
       "name": {
         "en": "medicine"
-      }
+      },
+      "order": 4
     },
     "ITEM_CATEGORY_INCENSE": {
       "name": {
         "en": "incense"
-      }
+      },
+      "order": 5
     },
     "ITEM_CATEGORY_INCUBATOR": {
       "name": {
         "en": "incubator"
-      }
+      },
+      "order": 6
     },
     "ITEM_CATEGORY_INVENTORY_UPGRADE": {
       "name": {
         "en": "inventory upgrade"
-      }
+      },
+      "order": 8
     },
     "ITEM_CATEGORY_XP_BOOST": {
       "name": {
         "en": "xp boost"
-      }
+      },
+      "order": 9
     },
     "ITEM_CATEGORY_CAMERA": {
       "name": {
         "en": "camera"
-      }
+      },
+      "order": 10
     },
     "ITEM_CATEGORY_DISK": {
       "name": {
         "en": "disk"
-      }
+      },
+      "order": 12
     },
     "ITEM_CATEGORY_BOOST": {
       "name": {
         "en": "disk"
-      }
+      },
+      "order": 11
     }
   },
   "PAGE_DESCRIPTION": {
@@ -317,7 +339,7 @@ export default {
       "it": "master ball"
     },
     "description": {
-      "en": "A ball used for catching Pokémon. This ball is guaranteed to catch whatever Pokémon it is thrown at."
+      "en": "Not yet discovered. A ball used for catching Pokémon. This ball is guaranteed to catch whatever Pokémon it is thrown at."
     },
     order: 4
   },

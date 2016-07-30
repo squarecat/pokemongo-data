@@ -19,7 +19,7 @@ export default React.createClass({
         data-name={ item.name }
       >
         <div className="item__sprite-wrapper">
-          <img className="item__sprite" src={ getSpriteUrl(item) } />
+          { getSpriteUrl(item) && <img className="item__sprite" src={ getSpriteUrl(item) } /> }
         </div>
         <div className="item__details">
           <div className="item__name">
