@@ -1,6 +1,11 @@
 var webpack = require('webpack');
 var path = require('path');
 
+
+var config = {
+    iconPath: 'node_modules/react-icons'
+};
+
 module.exports = {
   entry: [
     './src/js/index.js'
@@ -23,8 +28,8 @@ module.exports = {
       loaders: ["style", "css", "sass"]
     }, {
       test: /\.js$/,
-      exclude: /(node_modules|bower_components)/,
-      loader: 'babel', // 'babel-loader' is also a legal name to reference
+      exclude: /(node_modules(?!\/react-icons)|bower_components)/,
+      loader: 'babel',
       query: {
         presets: ['es2015', 'react']
       }

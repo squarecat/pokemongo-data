@@ -69,7 +69,7 @@ export function getSpriteUrl(item) {
   if (overwriteSprites[item.id]) {
     return `./assets/items/${overwriteSprites[item.id]}.png`;
   }
-  if (itemsWithoutSprites.includes(item.id)) {
+  if (!item.id || itemsWithoutSprites.includes(item.id)) {
     return;
   }
   const spriteName = item.id.match(/ITEM_(.*)$/)[1]
