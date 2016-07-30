@@ -34,38 +34,37 @@ function getBasicItemInfo(item) {
     id: item.id,
     name: lang[item.id].name[locale],
     desc: getDescription(item),
-    category: lang.CATEGORIES[item.data.Category].name[locale],
-    order: lang[item.id].order
+    category: lang.CATEGORIES[item.data.Category].name[locale]
   };
 }
 
 function getDescription(item) {
   if (!item.data) return {};
-  const extraDataObject = _.omit(item.data, commonKeys);
+  const additionalInfo = _.omit(item.data, commonKeys);
+  const additionalInfoData = additionalInfo[Object.keys(additionalInfo)[0]];
 
-  const replacers = _.reduce(extraDataObject[Object.keys(extraDataObject)[0]], (data, value, key) => {
-    data[key] = (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value);
-    return data
+  const replacers = _.reduce(additionalInfoData, (data, value, key) => {
+    return Object.assign(data, {
+      [key]: lookupDescription(value)
+    });
   }, {});
 
-  const templ = lang[item.id].description[locale];
+  const desc = lang[item.id].description[locale];
 
-  return _.isFunction(templ) ? templ(replacers) : templ;
+  return _.isFunction(desc) ? desc(replacers) : desc;
 }
 
-function replaceTemplate(templStr, replacers) {
-  const outputStr = (templStr.match(/\$([a-zA-Z]+)/g) || [])
-    .reduce((out, match) => out.replace(match, replacers[match.substring(1)]), templStr);
- return outputStr;
+function lookupDescription(value) {
+  return (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value);
 }
-
 
 const items = _.chain(Item)
+  .sortBy(item => lang[item.id].order)
   .map(item => {
     return Object.assign(item, getBasicItemInfo(item));
   })
   .concat(ads)
-  .sortBy("category", "order")
+  .sortBy("category")
   .groupBy("category")
   .value();
 
