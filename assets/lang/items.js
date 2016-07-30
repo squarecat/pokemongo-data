@@ -100,7 +100,7 @@ export default {
       "en": "troy disk"
     },
     "description": {
-      "en": "Use unknown. This item has not been seen in any existing Pokémon game."
+      "en": "Not yet discovered and not seen in any other existing Pokémon game."
     }
   },
   "ITEM_X_ATTACK": {
@@ -109,7 +109,7 @@ export default {
       "it": "attacco x"
     },
     "description": {
-      "en": "Used in battle to increase the attack stat of a single Pokémon."
+      "en": "Not yet discovered. As in other Pokémon games, we expect this to be used in battle to increase the attack stat of a single Pokémon."
     }
   },
   "ITEM_X_DEFENSE": {
@@ -118,7 +118,7 @@ export default {
       "it": "difesa x"
     },
     "description": {
-      "en": "Used in battle to increase the defense stat of a single Pokémon."
+      "en": "Not yet discovered. As in other Pokémon games, we expect this to be used in battle to increase the defense stat of a single Pokémon."
     }
   },
   "ITEM_X_MIRACLE": {
@@ -127,7 +127,7 @@ export default {
       "it": "miracolo x"
     },
     "description": {
-      "en": "Use unknown. We expect that this will be used in battle to increase the Stamina stat of a single Pokémon."
+      "en": "Not yet discovered and not seen in any other existing Pokémon game. We expect that this will be used in battle to increase the Stamina stat of a single Pokémon."
     }
   },
   // FOOD
@@ -183,10 +183,10 @@ export default {
     },
     "description": {
       "en": (info) => `
-        Attracts wild Pokémon to your location. Lasts for ${info.IncenseLifetimeSeconds / 60} minutes. 
-        While standing you will encounter a Pokémon every ${info.StandingTimeBetweenEncountersSec / 60} minutes. 
-        While walking you will encounter Pokémon every ${info.MovingTimeBetweenEncounterSec / 60} minute 
-        or ${info.DistanceRequiredForShorterIntervalMeters} meters.
+        Attracts wild Pokémon to your location for ${info.IncenseLifetimeSeconds / 60} minutes.
+        A Pokémon will be encountered every ${info.StandingTimeBetweenEncountersSec / 60} minutes while standing,
+        every ${info.MovingTimeBetweenEncounterSec / 60} minute while travelling, or once
+        every ${info.DistanceRequiredForShorterIntervalMeters} meters travelled.
       `
     }
   },
@@ -218,7 +218,7 @@ export default {
       "it": "ampliamento spazio borsa"
     },
     "description": {
-      "en": (info) => `Each ${info.UpgradeType} increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+      "en": (info) => `Each use increases capacity by ${info.AdditionalStorage} to a max of 1000.`
     },
     order: 1
   },
@@ -228,7 +228,7 @@ export default {
       "it": "ampliamento spazio pokémon"
     },
     "description": {
-      "en": (info) => `Each ${info.UpgradeType} increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+      "en": (info) => `Each use increases capacity by ${info.AdditionalStorage} to a max of 1000.`
     },
     order: 2
   },
