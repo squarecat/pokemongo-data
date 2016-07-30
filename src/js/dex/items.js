@@ -14,11 +14,14 @@ const overwriteSprites = {
   "ITEM_WEPAR_BERRY": "unknown_berry"
 }
 const itemsWithoutSprites = [
+  "ITEM_BLUK_BERRY",
+  "ITEM_NANAB_BERRY",
+  "ITEM_PINAP_BERRY",
   "ITEM_TROY_DISK",
   "ITEM_X_ATTACK",
   "ITEM_X_DEFENSE",
   "ITEM_X_MIRACLE"
-]
+];
 
 const commonKeys = [
   "Category",
@@ -31,22 +34,23 @@ function getBasicItemInfo(item) {
     id: item.id,
     name: lang[item.id].name[locale],
     desc: getDescription(item),
-    category: lang.CATEGORIES[item.data.Category].name[locale]
-  }
+    category: lang.CATEGORIES[item.data.Category].name[locale],
+    order: lang[item.id].order
+  };
 }
 
 function getDescription(item) {
-  if (!item.data) return
+  if (!item.data) return {};
   const extraDataObject = _.omit(item.data, commonKeys);
-  const replacers = _.reduce(extraDataObject[Object.keys(extraDataObject)[0]], (data, value, key) => {
-    data[key] = (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value)
-    return data
-  }, {})
 
-  return replaceTemplate(
-    lang[item.id].description[locale],
-    replacers
-  )
+  const replacers = _.reduce(extraDataObject[Object.keys(extraDataObject)[0]], (data, value, key) => {
+    data[key] = (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value);
+    return data
+  }, {});
+
+  const templ = lang[item.id].description[locale];
+
+  return _.isFunction(templ) ? templ(replacers) : templ;
 }
 
 function replaceTemplate(templStr, replacers) {
@@ -61,6 +65,7 @@ const items = _.chain(Item)
     return Object.assign(item, getBasicItemInfo(item));
   })
   .concat(ads)
+  .sortBy("category", "order")
   .groupBy("category")
   .value();
 

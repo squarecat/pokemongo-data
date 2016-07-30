@@ -12,7 +12,7 @@ export default {
     },
     "INCREASE_POKEMON_STORAGE": {
       "name": {
-        "en": "increase pokemon storage"
+        "en": "increase pokémon storage"
       }
     }
   },
@@ -24,7 +24,7 @@ export default {
     },
     "ITEM_CATEGORY_POKEBALL": {
       "name": {
-        "en": "pokeball"
+        "en": "poké ball"
       }
     },
     "ITEM_CATEGORY_MEDICINE": {
@@ -76,177 +76,25 @@ export default {
     "POKESTOP": "PokéStops",
     "SHOP": "Shop"
   },
-  "ITEM_BLUK_BERRY": {
-    "name": {
-      "en": "bluk berry"
-    },
-    "description": {
-      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
-    }
-  },
-  "ITEM_GREAT_BALL": {
-    "name": {
-      "en": "great ball"
-    },
-    "description": {
-      "en": "A ball used for catching Pokémon."
-    }
-  },
   "ITEM_HYPER_POTION": {
     "name": {
       "en": "hyper potion"
     },
     "description": {
-      "en": "Heals Pokémon by 200 HP."
+      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
     }
   },
-  "ITEM_INCENSE_ORDINARY": {
-    "name": {
-      "en": "incense ordinary"
-    },
-    "description": {
-      "en": "Attracts wild Pokémon to your location. Lasts for $IncenseLifetimeSeconds seconds. While standing you will encounter a Pokémon every $StandingTimeBetweenEncountersSec seconds. While walking you will encounter Pokémon every $MovingTimeBetweenEncounterSec seconds or every $DistanceRequiredForShorterIntervalMeters meters."
-    }
-  },
-  "ITEM_INCUBATOR_BASIC": {
-    "name": {
-      "en": "incubator basic",
-      "it": "incubatrice uova"
-    },
-    "description": {
-      "en": "Used to hatch Pokémon Eggs. Each one can hatch $Uses Eggs."
-    }
-  },
-  "ITEM_INCUBATOR_BASIC_UNLIMITED": {
-    "name": {
-      "en": "incubator basic unlimited",
-      "it": "incubatrice uova ∞"
-    },
-    "description": {
-      "en": "Used to hatch Pokémon Eggs. Can hatch an unlimited number of eggs."
-    }
-  },
-  "ITEM_ITEM_STORAGE_UPGRADE": {
-    "name": {
-      "en": "item storage upgrade",
-      "it": "ampliamento spazio borsa"
-    },
-    "description": {
-      "en": "Each $UpgradeType increases capacity by $AdditionalStorage to a max of 1000"
-    }
-  },
-  "ITEM_LUCKY_EGG": {
-    "name": {
-      "en": "lucky egg",
-      "it": "fortunuovo"
-    },
-    "description": {
-      "en": "Increases experience gain by x$XpMultiplier for $BoostDurationMs milliseconds."
-    }
-  },
-  "ITEM_MASTER_BALL": {
-    "name": {
-      "en": "master ball",
-      "it": "master ball"
-    },
-    "description": {
-      "en": "A ball used for catching Pokémon. This ball is guaranteed to catch whatever Pokémon it is thrown at."
-    }
-  },
-  "ITEM_MAX_POTION": {
-    "name": {
-      "en": "max potion"
-    },
-    "description": {
-      "en": "Heals Pokémon $StaPercent%."
-    }
-  },
-  "ITEM_MAX_REVIVE": {
-    "name": {
-      "en": "max revive"
-    },
-    "description": {
-      "en": "Revives a fainted Pokémon and restores to $StaPercent% HP."
-    }
-  },
-  "ITEM_NANAB_BERRY": {
-    "name": {
-      "en": "nanab berry"
-    },
-    "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
-    }
-  },
-  "ITEM_PINAP_BERRY": {
-    "name": {
-      "en": "pinap berry"
-    },
-    "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
-    }
-  },
-  "ITEM_POKEMON_STORAGE_UPGRADE": {
-    "name": {
-      "en": "pokemon storage upgrade",
-      "it": "ampliamento spazio pokémon"
-    },
-    "description": {
-      "en": "Each $UpgradeType increases capacity by $AdditionalStorage to a max of 1000"
-    }
-  },
-  "ITEM_POKE_BALL": {
-    "name": {
-      "en": "poke ball",
-      "it": "poké ball"
-    },
-    "description": {
-      "en": "A ball used for catching Pokémon."
-    }
-  },
-  "ITEM_POTION": {
-    "name": {
-      "en": "potion",
-      "it": "pozione"
-    },
-    "description": {
-      "en": "Heals Pokémon by $StaAmount HP."
-    }
-  },
-  "ITEM_RAZZ_BERRY": {
-    "name": {
-      "en": "razz berry"
-    },
-    "description": {
-      "en": "Makes it so the next Ball has a higher rate of capture."
-    }
-  },
-  "ITEM_REVIVE": {
-    "name": {
-      "en": "revive",
-      "it": "revitalizzante"
-    },
-    "description": {
-      "en": "Revives a fainted Pokémon to $StaPercent% HP."
-    }
-  },
+  // CAMERA
   "ITEM_SPECIAL_CAMERA": {
     "name": {
       "en": "special camera",
       "it": "fotocamera"
     },
     "description": {
-      "en": "Used within battle to take pictures of wild Pokémon"
+      "en": "Used within battle to take pictures of wild Pokémon."
     }
   },
-  "ITEM_SUPER_POTION": {
-    "name": {
-      "en": "super potion",
-      "it": "superpozione"
-    },
-    "description": {
-      "en": "Heals Pokémon by $StaAmount HP."
-    }
-  },
+  // DISKS
   "ITEM_TROY_DISK": {
     "name": {
       "en": "troy disk"
@@ -255,30 +103,13 @@ export default {
       "en": "Use unknown. This item has not been seen in any existing Pokémon game."
     }
   },
-  "ITEM_ULTRA_BALL": {
-    "name": {
-      "en": "ultra ball",
-      "it": "ultra ball"
-    },
-    "description": {
-      "en": "A ball used for catching Pokémon."
-    }
-  },
-  "ITEM_WEPAR_BERRY": {
-    "name": {
-      "en": "wepar berry"
-    },
-    "description": {
-      "en": "Use unknown. Traditionally a very rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
-    }
-  },
   "ITEM_X_ATTACK": {
     "name": {
       "en": "x attack",
       "it": "attacco x"
     },
     "description": {
-      "en": "Used in battle to increase the Attack stat of a single Pokémon."
+      "en": "Used in battle to increase the attack stat of a single Pokémon."
     }
   },
   "ITEM_X_DEFENSE": {
@@ -287,7 +118,7 @@ export default {
       "it": "difesa x"
     },
     "description": {
-      "en": "Used in battle to increase the Defense stat of a single Pokémon."
+      "en": "Used in battle to increase the defense stat of a single Pokémon."
     }
   },
   "ITEM_X_MIRACLE": {
@@ -297,6 +128,207 @@ export default {
     },
     "description": {
       "en": "Use unknown. We expect that this will be used in battle to increase the Stamina stat of a single Pokémon."
+    }
+  },
+  // FOOD
+  "ITEM_RAZZ_BERRY": {
+    "name": {
+      "en": "razz berry"
+    },
+    "description": {
+      "en": "Makes it so the next Poké Ball has a higher rate of capture."
+    },
+    order: 1
+  },
+  "ITEM_BLUK_BERRY": {
+    "name": {
+      "en": "bluk berry"
+    },
+    "description": {
+      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
+    },
+    order: 2
+  },
+  "ITEM_NANAB_BERRY": {
+    "name": {
+      "en": "nanab berry"
+    },
+    "description": {
+      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
+    },
+    order: 3
+  },
+  "ITEM_PINAP_BERRY": {
+    "name": {
+      "en": "pinap berry"
+    },
+    "description": {
+      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
+    },
+    order: 4
+  },
+  "ITEM_WEPAR_BERRY": {
+    "name": {
+      "en": "wepar berry"
+    },
+    "description": {
+      "en": "Use unknown. Traditionally a rare berry used in Poffin creation. We expect that this item will become available at a certain level and will make it easier to catch Pokémon."
+    },
+    order: 5
+  },
+  // INCENSE
+  "ITEM_INCENSE_ORDINARY": {
+    "name": {
+      "en": "incense ordinary"
+    },
+    "description": {
+      "en": (info) => `
+        Attracts wild Pokémon to your location. Lasts for ${info.IncenseLifetimeSeconds / 60} minutes. 
+        While standing you will encounter a Pokémon every ${info.StandingTimeBetweenEncountersSec / 60} minutes. 
+        While walking you will encounter Pokémon every ${info.MovingTimeBetweenEncounterSec / 60} minute 
+        or ${info.DistanceRequiredForShorterIntervalMeters} meters.
+      `
+    }
+  },
+  // INCUBATOR
+  "ITEM_INCUBATOR_BASIC": {
+    "name": {
+      "en": "incubator basic",
+      "it": "incubatrice uova"
+    },
+    "description": {
+      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.Uses || 'Unlimited'} eggs.`
+    },
+    order: 1
+  },
+  "ITEM_INCUBATOR_BASIC_UNLIMITED": {
+    "name": {
+      "en": "incubator basic unlimited",
+      "it": "incubatrice uova ∞"
+    },
+    "description": {
+      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.Uses || 'unlimited'} eggs.`
+    },
+    order: 2
+  },
+  // INVENTORY UPGRADE
+  "ITEM_ITEM_STORAGE_UPGRADE": {
+    "name": {
+      "en": "item storage upgrade",
+      "it": "ampliamento spazio borsa"
+    },
+    "description": {
+      "en": (info) => `Each ${info.UpgradeType} increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+    },
+    order: 1
+  },
+  "ITEM_POKEMON_STORAGE_UPGRADE": {
+    "name": {
+      "en": "pokémon storage upgrade",
+      "it": "ampliamento spazio pokémon"
+    },
+    "description": {
+      "en": (info) => `Each ${info.UpgradeType} increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+    },
+    order: 2
+  },
+    // MEDICINE
+  "ITEM_POTION": {
+    "name": {
+      "en": "potion",
+      "it": "pozione"
+    },
+    "description": {
+      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
+    },
+    order: 1
+  },
+  "ITEM_SUPER_POTION": {
+    "name": {
+      "en": "super potion",
+      "it": "superpozione"
+    },
+    "description": {
+      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
+    },
+    order: 2
+  },
+  "ITEM_MAX_POTION": {
+    "name": {
+      "en": "max potion"
+    },
+    "description": {
+      "en": (info) => `Heals Pokémon ${info.StaPercent * 100}%.`
+    },
+    order: 3
+  },
+  "ITEM_REVIVE": {
+    "name": {
+      "en": "revive",
+      "it": "revitalizzante"
+    },
+    "description": {
+      "en": (info) => `Revives a fainted Pokémon to ${info.StaPercent * 100}% HP.`
+    },
+    order: 4
+  },
+  "ITEM_MAX_REVIVE": {
+    "name": {
+      "en": "max revive"
+    },
+    "description": {
+      "en": (info) => `Revives a fainted Pokémon and restores to ${info.StaPercent * 100}% HP.`
+    },
+    order: 5
+  },
+  // BALLS
+  "ITEM_POKE_BALL": {
+    "name": {
+      "en": "poké ball",
+      "it": "poké ball"
+    },
+    "description": {
+      "en": "A ball used for catching Pokémon."
+    },
+    order: 1
+  },
+  "ITEM_GREAT_BALL": {
+    "name": {
+      "en": "great ball"
+    },
+    "description": {
+      "en": "A ball used for catching Pokémon. Has a higher chance of capture than a Poké Ball."
+    },
+    order: 2
+  },
+  "ITEM_ULTRA_BALL": {
+    "name": {
+      "en": "ultra ball",
+      "it": "ultra ball"
+    },
+    "description": {
+      "en": "A ball used for catching Pokémon. Has a higher chance of capture then  Has a higher chance of capture than a Great Ball."
+    },
+    order: 3
+  },
+  "ITEM_MASTER_BALL": {
+    "name": {
+      "en": "master ball",
+      "it": "master ball"
+    },
+    "description": {
+      "en": "A ball used for catching Pokémon. This ball is guaranteed to catch whatever Pokémon it is thrown at."
+    },
+    order: 4
+  },
+  // XP BOOST
+  "ITEM_LUCKY_EGG": {
+    "name": {
+      "en": "lucky egg",
+      "it": "fortunuovo"
+    },
+    "description": {
+      "en": (info) => `Increases experience gain by x${info.XpMultiplier} for ${(info.BoostDurationMs / 1000) / 60 } minutes.`
     }
   }
 }
