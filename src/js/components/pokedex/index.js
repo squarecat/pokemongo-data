@@ -20,7 +20,7 @@ export default React.createClass({
     return (
       <div data-has-overlay={ !!(children || overlay) } >
         { children }
-        <div className="u-container">
+        <div className="pokedex-container">
           <p>{ lang.PAGE_DESCRIPTION.GENERAL[locale] }</p>
           <div className="pokedex">
             <PokeList pokemon={ sortPokemonOnValue(sortValue) } />
