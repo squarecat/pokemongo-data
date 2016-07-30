@@ -1,4 +1,4 @@
-{
+export default {
   "ITEM_INFORMATION": {
     "INCUBATOR_DISTANCE": {
       "name": {
@@ -30,101 +30,26 @@
     "ITEM_CATEGORY_MEDICINE": {
       "name": {
         "en": "medicine"
-      },
-      "info": {
-        "StaAmount": {
-          "name": {
-            "en": "hp amount"
-          }
-        },
-        "StaPercent": {
-          "name": {
-            "en": "hp percentage"
-          }
-        }
       }
     },
     "ITEM_CATEGORY_INCENSE": {
       "name": {
         "en": "incense"
-      },
-      "info": {
-        "IncenseLifetimeSeconds": {
-          "name": {
-            "en": "Lasts for <IncenseLifetimeSeconds> seconds"
-          }
-        },
-        "StandingTimeBetweenEncountersSec": {
-          "name": {
-            "en": "standing time between encounters (seconds)"
-          }
-        },
-        "MovingTimeBetweenEncounterSec": {
-          "name": {
-            "en": "moving time between encounters (seconds)"
-          }
-        },
-        "DistanceRequiredForShorterIntervalMeters": {
-          "name": {
-            "en": "distance required for shorter interval meters (meters)"
-          }
-        }
       }
     },
     "ITEM_CATEGORY_INCUBATOR": {
       "name": {
         "en": "incubator"
-      },
-      "info": {
-        "IncubatorType": {
-          "name": {
-            "en": "incubator type"
-          }
-        },
-        "Uses": {
-          "name": {
-            "en": "uses"
-          }
-        },
-        "DistanceMultiplier": {
-          "name": {
-            "en": "distance multiplier"
-          }
-        }
       }
     },
     "ITEM_CATEGORY_INVENTORY_UPGRADE": {
       "name": {
         "en": "inventory upgrade"
-      },
-      "info": {
-        "AdditionalStorage": {
-          "name": {
-            "en": "additional storage"
-          }
-        },
-        "UpgradeType": {
-          "name": {
-            "en": "upgrade type"
-          }
-        }
       }
     },
     "ITEM_CATEGORY_XP_BOOST": {
       "name": {
         "en": "xp boost"
-      },
-      "info": {
-        "XpMultiplier": {
-          "name": {
-            "en": "xp multiplier"
-          }
-        },
-        "BoostDurationMs": {
-          "name": {
-            "en": "boost duration (milliseconds)"
-          }
-        }
       }
     },
     "ITEM_CATEGORY_CAMERA": {
@@ -180,7 +105,7 @@
       "en": "incense ordinary"
     },
     "description": {
-      "en": "Attracts wild Pokémon to you."
+      "en": "Attracts wild Pokémon to your location. Lasts for $IncenseLifetimeSeconds seconds. While standing you will encounter a Pokémon every $StandingTimeBetweenEncountersSec seconds. While walking you will encounter Pokémon every $MovingTimeBetweenEncounterSec seconds or every $DistanceRequiredForShorterIntervalMeters meters."
     }
   },
   "ITEM_INCUBATOR_BASIC": {
@@ -189,7 +114,7 @@
       "it": "incubatrice uova"
     },
     "description": {
-      "en": "Used to hatch Pokémon Eggs. Each one can hatch 3 Eggs."
+      "en": "Used to hatch Pokémon Eggs. Each one can hatch $Uses Eggs."
     }
   },
   "ITEM_INCUBATOR_BASIC_UNLIMITED": {
@@ -207,7 +132,7 @@
       "it": "ampliamento spazio borsa"
     },
     "description": {
-      "en": "Each upgrade increases the Item storage capacity by 50 to a max of 1000"
+      "en": "Each $UpgradeType increases capacity by $AdditionalStorage to a max of 1000"
     }
   },
   "ITEM_LUCKY_EGG": {
@@ -216,7 +141,7 @@
       "it": "fortunuovo"
     },
     "description": {
-      "en": "Doubles all experience gain for 30 minutes."
+      "en": "Increases experience gain by x$XpMultiplier for $BoostDurationMs milliseconds."
     }
   },
   "ITEM_MASTER_BALL": {
@@ -233,7 +158,7 @@
       "en": "max potion"
     },
     "description": {
-      "en": "Heals Pokémon 100%."
+      "en": "Heals Pokémon $StaPercent%."
     }
   },
   "ITEM_MAX_REVIVE": {
@@ -241,7 +166,7 @@
       "en": "max revive"
     },
     "description": {
-      "en": "Revives a Pokémon and restores to 100% HP."
+      "en": "Revives a Pokémon and restores to $StaPercent% HP."
     }
   },
   "ITEM_NANAB_BERRY": {
@@ -266,7 +191,7 @@
       "it": "ampliamento spazio pokémon"
     },
     "description": {
-      "en": "Each upgrade increases the Pokémon storage capacity by 50 to a max of 1000."
+      "en": "Each $UpgradeType increases capacity by $AdditionalStorage to a max of 1000"
     }
   },
   "ITEM_POKE_BALL": {
@@ -284,7 +209,7 @@
       "it": "pozione"
     },
     "description": {
-      "en": "Heals Pokémon by 20 HP."
+      "en": "Heals Pokémon by $StaAmount HP."
     }
   },
   "ITEM_RAZZ_BERRY": {
@@ -301,7 +226,7 @@
       "it": "revitalizzante"
     },
     "description": {
-      "en": "Revives a Pokémon to 50% HP."
+      "en": "Revives a Pokémon to $StaPercent% HP."
     }
   },
   "ITEM_SPECIAL_CAMERA": {
@@ -319,7 +244,7 @@
       "it": "superpozione"
     },
     "description": {
-      "en": "Heals Pokémon by 50 HP."
+      "en": "Heals Pokémon by $StaAmount HP."
     }
   },
   "ITEM_TROY_DISK": {
