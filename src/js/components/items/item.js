@@ -39,7 +39,7 @@ export default React.createClass({
 
     if (item.linkTo) {
       return (
-        <li key={ item.name }>
+        <li>
           <img
             src={ item.trackUrl }
             style={{ width: "1px", height: "1px" }}
@@ -60,7 +60,7 @@ export default React.createClass({
     }
 
     return (
-      <li key={ item.id }>
+      <li>
         { Item }
       </li>
     )
