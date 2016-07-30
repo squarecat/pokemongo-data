@@ -3,6 +3,23 @@
 
   },
   "MOVES": {
-
+    "POWER": {
+      "en": "Power"
+    },
+    "NAME": {
+      "en": "Name"
+    },
+    "CRITICALCHANCE": {
+      "en": "Critical Chance"
+    },
+    "DURATIONMS": {
+      "en": "Duration"
+    },
+    "DPS": {
+      "en": "Damage per second (DPS)"
+    },
+    "ENERGYDELTA": {
+      "en": "Energy Usage"
+    }
   }
 }

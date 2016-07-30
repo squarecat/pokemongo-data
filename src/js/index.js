@@ -15,10 +15,3 @@ render(
   <Router children={ routes } history={ hashHistory } />,
   document.getElementById('react-body')
 );
-
-for (var i = 0; i < first.length; i++) {
-  if (first[i] === "\") {
-    var octstr = first.substring(i+1, i+3);
-    console.log(octstr);
-  }
-}
