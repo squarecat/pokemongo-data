@@ -1,5 +1,5 @@
 import _ from "lodash";
-import lang from 'json!lang/items.json'
+import lang from 'lang/items'
 import locale from './locale'
 
 import data from "./grouped";
@@ -41,7 +41,6 @@ function getDescription(item) {
     data[key] = (typeof value === 'string' ? lang.ITEM_INFORMATION[value].name[locale] : value)
     return data
   }, {})
-  console.log('replacers', item.data.Category, replacers)
 
   return replaceTemplate(
     lang[item.id].description[locale],

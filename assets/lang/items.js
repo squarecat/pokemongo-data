@@ -1,4 +1,4 @@
-{
+export default {
   "ITEM_INFORMATION": {
     "INCUBATOR_DISTANCE": {
       "name": {
