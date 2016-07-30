@@ -1,0 +1,39 @@
+.items {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item__sprite-wrapper {
+  height: 50px;
+  width: 60px;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.item__sprite-wrapper:empty::before {
+  content: "?";
+  font-size: 24px;
+  color: #ccc;
+}
+
+.item__sprite {
+  height: 100%;
+}
+
+.item__details {
+  padding: 8px 0;
+}
+
+.item__name svg {
+  margin-left: 6px;
+  height: 13px;
+}

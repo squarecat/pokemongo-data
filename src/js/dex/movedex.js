@@ -1,6 +1,8 @@
 import _ from "lodash";
 
 import data from "./grouped";
+import lang from "json!lang/moves.json";
+import filtersLang from "json!lang/filters.json";
 import { transformType } from "dex/typedex";
 
 const { Move } = data;
@@ -9,52 +11,53 @@ const STAB = 1.25;
 
 export const sortableProps = [{
   value: "data.Power",
-  label: "Power",
+  label: filtersLang.MOVES.POWER.en,
   icon: "power.png",
   sort: (val) => -val
 }, {
   value: "name",
-  label: "Name",
+  label: filtersLang.MOVES.NAME.en,
   icon: "az.png"
 }, {
   value: "data.CriticalChance",
-  label: "Critical Chance",
+  label: filtersLang.MOVES.CRITICALCHANCE.en,
   transform: (val) => `${val * 100}%`,
   sort: (val) => -val,
   icon: "critical.png"
 }, {
   value: "data.DurationMs",
-  label: "Duration",
+  label: filtersLang.MOVES.DURATIONMS.en,
   transform: (val) => `${val / 1000}s`,
   icon: "duration.png"
 }, {
   value: "dps",
-  label: "Damage per second (DPS)",
+  label: filtersLang.MOVES.DPS.en,
   sort: (val) => -val,
   transform: (val) => Math.round(val * 10 ) / 10,
   icon: "dps.png"
 }, {
   value: "data.EnergyDelta",
-  label: "Energy Usage",
+  label: filtersLang.MOVES.ENERGYDELTA.en,
   icon: "usage.png"
 }];
 
 const moves = Move.map(move => {
   let numericId = move.id.substring(1, move.id.length - 1);
   numericId = numericId.split("_");
-  numericId = parseInt(numericId[0].substring(1))
+  numericId = parseInt(numericId[0].substring(1));
+  const id = move.id.match(/^"?(V\d+[a-zA-Z_]+)/)[1];
 
   const movesPerSec = 1000 / move.data.DurationMs;
   return Object.assign(move, {
     numericId,
-    name: move.data.VfxName.replace("_", " "),
+    name: lang[id].name.en,
     type: transformType(move.data.Type),
     eus: movesPerSec * move.data.EnergyDelta,
     dps: movesPerSec * move.data.Power
   })
 });
 
-console.log(moves);
+console.log('Moves', moves);
 export default moves;
 
 export function sortMovesOnValue(value) {

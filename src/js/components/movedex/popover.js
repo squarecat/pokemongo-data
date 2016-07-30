@@ -21,7 +21,7 @@ export default React.createClass({
     return (
       <div className="pokemon-popover">
         <div className="pokemon-popover__body pokemon-popover__body--move">
-          <div className="pokemon-popover__name">
+          <div className="pokemon-popover__name u-capitalize">
             <span className="u-title">
               { parseName(move) }
             </span>
@@ -119,7 +119,7 @@ function learnedBy(move) {
       <ul className="u-pokemon-icon-list u-horizonal-list">
         {
           learnedList.map(poke => (
-            <li id={ poke.id }>
+            <li id={ poke.id } key={ poke.id }>
                <Link to={ `/pokedex/${poke.dexNumber}` }>
                   <img
                     className="u-sprite u-sprite--mini"

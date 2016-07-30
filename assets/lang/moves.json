@@ -1,0 +1,845 @@
+{
+  "PAGE_DESCRIPTION": {
+    "GENERAL": {
+      "en": "Tap a move to see more detailed information."
+    },
+    "BASIC": {
+      "title": {
+        "en": "Basic Attacks"
+      },
+      "description": {
+        "en": "Basic attacks are fast and are used by tapping the screen whilst in battle. Each use causes energy to be stored"
+      }
+    },
+    "SPECIAL": {
+      "title": {
+        "en": "Special Attacks"
+      },
+      "description": {
+        "en": "Special attacks tend to be slower, more powerful, and have a chance to critical hit. They are used by long-pressing the screen whilst in battle and each use consumes stored energy."
+      }
+    }
+  },
+  "V0013_MOVE_WRAP": {
+    "name": {
+      "en": "wrap",
+      "it": "avvolgibotta"
+    }
+  },
+  "V0014_MOVE_HYPER_BEAM": {
+    "name": {
+      "en": "hyper beam",
+      "it": "iper raggio"
+    }
+  },
+  "V0016_MOVE_DARK_PULSE": {
+    "name": {
+      "en": "dark pulse",
+      "it": "neropulsar"
+    }
+  },
+  "V0018_MOVE_SLUDGE": {
+    "name": {
+      "en": "sludge",
+      "it": "fango"
+    }
+  },
+  "V0020_MOVE_VICE_GRIP": {
+    "name": {
+      "en": "vice grip",
+      "it": "presa"
+    }
+  },
+  "V0021_MOVE_FLAME_WHEEL": {
+    "name": {
+      "en": "flame wheel",
+      "it": "ruotafuoco"
+    }
+  },
+  "V0022_MOVE_MEGAHORN": {
+    "name": {
+      "en": "megahorn",
+      "it": "megacorno"
+    }
+  },
+  "V0024_MOVE_FLAMETHROWER": {
+    "name": {
+      "en": "flamethrower",
+      "it": "lanciafiamme"
+    }
+  },
+  "V0026_MOVE_DIG": {
+    "name": {
+      "en": "dig",
+      "it": "fossa"
+    }
+  },
+  "V0028_MOVE_CROSS_CHOP": {
+    "name": {
+      "en": "cross chop",
+      "it": "incrocolpo"
+    }
+  },
+  "V0030_MOVE_PSYBEAM": {
+    "name": {
+      "en": "psybeam",
+      "it": "psicoraggio"
+    }
+  },
+  "V0031_MOVE_EARTHQUAKE": {
+    "name": {
+      "en": "earthquake",
+      "it": "terremoto"
+    }
+  },
+  "V0032_MOVE_STONE_EDGE": {
+    "name": {
+      "en": "stone edge",
+      "it": "pietrataglio"
+    }
+  },
+  "V0033_MOVE_ICE_PUNCH": {
+    "name": {
+      "en": "ice punch",
+      "it": "gelopugno"
+    }
+  },
+  "V0034_MOVE_HEART_STAMP": {
+    "name": {
+      "en": "heart stamp",
+      "it": "cuorestampo"
+    }
+  },
+  "V0035_MOVE_DISCHARGE": {
+    "name": {
+      "en": "discharge",
+      "it": "scarica"
+    }
+  },
+  "V0036_MOVE_FLASH_CANNON": {
+    "name": {
+      "en": "flash cannon",
+      "it": "cannonflash"
+    }
+  },
+  "V0038_MOVE_DRILL_PECK": {
+    "name": {
+      "en": "drill peck",
+      "it": "perforbecco"
+    }
+  },
+  "V0039_MOVE_ICE_BEAM": {
+    "name": {
+      "en": "ice beam",
+      "it": "geloraggio"
+    }
+  },
+  "V0040_MOVE_BLIZZARD": {
+    "name": {
+      "en": "blizzard",
+      "it": "bora"
+    }
+  },
+  "V0042_MOVE_HEAT_WAVE": {
+    "name": {
+      "en": "heat wave",
+      "it": "ondacalda"
+    }
+  },
+  "V0045_MOVE_AERIAL_ACE": {
+    "name": {
+      "en": "aerial ace",
+      "it": "aeroassalto"
+    }
+  },
+  "V0046_MOVE_DRILL_RUN": {
+    "name": {
+      "en": "drill run",
+      "it": "giravvita"
+    }
+  },
+  "V0047_MOVE_PETAL_BLIZZARD": {
+    "name": {
+      "en": "petal blizzard",
+      "it": "fiortempesta"
+    }
+  },
+  "V0048_MOVE_MEGA_DRAIN": {
+    "name": {
+      "en": "mega drain",
+      "it": "megassorbimento"
+    }
+  },
+  "V0049_MOVE_BUG_BUZZ": {
+    "name": {
+      "en": "bug buzz",
+      "it": "ronzio"
+    }
+  },
+  "V0050_MOVE_POISON_FANG": {
+    "name": {
+      "en": "poison fang",
+      "it": "velenodenti"
+    }
+  },
+  "V0051_MOVE_NIGHT_SLASH": {
+    "name": {
+      "en": "night slash",
+      "it": "nottesferza"
+    }
+  },
+  "V0053_MOVE_BUBBLE_BEAM": {
+    "name": {
+      "en": "bubble beam",
+      "it": "bollaraggio"
+    }
+  },
+  "V0054_MOVE_SUBMISSION": {
+    "name": {
+      "en": "submission",
+      "it": "sottomissione"
+    }
+  },
+  "V0056_MOVE_LOW_SWEEP": {
+    "name": {
+      "en": "low sweep",
+      "it": "calciobasso"
+    }
+  },
+  "V0057_MOVE_AQUA_JET": {
+    "name": {
+      "en": "aqua jet",
+      "it": "acquagetto"
+    }
+  },
+  "V0058_MOVE_AQUA_TAIL": {
+    "name": {
+      "en": "aqua tail",
+      "it": "idrondata"
+    }
+  },
+  "V0059_MOVE_SEED_BOMB": {
+    "name": {
+      "en": "seed bomb",
+      "it": "semebomba"
+    }
+  },
+  "V0060_MOVE_PSYSHOCK": {
+    "name": {
+      "en": "psyshock",
+      "it": "psicoshock"
+    }
+  },
+  "V0062_MOVE_ANCIENT_POWER": {
+    "name": {
+      "en": "ancient power",
+      "it": "forzantica"
+    }
+  },
+  "V0063_MOVE_ROCK_TOMB": {
+    "name": {
+      "en": "rock tomb",
+      "it": "rocciotomba"
+    }
+  },
+  "V0064_MOVE_ROCK_SLIDE": {
+    "name": {
+      "en": "rock slide",
+      "it": "frana"
+    }
+  },
+  "V0065_MOVE_POWER_GEM": {
+    "name": {
+      "en": "power gem",
+      "it": "gemmoforza"
+    }
+  },
+  "V0066_MOVE_SHADOW_SNEAK": {
+    "name": {
+      "en": "shadow sneak",
+      "it": "furtivombra"
+    }
+  },
+  "V0067_MOVE_SHADOW_PUNCH": {
+    "name": {
+      "en": "shadow punch",
+      "it": "pugnodombra"
+    }
+  },
+  "V0069_MOVE_OMINOUS_WIND": {
+    "name": {
+      "en": "ominous wind",
+      "it": "funestovento"
+    }
+  },
+  "V0070_MOVE_SHADOW_BALL": {
+    "name": {
+      "en": "shadow ball",
+      "it": "palla ombra"
+    }
+  },
+  "V0072_MOVE_MAGNET_BOMB": {
+    "name": {
+      "en": "magnet bomb",
+      "it": "bombagnete"
+    }
+  },
+  "V0074_MOVE_IRON_HEAD": {
+    "name": {
+      "en": "iron head",
+      "it": "metaltestata"
+    }
+  },
+  "V0075_MOVE_PARABOLIC_CHARGE": {
+    "name": {
+      "en": "parabolic charge",
+      "it": "caricaparabola"
+    }
+  },
+  "V0077_MOVE_THUNDER_PUNCH": {
+    "name": {
+      "en": "thunder punch",
+      "it": "tuonopugno"
+    }
+  },
+  "V0078_MOVE_THUNDER": {
+    "name": {
+      "en": "thunder",
+      "it": "tuono"
+    }
+  },
+  "V0079_MOVE_THUNDERBOLT": {
+    "name": {
+      "en": "thunderbolt",
+      "it": "fulmine"
+    }
+  },
+  "V0080_MOVE_TWISTER": {
+    "name": {
+      "en": "twister",
+      "it": "tornado"
+    }
+  },
+  "V0082_MOVE_DRAGON_PULSE": {
+    "name": {
+      "en": "dragon pulse",
+      "it": "dragopulsar"
+    }
+  },
+  "V0083_MOVE_DRAGON_CLAW": {
+    "name": {
+      "en": "dragon claw",
+      "it": "dragartigli"
+    }
+  },
+  "V0084_MOVE_DISARMING_VOICE": {
+    "name": {
+      "en": "disarming voice",
+      "it": "incantavoce"
+    }
+  },
+  "V0085_MOVE_DRAINING_KISS": {
+    "name": {
+      "en": "draining kiss",
+      "it": "assorbibacio"
+    }
+  },
+  "V0086_MOVE_DAZZLING_GLEAM": {
+    "name": {
+      "en": "dazzling gleam",
+      "it": "magibrillio"
+    }
+  },
+  "V0087_MOVE_MOONBLAST": {
+    "name": {
+      "en": "moonblast",
+      "it": "forza lunare"
+    }
+  },
+  "V0088_MOVE_PLAY_ROUGH": {
+    "name": {
+      "en": "play rough",
+      "it": "carineria"
+    }
+  },
+  "V0089_MOVE_CROSS_POISON": {
+    "name": {
+      "en": "cross poison",
+      "it": "velenocroce"
+    }
+  },
+  "V0090_MOVE_SLUDGE_BOMB": {
+    "name": {
+      "en": "sludge bomb",
+      "it": "fangobomba"
+    }
+  },
+  "V0091_MOVE_SLUDGE_WAVE": {
+    "name": {
+      "en": "sludge wave",
+      "it": "fangonda"
+    }
+  },
+  "V0092_MOVE_GUNK_SHOT": {
+    "name": {
+      "en": "gunk shot",
+      "it": "sporcolancio"
+    }
+  },
+  "V0094_MOVE_BONE_CLUB": {
+    "name": {
+      "en": "bone club",
+      "it": "ossoclava"
+    }
+  },
+  "V0095_MOVE_BULLDOZE": {
+    "name": {
+      "en": "bulldoze",
+      "it": "battiterra"
+    }
+  },
+  "V0096_MOVE_MUD_BOMB": {
+    "name": {
+      "en": "mud bomb",
+      "it": "pantanobomba"
+    }
+  },
+  "V0099_MOVE_SIGNAL_BEAM": {
+    "name": {
+      "en": "signal beam",
+      "it": "segnoraggio"
+    }
+  },
+  "V0100_MOVE_X_SCISSOR": {
+    "name": {
+      "en": "x scissor",
+      "it": "forbice x"
+    }
+  },
+  "V0101_MOVE_FLAME_CHARGE": {
+    "name": {
+      "en": "flame charge",
+      "it": "nitrocarica"
+    }
+  },
+  "V0102_MOVE_FLAME_BURST": {
+    "name": {
+      "en": "flame burst",
+      "it": "pirolancio"
+    }
+  },
+  "V0103_MOVE_FIRE_BLAST": {
+    "name": {
+      "en": "fire blast",
+      "it": "fuocobomba"
+    }
+  },
+  "V0104_MOVE_BRINE": {
+    "name": {
+      "en": "brine",
+      "it": "acquadisale"
+    }
+  },
+  "V0105_MOVE_WATER_PULSE": {
+    "name": {
+      "en": "water pulse",
+      "it": "idropulsar"
+    }
+  },
+  "V0106_MOVE_SCALD": {
+    "name": {
+      "en": "scald",
+      "it": "idrovampata"
+    }
+  },
+  "V0107_MOVE_HYDRO_PUMP": {
+    "name": {
+      "en": "hydro pump",
+      "it": "idropompa"
+    }
+  },
+  "V0108_MOVE_PSYCHIC": {
+    "name": {
+      "en": "psychic",
+      "it": "psichico"
+    }
+  },
+  "V0109_MOVE_PSYSTRIKE": {
+    "name": {
+      "en": "psystrike",
+      "it": "psicobotta"
+    }
+  },
+  "V0111_MOVE_ICY_WIND": {
+    "name": {
+      "en": "icy wind",
+      "it": "ventogelato"
+    }
+  },
+  "V0114_MOVE_GIGA_DRAIN": {
+    "name": {
+      "en": "giga drain",
+      "it": "gigassorbimento"
+    }
+  },
+  "V0115_MOVE_FIRE_PUNCH": {
+    "name": {
+      "en": "fire punch",
+      "it": "fuocopugno"
+    }
+  },
+  "V0116_MOVE_SOLAR_BEAM": {
+    "name": {
+      "en": "solar beam",
+      "it": "solarraggio"
+    }
+  },
+  "V0117_MOVE_LEAF_BLADE": {
+    "name": {
+      "en": "leaf blade",
+      "it": "fendifoglia"
+    }
+  },
+  "V0118_MOVE_POWER_WHIP": {
+    "name": {
+      "en": "power whip",
+      "it": "vigorcolpo"
+    }
+  },
+  "V0121_MOVE_AIR_CUTTER": {
+    "name": {
+      "en": "air cutter",
+      "it": "aerasoio"
+    }
+  },
+  "V0122_MOVE_HURRICANE": {
+    "name": {
+      "en": "hurricane",
+      "it": "tifone"
+    }
+  },
+  "V0123_MOVE_BRICK_BREAK": {
+    "name": {
+      "en": "brick break",
+      "it": "breccia"
+    }
+  },
+  "V0125_MOVE_SWIFT": {
+    "name": {
+      "en": "swift",
+      "it": "comete"
+    }
+  },
+  "V0126_MOVE_HORN_ATTACK": {
+    "name": {
+      "en": "horn attack",
+      "it": "incornata"
+    }
+  },
+  "V0127_MOVE_STOMP": {
+    "name": {
+      "en": "stomp",
+      "it": "pestone"
+    }
+  },
+  "V0129_MOVE_HYPER_FANG": {
+    "name": {
+      "en": "hyper fang",
+      "it": "iperzanna"
+    }
+  },
+  "V0131_MOVE_BODY_SLAM": {
+    "name": {
+      "en": "body slam",
+      "it": "corposcontro"
+    }
+  },
+  "V0132_MOVE_REST": {
+    "name": {
+      "en": "rest",
+      "it": "riposo"
+    }
+  },
+  "V0133_MOVE_STRUGGLE": {
+    "name": {
+      "en": "struggle",
+      "it": "scontro"
+    }
+  },
+  "V0134_MOVE_SCALD_BLASTOISE": {
+    "name": {
+      "en": "scald blastoise",
+      "it": "idrovampata blastoise"
+    }
+  },
+  "V0135_MOVE_HYDRO_PUMP_BLASTOISE": {
+    "name": {
+      "en": "hydro pump blastoise",
+      "it": "idropompa blastoise"
+    }
+  },
+  "V0136_MOVE_WRAP_GREEN": {
+    "name": {
+      "en": "wrap green",
+      "it": "avvolgimento verde"
+    }
+  },
+  "V0137_MOVE_WRAP_PINK": {
+    "name": {
+      "en": "wrap pink",
+      "it": "avvolgimento rosa"
+    }
+  },
+  "V0200_MOVE_FURY_CUTTER_FAST": {
+    "name": {
+      "en": "fury cutter",
+      "it": "tagliofuria"
+    }
+  },
+  "V0201_MOVE_BUG_BITE_FAST": {
+    "name": {
+      "en": "bug bite",
+      "it": "coleomorso"
+    }
+  },
+  "V0202_MOVE_BITE_FAST": {
+    "name": {
+      "en": "bite",
+      "it": "morso"
+    }
+  },
+  "V0203_MOVE_SUCKER_PUNCH_FAST": {
+    "name": {
+      "en": "sucker punch",
+      "it": "sbigoattacco"
+    }
+  },
+  "V0204_MOVE_DRAGON_BREATH_FAST": {
+    "name": {
+      "en": "dragon breath",
+      "it": "dragospiro"
+    }
+  },
+  "V0205_MOVE_THUNDER_SHOCK_FAST": {
+    "name": {
+      "en": "thunder shock",
+      "it": "tuonoshock"
+    }
+  },
+  "V0206_MOVE_SPARK_FAST": {
+    "name": {
+      "en": "spark",
+      "it": "scintilla"
+    }
+  },
+  "V0207_MOVE_LOW_KICK_FAST": {
+    "name": {
+      "en": "low kick",
+      "it": "colpo basso"
+    }
+  },
+  "V0208_MOVE_KARATE_CHOP_FAST": {
+    "name": {
+      "en": "karate chop",
+      "it": "colpokarate"
+    }
+  },
+  "V0209_MOVE_EMBER_FAST": {
+    "name": {
+      "en": "ember",
+      "it": "braciere"
+    }
+  },
+  "V0210_MOVE_WING_ATTACK_FAST": {
+    "name": {
+      "en": "wing attack",
+      "it": "attacco d'ala"
+    }
+  },
+  "V0211_MOVE_PECK_FAST": {
+    "name": {
+      "en": "peck",
+      "it": "beccata"
+    }
+  },
+  "V0212_MOVE_LICK_FAST": {
+    "name": {
+      "en": "lick",
+      "it": "leccata"
+    }
+  },
+  "V0213_MOVE_SHADOW_CLAW_FAST": {
+    "name": {
+      "en": "shadow claw",
+      "it": "ombrartigli"
+    }
+  },
+  "V0214_MOVE_VINE_WHIP_FAST": {
+    "name": {
+      "en": "vine whip",
+      "it": "frustata"
+    }
+  },
+  "V0215_MOVE_RAZOR_LEAF_FAST": {
+    "name": {
+      "en": "razor leaf",
+      "it": "foglielama"
+    }
+  },
+  "V0216_MOVE_MUD_SHOT_FAST": {
+    "name": {
+      "en": "mud shot",
+      "it": "colpodifango"
+    }
+  },
+  "V0217_MOVE_ICE_SHARD_FAST": {
+    "name": {
+      "en": "ice shard",
+      "it": "geloscheggia"
+    }
+  },
+  "V0218_MOVE_FROST_BREATH_FAST": {
+    "name": {
+      "en": "frost breath",
+      "it": "alitogelido"
+    }
+  },
+  "V0219_MOVE_QUICK_ATTACK_FAST": {
+    "name": {
+      "en": "quick attack",
+      "it": "attacco rapido"
+    }
+  },
+  "V0220_MOVE_SCRATCH_FAST": {
+    "name": {
+      "en": "scratch",
+      "it": "graffio"
+    }
+  },
+  "V0221_MOVE_TACKLE_FAST": {
+    "name": {
+      "en": "tackle",
+      "it": "azione"
+    }
+  },
+  "V0222_MOVE_POUND_FAST": {
+    "name": {
+      "en": "pound",
+      "it": "botta"
+    }
+  },
+  "V0223_MOVE_CUT_FAST": {
+    "name": {
+      "en": "cut",
+      "it": "taglio"
+    }
+  },
+  "V0224_MOVE_POISON_JAB_FAST": {
+    "name": {
+      "en": "poison jab",
+      "it": "velenpuntura"
+    }
+  },
+  "V0225_MOVE_ACID_FAST": {
+    "name": {
+      "en": "acid",
+      "it": "acido"
+    }
+  },
+  "V0226_MOVE_PSYCHO_CUT_FAST": {
+    "name": {
+      "en": "psycho cut",
+      "it": "psicotaglio"
+    }
+  },
+  "V0227_MOVE_ROCK_THROW_FAST": {
+    "name": {
+      "en": "rock throw",
+      "it": "sassata"
+    }
+  },
+  "V0228_MOVE_METAL_CLAW_FAST": {
+    "name": {
+      "en": "metal claw",
+      "it": "ferrartigli"
+    }
+  },
+  "V0229_MOVE_BULLET_PUNCH_FAST": {
+    "name": {
+      "en": "bullet punch",
+      "it": "pugnoscarica"
+    }
+  },
+  "V0230_MOVE_WATER_GUN_FAST": {
+    "name": {
+      "en": "water gun",
+      "it": "pistolacqua"
+    }
+  },
+  "V0231_MOVE_SPLASH_FAST": {
+    "name": {
+      "en": "splash",
+      "it": "splash"
+    }
+  },
+  "V0232_MOVE_WATER_GUN_FAST_BLASTOISE": {
+    "name": {
+      "en": "water gun blastoise",
+      "it": "pistolacqua blastoise"
+    }
+  },
+  "V0233_MOVE_MUD_SLAP_FAST": {
+    "name": {
+      "en": "mud slap",
+      "it": "fangosberla"
+    }
+  },
+  "V0234_MOVE_ZEN_HEADBUTT_FAST": {
+    "name": {
+      "en": "zen headbutt",
+      "it": "cozzata zen"
+    }
+  },
+  "V0235_MOVE_CONFUSION_FAST": {
+    "name": {
+      "en": "confusion",
+      "it": "confusione"
+    }
+  },
+  "V0236_MOVE_POISON_STING_FAST": {
+    "name": {
+      "en": "poison sting",
+      "it": "velenospina"
+    }
+  },
+  "V0237_MOVE_BUBBLE_FAST": {
+    "name": {
+      "en": "bubble",
+      "it": "bolla"
+    }
+  },
+  "V0238_MOVE_FEINT_ATTACK_FAST": {
+    "name": {
+      "en": "feint attack",
+      "it": "finta"
+    }
+  },
+  "V0239_MOVE_STEEL_WING_FAST": {
+    "name": {
+      "en": "steel wing",
+      "it": "alacciaio"
+    }
+  },
+  "V0240_MOVE_FIRE_FANG_FAST": {
+    "name": {
+      "en": "fire fang",
+      "it": "rogodenti"
+    }
+  },
+  "V0241_MOVE_ROCK_SMASH_FAST": {
+    "name": {
+      "en": "rock smash",
+      "it": "spaccaroccia"
+    }
+  }
+}

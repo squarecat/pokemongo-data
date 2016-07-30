@@ -6,7 +6,7 @@
 
 
 .u-stat-value, .u-stat-label {
-  text-transform: capitalize;
+  @extend .u-capitalize;
   display: block;
 }
 

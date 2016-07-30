@@ -65,8 +65,8 @@ $small-window: 600px;
   }
 }
 
-.pokemon-popover + .movedex > .filters,
-.pokemon-popover + .pokedex > .filters {
+.pokemon-popover + .movedex .filters,
+.pokemon-popover + .pokedex .filters {
   display: none;
 }
 

@@ -1,10 +1,14 @@
+.pokedex {
+  padding: 2rem 0;
+}
+
 .pokemon-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
   margin: 0;
-  padding: 4rem 0
+  padding: 1rem 0;
 }
 
 .pokemon-list li {
@@ -29,7 +33,6 @@
 }
 
 .pokemon__name {
-  text-transform: capitalize;
   font-weight: bold;
   padding: 5px 0;
 }

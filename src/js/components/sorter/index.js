@@ -33,7 +33,7 @@ export default React.createClass({
       hitType: 'event',
       eventCategory: 'sorter',
       eventAction: 'change-sort',
-      eventLabel: 'filter.value'
+      eventLabel: filter.value
     });
     this.close();
   },

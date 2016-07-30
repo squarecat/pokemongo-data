@@ -4,6 +4,8 @@ import Sorter from "components/sorter";
 import PokeList from "./poke-list";
 import pokemonList, { sortableProps, sortPokemonOnValue } from "dex/pokedex";
 
+import lang from "json!../../../../assets/lang/pokemon.json";
+import locale from 'dex/locale';
 
 export default React.createClass({
   componentWillMount() {
@@ -19,6 +21,7 @@ export default React.createClass({
       <div data-has-overlay={ !!(children || overlay) } >
         { children }
         <div className="pokedex">
+          <p>{ lang.PAGE_DESCRIPTION.GENERAL[locale] }</p>
           <PokeList pokemon={ sortPokemonOnValue(sortValue) } />
 
           <Sorter
