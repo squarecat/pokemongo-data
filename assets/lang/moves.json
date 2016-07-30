@@ -1,10 +1,23 @@
 {
   "PAGE_DESCRIPTION": {
+    "GENERAL": {
+      "en": "Tap a move to see more detailed information."
+    },
     "BASIC": {
-      "en": "Basic attacks are fast and are used by tapping the screen whilst in battle. Each use causes energy to be stored"
+      "title": {
+        "en": "Basic Attacks"
+      },
+      "description": {
+        "en": "Basic attacks are fast and are used by tapping the screen whilst in battle. Each use causes energy to be stored"
+      }
     },
     "SPECIAL": {
-      "en": "Special attacks tend to be slower, more powerful, and have a chance to critical hit. They are used by long-pressing the screen whilst in battle and each use consumes stored energy."
+      "title": {
+        "en": "Special Attacks"
+      },
+      "description": {
+        "en": "Special attacks tend to be slower, more powerful, and have a chance to critical hit. They are used by long-pressing the screen whilst in battle and each use consumes stored energy."
+      }
     }
   },
   "V0013_MOVE_WRAP": {

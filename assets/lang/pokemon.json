@@ -1,4 +1,9 @@
 {
+  "PAGE_DESCRIPTION": {
+    "GENERAL": {
+      "en": "Tap a Pokémon to see more detailed information, including stats, evolutions and moves."
+    }
+  },
   "V0001_POKEMON_BULBASAUR": {
     "name": {
       "en": "bulbasaur"

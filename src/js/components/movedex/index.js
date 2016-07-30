@@ -5,7 +5,8 @@ import MoveList from "./move-list";
 import unsortedMoves, { sortableProps, sortMovesOnValue } from "dex/movedex";
 import Sorter from "components/sorter";
 
-import lang from "json!../../../../assets/lang.json";
+import lang from "json!../../../../assets/lang/moves.json";
+import locale from 'dex/locale';
 
 export default React.createClass({
   componentWillMount() {
@@ -21,30 +22,33 @@ export default React.createClass({
     return (
       <div data-has-overlay={ !!(children || overlay) } >
         { children }
-        <div className="movedex">
-          <div className="movedex__basic">
-            <h2 className="u-seperator">
-              <span className="u-seperator__text">Basic Attacks</span>
-            </h2>
-            <p>Basic attacks are fast and replenish energy.</p>
-            <MoveList moves={ moves.fast } stat={ stat } />
-          </div>
+        <div className="u-container">
+          <p>{ lang.PAGE_DESCRIPTION.GENERAL[locale] }</p>
+          <div className="movedex">
+            <div className="movedex__basic">
+              <h2 className="u-seperator">
+                <span className="u-seperator__text">{ lang.PAGE_DESCRIPTION.BASIC.title[locale] }</span>
+              </h2>
+              <p>{ lang.PAGE_DESCRIPTION.BASIC.description[locale] }</p>
+              <MoveList moves={ moves.fast } stat={ stat } />
+            </div>
 
-          <div className="movedex__special">
-            <h2 className="u-seperator">
-              <span className="u-seperator__text">Special Attacks</span>
-            </h2>
-            <p>Special attacks tend to be slower, more powerful, and have a chance to critical hit. They consume energy.</p>
-            <MoveList moves={ moves.special } stat={ stat } />
-          </div>
+            <div className="movedex__special">
+              <h2 className="u-seperator">
+                <span className="u-seperator__text">{ lang.PAGE_DESCRIPTION.SPECIAL.title[locale] }</span>
+              </h2>
+              <p>{ lang.PAGE_DESCRIPTION.SPECIAL.description[locale] }</p>
+              <MoveList moves={ moves.special } stat={ stat } />
+            </div>
 
-          <Sorter
-            onCloseSort={ () => this.onCloseSort() }
-            onOpenSort={ () => this.onOpenSort() }
-            filterList={ sortableProps }
-            onSortChange={ (sortValue) => this.onSortChange(sortValue) }
-            currentSort={ sortValue }
-          />
+            <Sorter
+              onCloseSort={ () => this.onCloseSort() }
+              onOpenSort={ () => this.onOpenSort() }
+              filterList={ sortableProps }
+              onSortChange={ (sortValue) => this.onSortChange(sortValue) }
+              currentSort={ sortValue }
+            />
+          </div>
         </div>
       </div>
     );

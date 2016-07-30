@@ -1,14 +1,15 @@
 .movedex {
-  padding: 2rem 1rem;
   display: flex;
-
 
   @media(max-width: 768px) {
     flex-direction: column;
   }
 
   p {
-    height: 30px;
+    height: 60px;
+    @media(max-width: 768px) {
+      height: auto;
+    }
   }
 }
 
