@@ -22,9 +22,9 @@ export default React.createClass({
     return (
       <div data-has-overlay={ !!(children || overlay) } >
         { children }
-        <div className="u-container">
+        <div className="movedex">
           <p>{ lang.PAGE_DESCRIPTION.GENERAL[locale] }</p>
-          <div className="movedex">
+          <div className="movedex__moves">
             <div className="movedex__basic">
               <h2 className="u-seperator">
                 <span className="u-seperator__text">{ lang.PAGE_DESCRIPTION.BASIC.title[locale] }</span>

@@ -20,19 +20,17 @@ export default React.createClass({
     return (
       <div data-has-overlay={ !!(children || overlay) } >
         { children }
-        <div className="pokedex-container">
+        <div className="pokedex">
           <p>{ lang.PAGE_DESCRIPTION.GENERAL[locale] }</p>
-          <div className="pokedex">
-            <PokeList pokemon={ sortPokemonOnValue(sortValue) } />
+          <PokeList pokemon={ sortPokemonOnValue(sortValue) } />
 
-            <Sorter
-              onCloseSort={ () => this.onCloseSort() }
-              onOpenSort={ () => this.onOpenSort() }
-              filterList={ sortableProps }
-              onSortChange={ (sortValue) => this.onSortChange(sortValue) }
-              currentSort={ sortValue }
-            />
-          </div>
+          <Sorter
+            onCloseSort={ () => this.onCloseSort() }
+            onOpenSort={ () => this.onOpenSort() }
+            filterList={ sortableProps }
+            onSortChange={ (sortValue) => this.onSortChange(sortValue) }
+            currentSort={ sortValue }
+          />
         </div>
       </div>
     )

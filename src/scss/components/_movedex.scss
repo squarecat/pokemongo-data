@@ -1,15 +1,18 @@
 .movedex {
-  display: flex;
-
-  @media(max-width: 768px) {
-    flex-direction: column;
-  }
-
+  padding: 2rem 1rem;
   p {
     height: 60px;
     @media(max-width: 768px) {
       height: auto;
     }
+  }
+}
+
+.movedex__moves {
+  display: flex;
+
+  @media(max-width: 768px) {
+    flex-direction: column;
   }
 }
 
