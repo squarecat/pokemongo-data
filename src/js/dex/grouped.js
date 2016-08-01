@@ -1,18 +1,32 @@
 import PokemonAssets from "./store";
 
-const groupedAssets = _.chain(PokemonAssets.Items)
+const unused = [
+  "battle",
+  "camera",
+  "encounter",
+  "gym_level",
+  "iap_item_display",
+  "iap",
+  "move_sequence",
+  "player_level",
+  "pokemon_upgrades"
+];
+
+const groupedAssets = _.chain(PokemonAssets.item_templates)
   .map(item => {
-    const keys = Object.keys(item);
-    const itemType = keys.find(k => k !== "TemplateId");
-    const id = item.TemplateId.substring(1, item.TemplateId.length - 1)
-    return {
-      type: itemType,
+    const id = item.template_id;
+    const itemTypeKey = Object.keys(item).find(k => k !== "template_id");
+    const itemType = itemTypeKey.replace("_settings", "");
+    return Object.assign({
       id,
-      data: item[itemType]
-    };
+      _type: itemType,
+    }, item[itemTypeKey]);
   })
-  .groupBy("type")
+  .groupBy("_type")
+  .omit(unused)
   .value();
 
 console.log('Grouped', groupedAssets);
 export default groupedAssets;
+export const pokemon = groupedAssets.pokemon;
+export const move = groupedAssets.move;

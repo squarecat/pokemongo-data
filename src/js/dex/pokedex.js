@@ -1,7 +1,6 @@
 import _ from "lodash";
 
-import data from "./grouped";
-const { Pokemon } = data;
+import { pokemon as rawPokemonList } from "./grouped";
 
 export const sortableProps = [{
   value: "dexNumber",
@@ -12,32 +11,32 @@ export const sortableProps = [{
   label: "Name",
   icon: "az.png"
 }, {
-  value: "data.Stats.BaseAttack",
+  value: "stats.base_attack",
   label: "Base Attack",
   sort: (val) => -val,
   icon: "attack.png"
 }, {
-  value: "data.Stats.BaseStamina",
+  value: "stats.base_stamina",
   label: "Stamina",
   sort: (val) => -val,
   icon: "hp.png"
 }, {
-  value: "data.Stats.BaseDefense",
+  value: "stats.base_defense",
   label: "Base Defence",
   sort: (val) => -val,
   icon: "defence.png"
 }, {
-  value: "data.Encounter.BaseCaptureRate",
+  value: "encounter.base_capture_rate",
   label: "Capture Rate",
   icon: "pokeball.png"
 }, {
-  value: "data.Encounter.BaseFleeRate",
+  value: "encounter.base_flee_rate",
   label: "Flee Chance",
   transform: (val) => `${val * 100}%`,
   icon: "flee.png",
   sort: (val) => -val
 }, {
-  value: "data.CandyToEvolve",
+  value: "candy_to_evolve",
   label: "Candy To Evolve",
   icon: "candy.png"
 }];
@@ -45,16 +44,15 @@ const sortDirection = "desc";
 const selectedSort = "dexNumber";
 
 function getBasicPokeInfo(poke) {
-  const [ id, type ] = poke.id.split("_");
-  const name = poke.id.match(/V.{4}_POKEMON_(.*)$/)[1].replace("_", " ");
+  const name = poke.pokemon_id.toLowerCase();
+  const dexNumber = poke.id.match(/V(.{4})/)[1];
   return {
-    id,
-    dexNumber: id.substring(2, id.length),
+    dex_number: parseInt(dexNumber),
     name: name.toLowerCase()
   };
 }
-
-const pokemon = _.chain(Pokemon)
+console.log(rawPokemonList)
+const pokemon = _.chain(rawPokemonList)
   .map(poke => {
     return Object.assign(poke, getBasicPokeInfo(poke));
   })
@@ -66,7 +64,7 @@ export function getSpriteUrl(poke) {
 }
 
 export function getEvoChain(poke) {
-  let family = pokemon.filter(p => p.data.FamilyId === poke.data.FamilyId);
+  let family = pokemon.filter(p => p.family_id === poke.family_id);
   return _.sortBy(family, p => parseInt(p.dexNumber), 10);
 }
 

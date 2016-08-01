@@ -1,11 +1,9 @@
 import _ from "lodash";
 
-import data from "./grouped";
+import { move as rawMovesList } from "./grouped";
 import lang from "json!lang/moves.json";
 import filtersLang from "json!lang/filters.json";
 import { transformType } from "dex/typedex";
-
-const { Move } = data;
 
 const STAB = 1.25;
 
