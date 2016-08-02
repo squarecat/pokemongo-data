@@ -4,7 +4,7 @@ import lang from 'lang/items'
 import affilateData from "affiliate_ads";
 
 import locale from './locale'
-import { item as rawItemList } from "./grouped";
+import { items as rawItemList } from "./grouped";
 // const { Item } = data;
 
 const overwriteSprites = {
@@ -26,12 +26,14 @@ const itemsWithoutSprites = [
 const commonKeys = [
   "category",
   "item_type",
-  "id"
+  "item_id",
+  "id",
+  "_type"
 ];
 
 function getBasicItemInfo(item) {
   return {
-    id: item.id,
+    id: item.item_id,
     name: lang[item.id].name[locale] || item.name,
     desc: getDescription(item),
     category: lang.CATEGORIES[item.category].name[locale],

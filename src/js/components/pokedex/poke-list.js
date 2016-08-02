@@ -7,7 +7,7 @@ export default (props = { pokemon: [] }) => (
   <ul className="pokemon-list">
     {
       props.pokemon.map(poke => (
-        <Poke key={ poke.id } name={ poke.name } spriteUrl={ getSpriteUrl(poke) } dexNumber={ poke.dexNumber } onClick={ () => props.onClick(poke) } />
+        <Poke key={ poke.id } name={ poke.name } spriteUrl={ getSpriteUrl(poke) } dexNumber={ poke.dex_number } onClick={ () => props.onClick(poke) } />
       ))
     }
   </ul>

@@ -3,7 +3,7 @@ import _ from "lodash";
 import { pokemon as rawPokemonList } from "./grouped";
 
 export const sortableProps = [{
-  value: "dexNumber",
+  value: "dex_number",
   label: "Pokedex Number",
   icon: "number.png"
 }, {
@@ -47,7 +47,7 @@ function getBasicPokeInfo(poke) {
   const name = poke.pokemon_id.toLowerCase();
   const dexNumber = poke.id.match(/V(.{4})/)[1];
   return {
-    dex_number: parseInt(dexNumber),
+    dex_number: dexNumber.substring(1, dexNumber.length),
     name: name.toLowerCase()
   };
 }
@@ -60,12 +60,12 @@ const pokemon = _.chain(rawPokemonList)
   .value();
 
 export function getSpriteUrl(poke) {
-  return `./assets/sprites/${poke.dexNumber}.png`;
+  return `./assets/sprites/${poke.dex_number}.png`;
 }
 
 export function getEvoChain(poke) {
   let family = pokemon.filter(p => p.family_id === poke.family_id);
-  return _.sortBy(family, p => parseInt(p.dexNumber), 10);
+  return _.sortBy(family, p => parseInt(p.dex_number), 10);
 }
 
 export function sortPokemonOnValue(value) {

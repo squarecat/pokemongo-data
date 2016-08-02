@@ -27,7 +27,7 @@ export default (
     </Route>
 
     <Route path="items" component={ Items } />
-
+    <Route path="faq" component={ Faq } />
   </Route>
 );
 

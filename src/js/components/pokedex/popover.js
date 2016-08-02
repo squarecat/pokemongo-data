@@ -8,7 +8,7 @@ import { transformType } from "dex/typedex";
 
 export default React.createClass({
   render() {
-    const poke = pokemon.find(poke => poke.dexNumber === this.props.params.id);
+    const poke = pokemon.find(poke => poke.dex_number === this.props.params.id);
     ga('send', {
       hitType: 'event',
       eventCategory: 'pokedex',
@@ -39,13 +39,13 @@ export default React.createClass({
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { poke.data.PokedexWeightKg }kg
+              { precision(poke.pokedex_weight_kg, 1) }kg
             </span>
             <span className="u-stat-label">Avg Weight</span>
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { poke.data.PokedexHeightM }m
+              { precision(poke.pokedex_height_m) }m
             </span>
             <span className="u-stat-label">Avg Height</span>
           </li>
@@ -54,19 +54,19 @@ export default React.createClass({
         <ul className="u-horizonal-list u-stats-row">
           <li className="u-stat">
             <span className="u-stat-value">
-              { poke.data.Stats.BaseAttack }
+              { poke.stats.base_attack }
             </span>
             <span className="u-stat-label">Base Attack</span>
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { poke.data.Stats.BaseDefense }
+              { poke.stats.base_defense }
             </span>
             <span className="u-stat-label">Base Defence</span>
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { poke.data.Stats.BaseStamina }
+              { poke.stats.base_stamina }
             </span>
             <span className="u-stat-label">Base Stamina</span>
           </li>
@@ -76,11 +76,11 @@ export default React.createClass({
           <ul className="u-horizonal-list">
             {
               getEvoChain(poke).map(evo => (
-                <li data-candy={ evo.data.CandyToEvolve } key={ evo.id } >
-                  <Link to={ `/pokedex/${evo.dexNumber}` }>
+                <li data-candy={ evo.candy_to_evolve } key={ evo.id } >
+                  <Link to={ `/pokedex/${evo.dex_number}` }>
                     <img
                       className="u-sprite"
-                      data-scale={ evo.data.ModelScale }
+                      data-scale={ evo.model_scale }
                       src={ getSpriteUrl(evo) }
                     />
                   </Link>
@@ -94,12 +94,12 @@ export default React.createClass({
           <ul>
             {
               getMoveSet(poke).map(move => (
-                <Move key={ move.id } move={ move } stat={ "data.Power" } />
+                <Move key={ move.id } move={ move } stat={ "power" } />
               ))
             }
             {
               getSpecialMoveSet(poke).map(move => (
-                <Move key={ move.id } move={ move } stat={ "data.Power" } />
+                <Move key={ move.id } move={ move } stat={ "power" } />
               ))
             }
           </ul>
@@ -107,15 +107,15 @@ export default React.createClass({
 
         <ul className="pokemon-popover__encounter u-stats-row">
           <li className="u-stat">
-            <span className="u-stat-value">{ poke.data.Encounter.BaseCaptureRate || 0 }</span>
+            <span className="u-stat-value">{ precision(poke.encounter.base_capture_rate || 0) }</span>
             <span className="u-stat-label">Base Capture rate</span>
           </li>
           <li className="u-stat">
-            <span className="u-stat-value">{ Math.round(poke.data.Encounter.BaseFleeRate * 100) }%</span>
+            <span className="u-stat-value">{ Math.round(poke.encounter.base_flee_rate * 100) }%</span>
             <span className="u-stat-label">Flee chance</span>
           </li>
           <li className="u-stat">
-            <span className="u-stat-value">{ poke.data.Encounter.MovementTimerS } secs</span>
+            <span className="u-stat-value">{ poke.encounter.movement_timer_s } secs</span>
             <span className="u-stat-label">Dodge interval</span>
           </li>
         </ul>
@@ -129,8 +129,12 @@ export default React.createClass({
   }
 });
 
+function precision(num, points = 2) {
+  return num.toFixed(points);
+}
+
 function type(poke) {
-  return poke.data.Type2 ? `${transformType(poke.data.Type1)}/${transformType(poke.data.Type2)}` : transformType(poke.data.Type1);
+  return poke.type_2 ? `${transformType(poke.type)}/${transformType(poke.type_2)}` : transformType(poke.type);
 }
 
 function energyUsage(energy) {

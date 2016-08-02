@@ -29,4 +29,5 @@ const groupedAssets = _.chain(PokemonAssets.item_templates)
 console.log('Grouped', groupedAssets);
 export default groupedAssets;
 export const pokemon = groupedAssets.pokemon;
-export const move = groupedAssets.move;
+export const moves = groupedAssets.move;
+export const items = groupedAssets.item;

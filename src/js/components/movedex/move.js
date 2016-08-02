@@ -18,7 +18,7 @@ export default (props) => (
           </div>
         </div>
         <div className="move__charge">
-          { energyUsage(props.move.data.EnergyDelta) }
+          { energyUsage(props.move.energy_delta) }
         </div>
           <div className="move__power">
             { getStat(props.stat, props.move) }
@@ -45,11 +45,12 @@ function round(num) {
 }
 
 function moveLink(move) {
-  return `/movedex/${move.numericId}`;
+  return `/movedex/${move.id}`;
 }
 
 function parseName(move) {
-  return move.data.VfxName.split("_").join(" ").substring(1, move.data.VfxName.length - 1).replace("fast", "")
+  return move.vfx_name.split("_").join(" ")
+    .replace("fast", "");
 }
 
 function energyUsage(energy) {
