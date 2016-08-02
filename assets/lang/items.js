@@ -103,7 +103,7 @@ export default {
       "en": "hyper potion"
     },
     "description": {
-      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
+      "en": (info) => `Heals Pokémon by ${info.sta_amount} HP.`
     }
   },
   // CAMERA
@@ -205,10 +205,10 @@ export default {
     },
     "description": {
       "en": (info) => `
-        Attracts wild Pokémon to your location for ${info.IncenseLifetimeSeconds / 60} minutes.
-        A Pokémon will be encountered every ${info.StandingTimeBetweenEncountersSec / 60} minutes while standing,
-        every ${info.MovingTimeBetweenEncounterSec / 60} minute while travelling, or once
-        every ${info.DistanceRequiredForShorterIntervalMeters} meters travelled.
+        Attracts wild Pokémon to your location for ${info.incense_lifetime_seconds / 60} minutes.
+        A Pokémon will be encountered every ${info.standing_time_between_encounters_seconds / 60} minutes while standing,
+        every ${info.moving_time_between_encounter_seconds / 60} minute while travelling, or once
+        every ${info.distance_required_for_shorter_interval_meters} meters travelled.
       `
     }
   },
@@ -219,7 +219,7 @@ export default {
       "it": "incubatrice uova"
     },
     "description": {
-      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.Uses || 'Unlimited'} eggs.`
+      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.uses || 'unlimited'} eggs.`
     },
     order: 1
   },
@@ -229,7 +229,7 @@ export default {
       "it": "incubatrice uova ∞"
     },
     "description": {
-      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.Uses || 'unlimited'} eggs.`
+      "en": (info) => `Used to hatch Pokémon Eggs. Each one can hatch ${info.uses || 'unlimited'} eggs.`
     },
     order: 2
   },
@@ -240,7 +240,7 @@ export default {
       "it": "ampliamento spazio borsa"
     },
     "description": {
-      "en": (info) => `Each use increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+      "en": (info) => `Each use increases capacity by ${info.additional_storage} to a max of 1000.`
     },
     order: 1
   },
@@ -250,7 +250,7 @@ export default {
       "it": "ampliamento spazio pokémon"
     },
     "description": {
-      "en": (info) => `Each use increases capacity by ${info.AdditionalStorage} to a max of 1000.`
+      "en": (info) => `Each use increases capacity by ${info.additional_storage} to a max of 1000.`
     },
     order: 2
   },
@@ -261,7 +261,7 @@ export default {
       "it": "pozione"
     },
     "description": {
-      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
+      "en": (info) => `Heals Pokémon by ${info.sta_amount} HP.`
     },
     order: 1
   },
@@ -271,7 +271,7 @@ export default {
       "it": "superpozione"
     },
     "description": {
-      "en": (info) => `Heals Pokémon by ${info.StaAmount} HP.`
+      "en": (info) => `Heals Pokémon by ${info.sta_amount} HP.`
     },
     order: 2
   },
@@ -280,7 +280,7 @@ export default {
       "en": "max potion"
     },
     "description": {
-      "en": (info) => `Heals Pokémon ${info.StaPercent * 100}%.`
+      "en": (info) => `Heals Pokémon ${info.sta_percent * 100}%.`
     },
     order: 3
   },
@@ -290,7 +290,7 @@ export default {
       "it": "revitalizzante"
     },
     "description": {
-      "en": (info) => `Revives a fainted Pokémon to ${info.StaPercent * 100}% HP.`
+      "en": (info) => `Revives a fainted Pokémon to ${info.sta_percent * 100}% HP.`
     },
     order: 4
   },
@@ -299,7 +299,7 @@ export default {
       "en": "max revive"
     },
     "description": {
-      "en": (info) => `Revives a fainted Pokémon and restores to ${info.StaPercent * 100}% HP.`
+      "en": (info) => `Revives a fainted Pokémon and restores to ${info.sta_percent * 100}% HP.`
     },
     order: 5
   },
@@ -350,7 +350,7 @@ export default {
       "it": "fortunuovo"
     },
     "description": {
-      "en": (info) => `Increases experience gain by x${info.XpMultiplier} for ${(info.BoostDurationMs / 1000) / 60 } minutes.`
+      "en": (info) => `Increases experience gain by x${info.xp_multiplier} for ${(info.boost_duration_ms / 1000) / 60 } minutes.`
     }
   }
 }
