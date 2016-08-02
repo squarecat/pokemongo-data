@@ -4,8 +4,8 @@ import { Router, hashHistory } from 'react-router';
 
 import "../scss/style.scss";
 window.app = {
-  defaultMovedexSort: "data.Power",
-  defaultPokedexSort: "dexNumber",
+  defaultMovedexSort: "power",
+  defaultPokedexSort: "dex_number",
   locale: "en"
 };
 

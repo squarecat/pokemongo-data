@@ -5,7 +5,7 @@ const { TypeEffective } = data;
 
 export function transformType(typeId) {
   const id = typeId.match(/^"?([a-zA-Z_]+)/)[1];
-  return lang[id].name.en;
+  return lang[id] ? lang[id].name.en : typeId;
 }
 // const first = TypeEffective[0].TypeEffective;
 // var dec = [];

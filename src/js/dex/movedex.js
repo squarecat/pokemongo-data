@@ -1,16 +1,17 @@
 import _ from "lodash";
 
-import data from "./grouped";
+import {
+  moves as rawMovesList,
+  battleSettings
+} from "./grouped";
+
 import lang from "json!lang/moves.json";
 import filtersLang from "json!lang/filters.json";
 import { transformType } from "dex/typedex";
 
-const { Move } = data;
-
-const STAB = 1.25;
-
+console.log("STAB", battleSettings)
 export const sortableProps = [{
-  value: "data.Power",
+  value: "power",
   label: filtersLang.MOVES.POWER.en,
   icon: "power.png",
   sort: (val) => -val
@@ -19,13 +20,13 @@ export const sortableProps = [{
   label: filtersLang.MOVES.NAME.en,
   icon: "az.png"
 }, {
-  value: "data.CriticalChance",
+  value: "critical_chance",
   label: filtersLang.MOVES.CRITICALCHANCE.en,
   transform: (val) => `${val * 100}%`,
   sort: (val) => -val,
   icon: "critical.png"
 }, {
-  value: "data.DurationMs",
+  value: "duration_ms",
   label: filtersLang.MOVES.DURATIONMS.en,
   transform: (val) => `${val / 1000}s`,
   icon: "duration.png"
@@ -36,24 +37,20 @@ export const sortableProps = [{
   transform: (val) => Math.round(val * 10 ) / 10,
   icon: "dps.png"
 }, {
-  value: "data.EnergyDelta",
+  value: "energy_delta",
   label: filtersLang.MOVES.ENERGYDELTA.en,
   icon: "usage.png"
 }];
 
-const moves = Move.map(move => {
-  let numericId = move.id.substring(1, move.id.length - 1);
-  numericId = numericId.split("_");
-  numericId = parseInt(numericId[0].substring(1));
-  const id = move.id.match(/^"?(V\d+[a-zA-Z_]+)/)[1];
-
-  const movesPerSec = 1000 / move.data.DurationMs;
+const moves = rawMovesList.map(move => {
+  const id = move.id.replace(/V.{4}_MOVE_/, "");
+  const movesPerSec = 1000 / move.duration_ms;
   return Object.assign(move, {
-    numericId,
-    name: lang[id].name.en,
-    type: transformType(move.data.Type),
-    eus: movesPerSec * move.data.EnergyDelta,
-    dps: movesPerSec * move.data.Power
+    id,
+    name: lang[move.id].name.en,
+    type: transformType(move.pokemon_type),
+    eus: movesPerSec * move.energy_delta,
+    dps: movesPerSec * move.power
   })
 });
 
@@ -76,33 +73,31 @@ export function doesLearn(poke, move) {
 }
 
 export function getMoveSet(poke) {
-  const movesOct = poke.data.QuickMoves;
-  const movesOctArr = movesOct.substring(1, movesOct.length - 1).split("\\001");
-  const movesIntArr = movesOctArr.map(oct => parseInt(oct.substring(1), 8)).filter(i => !isNaN(i));
-  return _.chain(movesIntArr)
-    .map(int => moves.find(m => m.numericId === int))
-    .sortBy("data.Power")
+  return _.chain(poke.quick_moves)
+    .map(moveId => {
+      return moves.find(m => m.id === moveId);
+    })
+    .sortBy("power")
     .value();
 }
 
+// normal moves don't have STAB
+export function hasStab(move) {
+  return move.pokemon_type !== "POKEMON_TYPE_NORMAL";
+}
+
+export function calculateStab(val) {
+  return (val * battleSettings.same_type_attack_bonus_multiplier)
+    .toFixed(1);
+}
+
 export function getSpecialMoveSet(poke) {
-  const specialMoves = [];
-  let specialMovesStr = poke.data.CinematicMoves;
-  specialMovesStr = specialMovesStr.substring(1, specialMovesStr.length - 1);
-  const specialMovesFromOct = specialMovesStr.match(/(\\\d{3})/g);
-  if (specialMovesFromOct) {
-    specialMovesFromOct.forEach(moveOct => {
-      specialMovesStr = specialMovesStr.replace(moveOct, "");
-      const move = moves.find(m => m.numericId === parseInt(moveOct.substring(1), 8));
-      specialMoves.push(move);
+  return _.chain(poke.cinematic_moves)
+    .map(moveId => {
+      return moves.find(m => m.id === moveId);
     })
-  }
-  specialMovesStr.split("").forEach(s => {
-    specialMoves.push(moves.find(m => m.numericId === s.charCodeAt(0)));
-  });
-  return _.chain(specialMoves)
     .filter(specialMoves => specialMoves)
-    .sortBy(specialMoves, "data.Power")
+    .sortBy("power")
     .reverse()
     .value();
 }
