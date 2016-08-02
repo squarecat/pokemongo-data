@@ -1,3 +1,3 @@
-import master from "json!../../../assets/master.json";
+import master from "json!../../../assets/master_latest.json";
 
 export default master;

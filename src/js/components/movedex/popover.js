@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router';
 
 import pokemon, { getSpriteUrl } from "dex/pokedex";
-import moves, { doesLearn } from "dex/movedex";
+import moves, { doesLearn, hasStab, calculateStab } from "dex/movedex";
 import { transformType } from "dex/typedex";
 
 import Move from "./move";
@@ -10,13 +10,13 @@ import Move from "./move";
 export default React.createClass({
   render() {
     document.getElementById("body").style.overflow = "hidden";
-    const move = moves.find(m => m.numericId === parseInt(this.props.params.id, 10));
+    const move = moves.find(m => m.id === this.props.params.id);
     ga('send', {
       hitType: 'event',
       eventCategory: 'movedex',
       eventAction: 'open-move',
       eventLabel: parseName(move),
-      eventValue: move.numericId
+      eventValue: move.id
     });
     return (
       <div className="pokemon-popover">
@@ -26,17 +26,17 @@ export default React.createClass({
               { parseName(move) }
             </span>
             <span className="u-subtitle">
-              { transformType(move.data.Type) }
+              { transformType(move.pokemon_type) }
             </span>
             <div className="move__charge">
-              { energyUsage(move.data.EnergyDelta) }
+              { energyUsage(move.energy_delta) }
             </div>
           </div>
 
           <ul className="u-horizonal-list u-stats-row">
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.data.Power || 0 }
+                { move.power || 0 }
               </span>
               <span className="u-stat-label">
                 Power
@@ -44,7 +44,7 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.data.CriticalChance ? (move.data.CriticalChance * 100) : 0 }%
+                { Math.round(move.critical_chance ? (move.critical_chance * 100) : 0) }%
               </span>
               <span className="u-stat-label">
                 Critical Chance
@@ -52,7 +52,7 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.data.AccuracyChance * 100 }%
+                { move.accuracy_chance * 100 }%
               </span>
               <span className="u-stat-label">
                 Accuracy
@@ -62,7 +62,7 @@ export default React.createClass({
           <ul className="u-horizonal-list u-stats-row">
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.data.DurationMs / 1000 }<span className="u-lowercase u-muted">s</span>
+                { move.duration_ms / 1000 }<span className="u-lowercase u-muted">s</span>
               </span>
               <span className="u-stat-label">
                 Duration
@@ -70,7 +70,7 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.data.EnergyDelta }
+                { move.energy_delta }
               </span>
               <span className="u-stat-label">
                 Energy Usage
@@ -78,10 +78,10 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { `${round(move.dps)} (${ round(move.dps * 1.25)})` }
+                { `${round(move.dps)} ${hasStab(move) ? `(${ calculateStab(move.dps) })` : "" }` }
               </span>
               <span className="u-stat-label">
-                DPS (STAB)
+                { `DPS ${hasStab(move) ? "(STAB)" : ""} ` }
               </span>
             </li>
           </ul>
@@ -120,7 +120,7 @@ function learnedBy(move) {
         {
           learnedList.map(poke => (
             <li id={ poke.id } key={ poke.id }>
-               <Link to={ `/pokedex/${poke.dexNumber}` }>
+               <Link to={ `/pokedex/${poke.dex_number}` }>
                   <img
                     className="u-sprite u-sprite--mini"
                     src={ getSpriteUrl(poke) }
@@ -143,9 +143,9 @@ function round(num) {
   return Math.round(num * 10 ) / 10;
 }
 function specialEffects(move) {
-  if (move.data.HealScalar) {
+  if (move.heal_scalar) {
     return (
-      `Replenishes HP by ${move.data.HealScalar * 100}%`
+      `Replenishes HP by ${move.heal_scalar * 100}%`
     )
   }
 }
@@ -158,5 +158,6 @@ function energyUsage(energy) {
 }
 
 function parseName(move) {
-  return move.data.VfxName.split("_").join(" ").substring(1, move.data.VfxName.length - 1).replace("fast", "")
+  return move.vfx_name.split("_").join(" ")
+    .replace("fast", "");
 }

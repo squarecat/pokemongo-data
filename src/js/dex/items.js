@@ -4,8 +4,8 @@ import lang from 'lang/items'
 import affilateData from "affiliate_ads";
 
 import locale from './locale'
-import data from "./grouped";
-const { Item } = data;
+import { items as rawItemList } from "./grouped";
+// const { Item } = data;
 
 const overwriteSprites = {
   "ITEM_BLUK_BERRY": "unknown_berry",
@@ -24,24 +24,25 @@ const itemsWithoutSprites = [
 ];
 
 const commonKeys = [
-  "Category",
-  "ItemType",
-  "UniqueId"
+  "category",
+  "item_type",
+  "item_id",
+  "id",
+  "_type"
 ];
 
 function getBasicItemInfo(item) {
   return {
-    id: item.id,
+    id: item.item_id,
     name: lang[item.id].name[locale] || item.name,
     desc: getDescription(item),
-    category: lang.CATEGORIES[item.data.Category].name[locale],
-    catOrder: lang.CATEGORIES[item.data.Category].order
+    category: lang.CATEGORIES[item.category].name[locale],
+    catOrder: lang.CATEGORIES[item.category].order
   };
 }
 
 function getDescription(item) {
-  if (!item.data) return {};
-  const additionalInfo = _.omit(item.data, commonKeys);
+  const additionalInfo = _.omit(item, commonKeys);
   const additionalInfoData = additionalInfo[Object.keys(additionalInfo)[0]];
 
   const replacers = _.reduce(additionalInfoData, (data, value, key) => {
@@ -67,7 +68,7 @@ const ads = affilateData
     });
   });
 
-const items = _.chain(Item)
+const items = _.chain(rawItemList)
   .sortBy(item => lang[item.id].order)
   .map(item => {
     return Object.assign(item, getBasicItemInfo(item));
