@@ -9,7 +9,6 @@ import lang from "json!lang/moves.json";
 import filtersLang from "json!lang/filters.json";
 import { transformType } from "dex/typedex";
 
-console.log("STAB", battleSettings)
 export const sortableProps = [{
   value: "power",
   label: filtersLang.MOVES.POWER.en,
@@ -22,7 +21,7 @@ export const sortableProps = [{
 }, {
   value: "critical_chance",
   label: filtersLang.MOVES.CRITICALCHANCE.en,
-  transform: (val) => `${val * 100}%`,
+  transform: (val) => `${Math.round(val * 100)}%`,
   sort: (val) => -val,
   icon: "critical.png"
 }, {
