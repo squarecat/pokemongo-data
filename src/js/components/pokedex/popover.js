@@ -39,13 +39,13 @@ export default React.createClass({
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { precision(poke.pokedex_weight_kg, 1) }kg
+              { (poke.pokedex_weight_kg).toFixed(1) }kg
             </span>
             <span className="u-stat-label">Avg Weight</span>
           </li>
           <li className="u-stat">
             <span className="u-stat-value">
-              { precision(poke.pokedex_height_m) }m
+              { (poke.pokedex_height_m).toFixed(2) }m
             </span>
             <span className="u-stat-label">Avg Height</span>
           </li>
@@ -107,7 +107,7 @@ export default React.createClass({
 
         <ul className="pokemon-popover__encounter u-stats-row">
           <li className="u-stat">
-            <span className="u-stat-value">{ precision(poke.encounter.base_capture_rate || 0) }</span>
+            <span className="u-stat-value">{ (poke.encounter.base_capture_rate || 0).toFixed(2) }</span>
             <span className="u-stat-label">Base Capture rate</span>
           </li>
           <li className="u-stat">

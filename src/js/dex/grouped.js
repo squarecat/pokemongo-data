@@ -1,7 +1,6 @@
 import PokemonAssets from "./store";
 
 const unused = [
-  "battle",
   "camera",
   "encounter",
   "gym_level",
@@ -31,3 +30,4 @@ export default groupedAssets;
 export const pokemon = groupedAssets.pokemon;
 export const moves = groupedAssets.move;
 export const items = groupedAssets.item;
+export const battleSettings = groupedAssets.battle[0];

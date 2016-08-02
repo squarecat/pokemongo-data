@@ -1,12 +1,15 @@
 import _ from "lodash";
 
-import { moves as rawMovesList } from "./grouped";
+import {
+  moves as rawMovesList,
+  battleSettings
+} from "./grouped";
+
 import lang from "json!lang/moves.json";
 import filtersLang from "json!lang/filters.json";
 import { transformType } from "dex/typedex";
 
-const STAB = 1.25;
-
+console.log("STAB", battleSettings)
 export const sortableProps = [{
   value: "power",
   label: filtersLang.MOVES.POWER.en,
@@ -76,6 +79,16 @@ export function getMoveSet(poke) {
     })
     .sortBy("power")
     .value();
+}
+
+// normal moves don't have STAB
+export function hasStab(move) {
+  return move.pokemon_type !== "POKEMON_TYPE_NORMAL";
+}
+
+export function calculateStab(val) {
+  return (val * battleSettings.same_type_attack_bonus_multiplier)
+    .toFixed(1);
 }
 
 export function getSpecialMoveSet(poke) {

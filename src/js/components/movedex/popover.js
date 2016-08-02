@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router';
 
 import pokemon, { getSpriteUrl } from "dex/pokedex";
-import moves, { doesLearn } from "dex/movedex";
+import moves, { doesLearn, hasStab, calculateStab } from "dex/movedex";
 import { transformType } from "dex/typedex";
 
 import Move from "./move";
@@ -44,7 +44,7 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { move.critical_chance ? (move.critical_chance * 100) : 0 }%
+                { Math.round(move.critical_chance ? (move.critical_chance * 100) : 0) }%
               </span>
               <span className="u-stat-label">
                 Critical Chance
@@ -78,10 +78,10 @@ export default React.createClass({
             </li>
             <li className="u-stat">
               <span className="u-stat-value">
-                { `${round(move.dps)} (${ round(move.dps * 1.25)})` }
+                { `${round(move.dps)} ${hasStab(move) ? `(${ calculateStab(move.dps) })` : "" }` }
               </span>
               <span className="u-stat-label">
-                DPS (STAB)
+                { `DPS ${hasStab(move) ? "(STAB)" : ""} ` }
               </span>
             </li>
           </ul>
