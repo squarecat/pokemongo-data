@@ -329,7 +329,7 @@ export default {
       "it": "ultra ball"
     },
     "description": {
-      "en": "A ball used for catching Pokémon. Has a higher chance of capture then  Has a higher chance of capture than a Great Ball."
+      "en": "A ball used for catching Pokémon. Has a higher chance of capture than a Great Ball."
     },
     order: 3
   },
