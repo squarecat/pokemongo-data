@@ -42,7 +42,7 @@ export default React.createClass({
         <li>
           <img
             src={ item.trackUrl }
-            style={{ width: "1px", height: "1px" }}
+            style={{ width: "1px", height: "1px", position: "absolute" }}
           />
             <a
               href={ item.linkTo }
