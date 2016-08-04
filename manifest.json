@@ -1,0 +1,14 @@
+{
+  "name": "Pokémon Go Pokédex & Movedex",
+  "short_name": "Pokédex",
+  "lang": "en-US",
+  "start_url": "/pokemon-data",
+  "scope": "/pokemon-data",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "test.png"
+    }
+  ]
+}
